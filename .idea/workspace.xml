@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5cae573-740b-48a8-a2dd-fd952890ad02" name="Changes" comment="Finishing Homework 1 and File Structuring">
-      <change afterPath="$PROJECT_DIR$/24_07_24-Task2/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/23_07_24-Homework1/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/23_07_24-Homework1/main.py" afterDir="false" />
+    <list default="true" id="b5cae573-740b-48a8-a2dd-fd952890ad02" name="Changes" comment="Finishing Task 2">
+      <change beforePath="$PROJECT_DIR$/23_07_24-Task1/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/23_07_24-Task1/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +100,23 @@
       <option name="project" value="LOCAL" />
       <updated>1721753765440</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Finishing Homework 1 - Testing Mobile Camera">
+      <option name="closed" value="true" />
+      <created>1721818506810</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1721818506810</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Finishing Task 2">
+      <option name="closed" value="true" />
+      <created>1721818524091</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1721818524091</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -120,6 +134,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Finishing Task 1" />
     <MESSAGE value="Finishing Homework 1 and File Structuring" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finishing Homework 1 and File Structuring" />
+    <MESSAGE value="Finishing Homework 1 - Testing Mobile Camera" />
+    <MESSAGE value="Finishing Task 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finishing Task 2" />
   </component>
 </project>

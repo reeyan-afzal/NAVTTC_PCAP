@@ -1,8 +1,8 @@
 import cv2
 
-cap = cv2.VideoCapture(0)
-cap.set(3, 640)  # Set width
-cap.set(4, 480)  # Set height
+cap = cv2.VideoCapture(0)  # 0 for native webcam, 1 for phone webcam
+cap.set(3, 640)
+cap.set(4, 480)
 
 classFile = 'Object_Detection_Files/coco.names'
 with open(classFile, 'rt') as f:

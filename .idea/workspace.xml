@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5cae573-740b-48a8-a2dd-fd952890ad02" name="Changes" comment="Finishing Task 1">
-      <change afterPath="$PROJECT_DIR$/23_07_24-Homework1/Object_Detection_Files/coco.names" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/23_07_24-Homework1/Object_Detection_Files/frozen_inference_graph.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/23_07_24-Homework1/Object_Detection_Files/ssd_mobilenet_v3_large_coco_2020_01_14.pbtxt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/23_07_24-Homework1/main.py" afterDir="false" />
+    <list default="true" id="b5cae573-740b-48a8-a2dd-fd952890ad02" name="Changes" comment="Finishing Homework 1 and File Structuring">
+      <change afterPath="$PROJECT_DIR$/24_07_24-Task2/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task1-23_07_24/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/23_07_24-Task1/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/23_07_24-Homework1/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/23_07_24-Homework1/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,15 +47,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Python.main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Task1-23_07_24" />
@@ -97,7 +94,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721739151335</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Finishing Homework 1 and File Structuring">
+      <option name="closed" value="true" />
+      <created>1721753765440</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1721753765440</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -114,6 +119,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Finishing Task 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finishing Task 1" />
+    <MESSAGE value="Finishing Homework 1 and File Structuring" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finishing Homework 1 and File Structuring" />
   </component>
 </project>

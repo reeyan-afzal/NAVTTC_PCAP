@@ -1,3 +1,6 @@
+# YouTube URL from where the project is taken:
+# https://www.youtube.com/watch?v=HXDD7-EnGBY&ab_channel=Murtaza%27sWorkshop-RoboticsandAI
+
 import cv2
 
 cap = cv2.VideoCapture(0)  # 0 for native webcam, 1 for phone webcam

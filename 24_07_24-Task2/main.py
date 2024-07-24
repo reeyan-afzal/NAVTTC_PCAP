@@ -2,8 +2,8 @@
 
 stdName = input("Enter your name: ")
 stdFName = input("Enter your father name: ")
-stdSub1Marks = int(input("Enter your marks in Subject1(100): "))
-stdSub2Marks = int(input("Enter your marks in Subject2(100): "))
+stdSub1Marks = float(input("Enter your marks in Subject1(100.0): "))
+stdSub2Marks = float(input("Enter your marks in Subject2(100.0): "))
 
 print("\n**************************************************")
 print("Welcome! " + stdName + ", father name " + stdFName)

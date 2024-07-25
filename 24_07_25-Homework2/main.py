@@ -170,5 +170,5 @@ try:
                     break
         else:
             exit()
-except KeyboardInterrupt:
+except (KeyboardInterrupt, ValueError) as e:
     exit()

@@ -1,8 +1,8 @@
 # Task 3 - Student Management System
 
-print('*' * 29)
+print('*' * 30)
 print('| Student Management System |')
-print('*' * 29, end='\n')
+print('*' * 30, end='\n')
 
 _programRunning = True
 

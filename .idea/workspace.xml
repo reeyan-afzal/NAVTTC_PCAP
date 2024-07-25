@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5cae573-740b-48a8-a2dd-fd952890ad02" name="Changes" comment="Finalizing Task 2">
+    <list default="true" id="b5cae573-740b-48a8-a2dd-fd952890ad02" name="Changes" comment="Fixing Task 2 - Absolute Path">
+      <change afterPath="$PROJECT_DIR$/24_07_25-Task3/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/24_07_23-Homework1/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/24_07_23-Homework1/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,7 +149,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721824777413</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Fixing Task 2 - Absolute Path">
+      <option name="closed" value="true" />
+      <created>1721900459343</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1721900459343</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -172,6 +180,7 @@
     <MESSAGE value="Fixing the Date Format For Directories" />
     <MESSAGE value="Adding the YouTube URL For Homework1 opencv Project" />
     <MESSAGE value="Finalizing Task 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finalizing Task 2" />
+    <MESSAGE value="Fixing Task 2 - Absolute Path" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixing Task 2 - Absolute Path" />
   </component>
 </project>

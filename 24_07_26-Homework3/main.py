@@ -20,7 +20,7 @@ def write_data():
 
 
 def retrieve_data():
-    _student_info_dict.clear()  # Clear existing data to avoid duplication
+    _student_info_dict.clear()
     if os.path.exists('student_data.txt'):
         with open('student_data.txt', 'r') as f:
             current_roll_number = None

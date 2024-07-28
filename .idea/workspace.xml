@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5cae573-740b-48a8-a2dd-fd952890ad02" name="Changes" comment="Finishing Homework 4 - Student Management System Advanced">
+    <list default="true" id="b5cae573-740b-48a8-a2dd-fd952890ad02" name="Changes" comment="Finishing Homework 3 - Student Management System Advanced">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/24_07_26-Homework3/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/24_07_26-Homework3/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/24_07_26-Homework3/student_data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/24_07_26-Homework3/student_data.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -266,7 +266,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722013810396</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Finishing Homework 3 - Student Management System Advanced">
+      <option name="closed" value="true" />
+      <created>1722014111219</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1722014111219</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -295,6 +303,7 @@
     <MESSAGE value="Homework 2 - Removing Redundancy" />
     <MESSAGE value="Adding a README.md" />
     <MESSAGE value="Finishing Homework 4 - Student Management System Advanced" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finishing Homework 4 - Student Management System Advanced" />
+    <MESSAGE value="Finishing Homework 3 - Student Management System Advanced" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finishing Homework 3 - Student Management System Advanced" />
   </component>
 </project>

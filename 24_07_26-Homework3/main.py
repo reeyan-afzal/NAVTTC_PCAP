@@ -1,5 +1,3 @@
-# Homework 3 - Student Management System Advanced
-
 import os
 
 print('*' * 29)
@@ -16,7 +14,7 @@ def write_data():
             f.write(f"Student Roll Number: {roll_number}\n")
             for key, value in details.items():
                 f.write(f"{key}: {value}\n")
-            f.write("******************************\n")
+        f.write("******************************\n")
 
 
 def retrieve_data():

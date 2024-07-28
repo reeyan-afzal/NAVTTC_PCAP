@@ -2,19 +2,18 @@
 Student Roll Number: CS141
 Student Name: Reeyan Afzal
 Student Father Name: Adnan Afzal
-Marks in CS101: 59
-Marks in CS102: 87
-Marks in CS103: 87
-Percentage: 77.67
-Grade: C+
-******************************
+Marks in CS101: 79
+Marks in CS102: 78
+Marks in CS103: 90
+Percentage: 82.33
+Grade: B
 ******************************
 Student Roll Number: CS142
 Student Name: Ahmed Usman
 Student Father Name: Ghani Usman
-Marks in CS101: 56
-Marks in CS102: 87
-Marks in CS103: 66
-Percentage: 69.67
-Grade: D+
+Marks in CS101: 0
+Marks in CS102: 0
+Marks in CS103: 0
+Percentage: 0.0
+Grade: F
 ******************************

@@ -11,9 +11,18 @@ Grade: B
 Student Roll Number: CS142
 Student Name: Ahmed Usman
 Student Father Name: Ghani Usman
-Marks in CS101: 0
-Marks in CS102: 0
-Marks in CS103: 0
-Percentage: 0.0
-Grade: F
+Marks in CS101: 56
+Marks in CS102: 87
+Marks in CS103: 67
+Percentage: 70.00
+Grade: C
+******************************
+Student Roll Number: CS143
+Student Name: Ali Khan
+Student Father Name: Zahid Khan
+Marks in CS101: 77
+Marks in CS102: 44
+Marks in CS103: 91
+Percentage: 70.67
+Grade: C
 ******************************

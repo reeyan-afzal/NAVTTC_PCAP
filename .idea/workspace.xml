@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5cae573-740b-48a8-a2dd-fd952890ad02" name="Changes" comment="Finishing Task 4 - Arrow Pattern using loops">
+    <list default="true" id="b5cae573-740b-48a8-a2dd-fd952890ad02" name="Changes" comment="Finishing Task 4">
       <change afterPath="$PROJECT_DIR$/24_07_30-Homework4/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/24_07_29-Task4/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/24_07_29-Task4/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -322,7 +322,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722331721701</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Finishing Task 4">
+      <option name="closed" value="true" />
+      <created>1722351508384</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1722351508384</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -354,6 +362,7 @@
     <MESSAGE value="Finishing Homework 3 - Student Management System Advanced" />
     <MESSAGE value="Doing Task 4 - Arrow Pattern using loops" />
     <MESSAGE value="Finishing Task 4 - Arrow Pattern using loops" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finishing Task 4 - Arrow Pattern using loops" />
+    <MESSAGE value="Finishing Task 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finishing Task 4" />
   </component>
 </project>

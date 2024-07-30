@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5cae573-740b-48a8-a2dd-fd952890ad02" name="Changes" comment="Doing Task 4 - Arrow Pattern using loops">
+    <list default="true" id="b5cae573-740b-48a8-a2dd-fd952890ad02" name="Changes" comment="Finishing Task 4 - Arrow Pattern using loops">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/24_07_29-Task4/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/24_07_29-Task4/main.py" afterDir="false" />
     </list>
@@ -297,7 +297,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722266617314</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Finishing Task 4 - Arrow Pattern using loops">
+      <option name="closed" value="true" />
+      <created>1722327807456</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1722327807456</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -328,6 +336,7 @@
     <MESSAGE value="Finishing Homework 4 - Student Management System Advanced" />
     <MESSAGE value="Finishing Homework 3 - Student Management System Advanced" />
     <MESSAGE value="Doing Task 4 - Arrow Pattern using loops" />
-    <option name="LAST_COMMIT_MESSAGE" value="Doing Task 4 - Arrow Pattern using loops" />
+    <MESSAGE value="Finishing Task 4 - Arrow Pattern using loops" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finishing Task 4 - Arrow Pattern using loops" />
   </component>
 </project>

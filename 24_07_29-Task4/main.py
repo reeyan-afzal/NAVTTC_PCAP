@@ -1,28 +1,28 @@
 def arrow_pointing_up(rows):
     for i in range(1, rows + 1):
         for _ in range(rows - i):
-            print("  ", end='\t')
+            print(" ", end='\t')
         for _ in range(i):
-            print("\t* ", end='')
+            print("*\t", end='')
         for _ in range(i - 1):
-            print("\t* ", end='')
+            print("*\t", end='')
         print()
 
-    for _ in range(7):
-        print("\t\t\t" + "\t* " * 3, sep='')
+    for _ in range(rows * 2):
+        print("\t\t" + "\t* " * 3, sep='')
 
 
 def arrow_pointing_down(rows):
-    for _ in range(7):
-        print("\t\t\t" + "\t* " * 3, sep='')
+    for _ in range(rows * 2):
+        print("\t\t" + "\t* " * 3, sep='')
 
     for i in range(rows, 0, -1):
         for _ in range(rows - i):
             print("  ", end='\t')
         for _ in range(i - 1):
-            print("\t* ", end='')
+            print("*\t", end='')
         for _ in range(i):
-            print("\t* ", end='')
+            print("*\t", end='')
         print()
 
 
@@ -38,9 +38,9 @@ def arrow_pointing_right(rows):
 
     for _ in range(rows):
         if _ != 1:
-            print("\t* " * 7 + "\t* " * rows + "\t*")
+            print("*\t" * 8 + "*\t" * rows + "*\t ")
         else:
-            print("\t* " * 8 + "\t* " * rows + "\t*")
+            print("*\t" * 9 + "*\t" * rows + "*\t ")
 
     for i in range(rows, 0, -1):
         for j in range(10):
@@ -54,7 +54,7 @@ def arrow_pointing_right(rows):
 
 def arrow_pointing_left(rows):
     for i in range(1, rows + 1):
-        for j in range(10):
+        for j in range(rows * 2):
             if j < (rows - i) + 1:
                 print("\t  ", end='')
             else:
@@ -64,12 +64,12 @@ def arrow_pointing_left(rows):
 
     for _ in range(rows):
         if _ != 1:
-            print("\t* " * 7 + "\t* " * rows + "\t*")
+            print("\t* " * 8 + "\t* " * rows + "\t*")
         else:
-            print("*\t" * 8 + "*\t" * rows + "* ")
+            print("*\t" * 9 + "*\t" * rows + "* ")
 
     for i in range(rows, 0, -1):
-        for j in range(10):
+        for j in range(rows * 2):
             if j < (rows - i) + 1:
                 print("\t  ", end='')
             else:

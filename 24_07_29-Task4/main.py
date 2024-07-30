@@ -1,46 +1,88 @@
-def print_spaces(count):
-    for _ in range(count):
-        print("  ", end='\t')
+def arrow_pointing_up(rows):
+    for i in range(1, rows + 1):
+        for _ in range(rows - i):
+            print("  ", end='\t')
+        for _ in range(i):
+            print("\t* ", end='')
+        for _ in range(i - 1):
+            print("\t* ", end='')
+        print()
+
+    for _ in range(7):
+        print("\t\t\t" + "\t* " * 3, sep='')
 
 
-def print_stars(count):
-    for _ in range(count):
-        print("\t*", end=' ')
+def arrow_pointing_down(rows):
+    for _ in range(7):
+        print("\t\t\t" + "\t* " * 3, sep='')
+
+    for i in range(rows, 0, -1):
+        for _ in range(rows - i):
+            print("  ", end='\t')
+        for _ in range(i - 1):
+            print("\t* ", end='')
+        for _ in range(i):
+            print("\t* ", end='')
+        print()
 
 
-def arrow_head_up(rows):
-    for i in range(1, rows):
-        print_spaces(rows - i)
-        print_stars(i)
-        print_stars(i - 1)
-        print('\n')
+def arrow_pointing_right(rows):
+    for i in range(1, rows + 1):
+        for j in range(10):
+            if j < 7:
+                print("\t  ", end='')
+            else:
+                print("\t* " * i, end='')
+                break
+        print()
 
-
-def arrow_head_down(rows):
-    for i in range(rows - 1, 0, -1):
-        print_spaces(rows - i)
-        print_stars(i - 1)
-        print_stars(i)
-        print('\n')
-
-
-def arrow_tail_up_down(rows):
     for _ in range(rows):
-        print("\t\t\t" + "\t* " * 3)
-    print()
+        if _ != 1:
+            print("\t* " * 7 + "\t* " * rows + "\t*")
+        else:
+            print("\t* " * 8 + "\t* " * rows + "\t*")
+
+    for i in range(rows, 0, -1):
+        for j in range(10):
+            if j < 7:
+                print("\t  ", end='')
+            else:
+                print("\t* " * i, end='')
+                break
+        print()
 
 
-def arrow_pattern_up():
-    arrow_head_up(5)
-    arrow_tail_up_down(10)
+def arrow_pointing_left(rows):
+    for i in range(1, rows + 1):
+        for j in range(10):
+            if j < (rows - i) + 1:
+                print("\t  ", end='')
+            else:
+                print("\t* " * i, end='')
+                break
+        print()
 
+    for _ in range(rows):
+        if _ != 1:
+            print("\t* " * 7 + "\t* " * rows + "\t*")
+        else:
+            print("*\t" * 8 + "*\t" * rows + "* ")
 
-def arrow_pattern_down():
-    arrow_tail_up_down(10)
-    arrow_head_down(5)
+    for i in range(rows, 0, -1):
+        for j in range(10):
+            if j < (rows - i) + 1:
+                print("\t  ", end='')
+            else:
+                print("\t* " * i, end='')
+                break
+        print()
 
 
 print("Arrow Up: ")
-arrow_pattern_up()
+arrow_pointing_up(5)
 print("\nArrow Down: ")
-arrow_pattern_down()
+arrow_pointing_down(5)
+print("\nArrow Right: ")
+arrow_pointing_right(3)
+print("\nArrow left: ")
+arrow_pointing_left(3)

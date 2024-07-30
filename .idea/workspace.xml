@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5cae573-740b-48a8-a2dd-fd952890ad02" name="Changes" comment="Finishing Homework 3 - Student Management System Advanced">
-      <change afterPath="$PROJECT_DIR$/24_07_29-Task4/main.py" afterDir="false" />
+    <list default="true" id="b5cae573-740b-48a8-a2dd-fd952890ad02" name="Changes" comment="Doing Task 4 - Arrow Pattern using loops">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/24_07_29-Task4/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/24_07_29-Task4/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -290,7 +289,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722245706477</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Doing Task 4 - Arrow Pattern using loops">
+      <option name="closed" value="true" />
+      <created>1722266617314</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1722266617314</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -320,6 +327,7 @@
     <MESSAGE value="Adding a README.md" />
     <MESSAGE value="Finishing Homework 4 - Student Management System Advanced" />
     <MESSAGE value="Finishing Homework 3 - Student Management System Advanced" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finishing Homework 3 - Student Management System Advanced" />
+    <MESSAGE value="Doing Task 4 - Arrow Pattern using loops" />
+    <option name="LAST_COMMIT_MESSAGE" value="Doing Task 4 - Arrow Pattern using loops" />
   </component>
 </project>

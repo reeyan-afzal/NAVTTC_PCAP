@@ -36,7 +36,6 @@ try:
                 text = pytesseract.image_to_string(img_roi, config='--psm 7')
                 cv2.putText(img, text.strip(), (x, y - 5), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255, 0, 255), 2)
                 cv2.imshow("ROI", img_roi)
-
         cv2.imshow("Result", img)
 
         key = cv2.waitKey(1) & 0xFF

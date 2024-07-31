@@ -8,7 +8,7 @@ harcascade = os.path.join(os.getcwd(), "model", "haarcascade_russian_plate_numbe
 if not os.path.isfile(harcascade):
     raise FileNotFoundError(f"Haar Cascade XML file not found at {harcascade}")
 
-cap = cv2.VideoCapture(1)
+cap = cv2.VideoCapture(0)
 cap.set(3, 640)
 cap.set(4, 480)
 

@@ -1,12 +1,13 @@
 # Task 6 - Simple Boolean Bulb Check
 
-def check_bulb(bulb):
-    if bulb == 1:
-        print("The bulb is on!")
-    elif bulb != 1 and bulb == 0:
-        print("The bulb is off!")
+while True:
+    bulb = (input("Enter the state of the bulb(1/0): "))
+
+    if bulb == '1':
+        print("The bulb is now on!")
+        break
+    elif bulb != '1' and bulb == '0':
+        print("The bulb is now off!")
+        break
     else:
         print("\nInvalid Command!\n")
-
-
-check_bulb(int(input("Enter the state of the bulb(1/0): ")))

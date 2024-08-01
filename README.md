@@ -17,7 +17,8 @@
 24/07/24 - [Task 2 - Basic-Student-Entry](https://github.com/reeyan-afzal/NAVTTC_PCAP/blob/main/24_07_24-Task2/main.py) \
 24/07/25 - [Task 3 - Student-Management-System-Basic](https://github.com/reeyan-afzal/NAVTTC_PCAP/blob/main/24_07_25-Task3/main.py) \
 24/07/29 - [Task 4 - Dynamic-Arrow-Patterns](https://github.com/reeyan-afzal/NAVTTC_PCAP/blob/main/24_07_29-Task4/main.py) \
-24/07/31 - [Task 5 - Event-End-Time-Calculator](https://github.com/reeyan-afzal/NAVTTC_PCAP/blob/main/24_07_31-Task5/main.py)
+24/07/31 - [Task 5 - Event-End-Time-Calculator](https://github.com/reeyan-afzal/NAVTTC_PCAP/blob/main/24_07_31-Task5/main.py) \
+24/08/01 - [Task 6 - Simple-Bulb-Status-Check](https://github.com/reeyan-afzal/NAVTTC_PCAP/blob/main/24_08_01-Task6/main.py)
 
 ---
 

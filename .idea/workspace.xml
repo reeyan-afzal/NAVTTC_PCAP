@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5cae573-740b-48a8-a2dd-fd952890ad02" name="Changes" comment="Finishing Task 5 - Event End Time Calculator">
-      <change afterPath="$PROJECT_DIR$/24_08_01-Task6/main.py" afterDir="false" />
+    <list default="true" id="b5cae573-740b-48a8-a2dd-fd952890ad02" name="Changes" comment="Finishing Task 6 - Simple Bulb States Check">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/24_08_01-Task6/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/24_08_01-Task6/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -429,7 +430,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722504894737</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="Finishing Task 6 - Simple Bulb States Check">
+      <option name="closed" value="true" />
+      <created>1722506915380</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1722506915380</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -467,6 +476,7 @@
     <MESSAGE value="Fixing Homework 4" />
     <MESSAGE value="Updating README.md" />
     <MESSAGE value="Finishing Task 5 - Event End Time Calculator" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finishing Task 5 - Event End Time Calculator" />
+    <MESSAGE value="Finishing Task 6 - Simple Bulb States Check" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finishing Task 6 - Simple Bulb States Check" />
   </component>
 </project>

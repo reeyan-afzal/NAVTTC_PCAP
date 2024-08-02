@@ -19,7 +19,7 @@
 24/07/29 - [Task 4 - Dynamic-Arrow-Patterns](https://github.com/reeyan-afzal/NAVTTC_PCAP/blob/main/24_07_29-Task4/main.py) \
 24/07/31 - [Task 5 - Event-End-Time-Calculator](https://github.com/reeyan-afzal/NAVTTC_PCAP/blob/main/24_07_31-Task5/main.py) \
 24/08/01 - [Task 6 - Simple-Bulb-Status-Check](https://github.com/reeyan-afzal/NAVTTC_PCAP/blob/main/24_08_01-Task6/main.py) \
-24/08/02 - [Task 7 - Tax-Calculator-Thalersland](https://github.com/reeyan-afzal/NAVTTC_PCAP/blob/main/24_08_02-Task7/main.py)
+24/08/02 - [Task 7 - Tax-Calculator-Thalersland](https://github.com/reeyan-afzal/NAVTTC_PCAP/blob/main/24_08_02-Task7,8/main-Task7.py)  [Task 8 - Leap-Year-Calculator](https://github.com/reeyan-afzal/NAVTTC_PCAP/blob/main/24_08_02-Task7,8/main-Task8.py)
 
 ---
 

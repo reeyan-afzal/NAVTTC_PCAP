@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5cae573-740b-48a8-a2dd-fd952890ad02" name="Changes" comment="Updating README.md">
-      <change afterPath="$PROJECT_DIR$/24_08_02-Task7,8,9/main-Task10.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="b5cae573-740b-48a8-a2dd-fd952890ad02" name="Changes" comment="Adding Task-10 to 24/08/02">
+      <change beforePath="$PROJECT_DIR$/24_08_02-Task7,8,9/main-Task10.py" beforeDir="false" afterPath="$PROJECT_DIR$/24_08_02-Task7,8,9,10/main-Task10.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/24_08_02-Task7,8,9/main-Task7.py" beforeDir="false" afterPath="$PROJECT_DIR$/24_08_02-Task7,8,9,10/main-Task7.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/24_08_02-Task7,8,9/main-Task8.py" beforeDir="false" afterPath="$PROJECT_DIR$/24_08_02-Task7,8,9,10/main-Task8.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/24_08_02-Task7,8,9/main-Task9.py" beforeDir="false" afterPath="$PROJECT_DIR$/24_08_02-Task7,8,9,10/main-Task9.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,14 +89,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1721737255783</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Finishing Homework 1 - Testing Mobile Camera">
-      <option name="closed" value="true" />
-      <created>1721818506810</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1721818506810</updated>
     </task>
     <task id="LOCAL-00005" summary="Finishing Task 2">
       <option name="closed" value="true" />
@@ -481,7 +474,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722598230368</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="Adding Task-10 to 24/08/02">
+      <option name="closed" value="true" />
+      <created>1722600280626</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1722600280626</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -497,7 +498,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Finishing Task 2" />
     <MESSAGE value="Finishing Task 1" />
     <MESSAGE value="Fixing the Date Format For Directories" />
     <MESSAGE value="Adding the YouTube URL For Homework1 opencv Project" />
@@ -522,6 +522,7 @@
     <MESSAGE value="Finishing Task 8 - Leap Year Calculator" />
     <MESSAGE value="Finishing Task7,8,9" />
     <MESSAGE value="Updating README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updating README.md" />
+    <MESSAGE value="Adding Task-10 to 24/08/02" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding Task-10 to 24/08/02" />
   </component>
 </project>

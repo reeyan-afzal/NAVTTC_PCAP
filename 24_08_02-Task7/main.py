@@ -8,4 +8,4 @@ if not income > 85_528:
 else:
     tax_amount = ((income - 85_528) * 0.32) + 14_839
 
-print("\nYour annual tax is: ", float(round(tax_amount)))
+print("\nYour annual tax is: ", max(round(tax_amount, 0), 0))

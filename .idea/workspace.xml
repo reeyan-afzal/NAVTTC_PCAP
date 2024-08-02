@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5cae573-740b-48a8-a2dd-fd952890ad02" name="Changes" comment="Finishing Task7,8,9">
+    <list default="true" id="b5cae573-740b-48a8-a2dd-fd952890ad02" name="Changes" comment="Updating README.md">
+      <change afterPath="$PROJECT_DIR$/24_08_02-Task7,8,9/main-Task10.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,6 +54,7 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Python.img.executor": "Run",
+    "Python.main-Task10.executor": "Run",
     "Python.main-Task8.executor": "Run",
     "Python.main-Task9.executor": "Run",
     "Python.main.executor": "Run",
@@ -85,14 +88,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1721737255783</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Finishing Homework 1 and File Structuring">
-      <option name="closed" value="true" />
-      <created>1721753765440</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1721753765440</updated>
     </task>
     <task id="LOCAL-00004" summary="Finishing Homework 1 - Testing Mobile Camera">
       <option name="closed" value="true" />
@@ -478,7 +473,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722597927080</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="Updating README.md">
+      <option name="closed" value="true" />
+      <created>1722598230368</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1722598230368</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -517,8 +520,8 @@
     <MESSAGE value="Finishing Task 6 - Simple Bulb Status Check" />
     <MESSAGE value="Finishing Task 7 - Tax Calculator" />
     <MESSAGE value="Finishing Task 8 - Leap Year Calculator" />
-    <MESSAGE value="Updating README.md" />
     <MESSAGE value="Finishing Task7,8,9" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finishing Task7,8,9" />
+    <MESSAGE value="Updating README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updating README.md" />
   </component>
 </project>

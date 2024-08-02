@@ -20,7 +20,9 @@ try:
             continue
 
         if your_guess > 100:
-            print("I said! Guess a number from 1 to 100! You idiot!\n")
+            print("\nI said! Guess a number from 1 to 100! You idiot!\n")
+            continue
+
         else:
             if your_guess < my_number:
                 print("\nSorry! My number was greater than your guess!")

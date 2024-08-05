@@ -5,6 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b5cae573-740b-48a8-a2dd-fd952890ad02" name="Changes" comment="Fixing README.md">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/24_08_05-Task11,12,13,14,15,16/main-11.py" beforeDir="false" afterPath="$PROJECT_DIR$/24_08_05-Task11,12,13,14,15,16/main-Task11.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/24_08_05-Task11,12,13,14,15,16/main-12.py" beforeDir="false" afterPath="$PROJECT_DIR$/24_08_05-Task11,12,13,14,15,16/main-Task12.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/24_08_05-Task11,12,13,14,15,16/main-13.py" beforeDir="false" afterPath="$PROJECT_DIR$/24_08_05-Task11,12,13,14,15,16/main-Task13.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/24_08_05-Task11,12,13,14,15,16/main-14.py" beforeDir="false" afterPath="$PROJECT_DIR$/24_08_05-Task11,12,13,14,15,16/main-Task14.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/24_08_05-Task11,12,13,14,15,16/main-15.py" beforeDir="false" afterPath="$PROJECT_DIR$/24_08_05-Task11,12,13,14,15,16/main-Task15.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/24_08_05-Task11,12,13,14,15,16/main-16.py" beforeDir="false" afterPath="$PROJECT_DIR$/24_08_05-Task11,12,13,14,15,16/main-Task16.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -91,14 +98,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1721737255783</updated>
-    </task>
-    <task id="LOCAL-00017" summary="Finishing Homework 2 - Telenor Offer Menu">
-      <option name="closed" value="true" />
-      <created>1721932278804</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1721932278804</updated>
     </task>
     <task id="LOCAL-00018" summary="Homework 2 - Removing Redundancy">
       <option name="closed" value="true" />
@@ -484,7 +483,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722867807639</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="Fixing README.md">
+      <option name="closed" value="true" />
+      <created>1722867914040</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1722867914040</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

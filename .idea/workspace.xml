@@ -4,15 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5cae573-740b-48a8-a2dd-fd952890ad02" name="Changes" comment="Fixing Task 10">
-      <change afterPath="$PROJECT_DIR$/24_08_05-Task11,12,13,14,15,16/main-11.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/24_08_05-Task11,12,13,14,15,16/main-12.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/24_08_05-Task11,12,13,14,15,16/main-13.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/24_08_05-Task11,12,13,14,15,16/main-14.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/24_08_05-Task11,12,13,14,15,16/main-15.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/24_08_05-Task11,12,13,14,15,16/main-16.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="b5cae573-740b-48a8-a2dd-fd952890ad02" name="Changes" comment="Fixing README.md">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,22 +91,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1721737255783</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Finalizing Task 2">
-      <option name="closed" value="true" />
-      <created>1721824777413</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1721824777413</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Fixing Task 2 - Absolute Path">
-      <option name="closed" value="true" />
-      <created>1721900459343</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1721900459343</updated>
     </task>
     <task id="LOCAL-00011" summary="Finishing Task 3 - Student Management System">
       <option name="closed" value="true" />
@@ -491,7 +468,23 @@
       <option name="project" value="LOCAL" />
       <updated>1722601561495</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="Finishing Task 11, 12, 13, 14, 15, 16">
+      <option name="closed" value="true" />
+      <created>1722862619636</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1722862619637</updated>
+    </task>
+    <task id="LOCAL-00059" summary="Fixing README.md">
+      <option name="closed" value="true" />
+      <created>1722862791955</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1722862791955</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -507,8 +500,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Fixing the Date Format For Directories" />
-    <MESSAGE value="Adding the YouTube URL For Homework1 opencv Project" />
     <MESSAGE value="Finalizing Task 2" />
     <MESSAGE value="Fixing Task 2 - Absolute Path" />
     <MESSAGE value="Finishing Task 3 - Student Management System" />
@@ -532,6 +523,8 @@
     <MESSAGE value="Adding Task-10 to 24/08/02" />
     <MESSAGE value="Updating README.md" />
     <MESSAGE value="Fixing Task 10" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixing Task 10" />
+    <MESSAGE value="Finishing Task 11, 12, 13, 14, 15, 16" />
+    <MESSAGE value="Fixing README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixing README.md" />
   </component>
 </project>

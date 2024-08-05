@@ -1,4 +1,4 @@
-# Task 12 - Syntactic Candy | Break - Continue
+# Task 12 - Syntactic Candy | Break - Continue.
 
 largest_number = -9_999_999
 counter = 0

@@ -1,4 +1,4 @@
-# Task 13 - Chupacabra will not Stop!
+# Task 13 - Chupacabra will not Stop.
 
 import string
 

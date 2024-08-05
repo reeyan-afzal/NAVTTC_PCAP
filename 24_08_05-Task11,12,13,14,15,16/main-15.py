@@ -1,4 +1,4 @@
-# Task 15 - Pyramid Height
+# Task 15 - Pyramid Height.
 
 blocks = int(input("Enter the number of blocks: "))
 _layers = 0

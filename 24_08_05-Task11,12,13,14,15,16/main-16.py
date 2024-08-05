@@ -1,4 +1,4 @@
-# Task 16 - Collatz Hypothesis
+# Task 16 - Collatz Hypothesis.
 
 c0 = int(input("Enter the value(none and greater than 0): "))
 _steps = 0

@@ -1,4 +1,4 @@
-# Task 14 - Ugly Vowel Eater
+# Task 14 - Ugly Vowel Eater.
 
 import string
 

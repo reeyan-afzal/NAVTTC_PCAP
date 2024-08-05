@@ -1,4 +1,4 @@
-# Task 11 - Mississippi Counter 5 Times
+# Task 11 - Mississippi Counter 5 Times.
 
 import time
 

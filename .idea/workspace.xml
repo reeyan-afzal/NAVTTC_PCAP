@@ -96,14 +96,6 @@
       <option name="presentableId" value="Default" />
       <updated>1721737255783</updated>
     </task>
-    <task id="LOCAL-00022" summary="Finishing Homework 4 - Student Management System Advanced">
-      <option name="closed" value="true" />
-      <created>1722013788043</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1722013788043</updated>
-    </task>
     <task id="LOCAL-00023" summary="Finishing Homework 4 - Student Management System Advanced">
       <option name="closed" value="true" />
       <created>1722013810396</created>
@@ -488,7 +480,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723038650626</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="updating README.md">
+      <option name="closed" value="true" />
+      <created>1723038723817</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1723038723818</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

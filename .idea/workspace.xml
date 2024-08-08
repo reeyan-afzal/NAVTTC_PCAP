@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5cae573-740b-48a8-a2dd-fd952890ad02" name="Changes" comment="Updating README.md">
+    <list default="true" id="b5cae573-740b-48a8-a2dd-fd952890ad02" name="Changes" comment="Finishing Task 20">
+      <change afterPath="$PROJECT_DIR$/24_08_08-Task20,21/main-Task21.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/24_08_08-Task20/main-Task20.py" beforeDir="false" afterPath="$PROJECT_DIR$/24_08_08-Task20/main-Task20.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/24_08_08-Task20/main-Task20.py" beforeDir="false" afterPath="$PROJECT_DIR$/24_08_08-Task20,21/main-Task20.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +65,7 @@
     "Python.main-Task18.executor": "Run",
     "Python.main-Task19.executor": "Run",
     "Python.main-Task20.executor": "Run",
+    "Python.main-Task21.executor": "Run",
     "Python.main-Task8.executor": "Run",
     "Python.main-Task9.executor": "Run",
     "Python.main.executor": "Run",
@@ -97,14 +100,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1721737255783</updated>
-    </task>
-    <task id="LOCAL-00028" summary="Finishing Task 4 - Arrow Pattern using loops">
-      <option name="closed" value="true" />
-      <created>1722327807456</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1722327807456</updated>
     </task>
     <task id="LOCAL-00029" summary="Finishing Task 4 - Arrow Pattern using loops">
       <option name="closed" value="true" />
@@ -490,7 +485,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723117052813</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="Finishing Task 20">
+      <option name="closed" value="true" />
+      <created>1723117848485</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1723117848485</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -529,8 +532,8 @@
     <MESSAGE value="Fixing README.md" />
     <MESSAGE value="Finishing Task 17, 18, 19" />
     <MESSAGE value="updating README.md" />
-    <MESSAGE value="Finishing Task 20" />
     <MESSAGE value="Updating README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updating README.md" />
+    <MESSAGE value="Finishing Task 20" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finishing Task 20" />
   </component>
 </project>

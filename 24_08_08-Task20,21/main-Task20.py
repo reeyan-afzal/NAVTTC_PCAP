@@ -1,4 +1,4 @@
-# Task 18 - List Referencing - Powerful Slices
+# Task 20 - List Referencing - Powerful Slices
 
 list1 = [3, 4, 5]
 list3 = list1

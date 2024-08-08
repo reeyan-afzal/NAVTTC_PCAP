@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5cae573-740b-48a8-a2dd-fd952890ad02" name="Changes" comment="Finishing Task 20">
-      <change afterPath="$PROJECT_DIR$/24_08_08-Task20,21/main-Task21.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/24_08_08-Task20/main-Task20.py" beforeDir="false" afterPath="$PROJECT_DIR$/24_08_08-Task20,21/main-Task20.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="b5cae573-740b-48a8-a2dd-fd952890ad02" name="Changes" comment="Finishing Task 20, 21">
+      <change beforePath="$PROJECT_DIR$/24_08_08-Task20,21/main-Task20.py" beforeDir="false" afterPath="$PROJECT_DIR$/24_08_08-Task20,21/main-Task20.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,14 +97,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1721737255783</updated>
-    </task>
-    <task id="LOCAL-00029" summary="Finishing Task 4 - Arrow Pattern using loops">
-      <option name="closed" value="true" />
-      <created>1722328019460</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1722328019460</updated>
     </task>
     <task id="LOCAL-00030" summary="Finishing Task 4 - Arrow Pattern using loops">
       <option name="closed" value="true" />
@@ -493,7 +482,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723117848485</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="Finishing Task 20, 21">
+      <option name="closed" value="true" />
+      <created>1723121165487</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1723121165487</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -509,7 +506,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Finishing Homework 2 - Telenor Offer Menu" />
     <MESSAGE value="Homework 2 - Removing Redundancy" />
     <MESSAGE value="Adding a README.md" />
     <MESSAGE value="Finishing Homework 4 - Student Management System Advanced" />
@@ -534,6 +530,7 @@
     <MESSAGE value="updating README.md" />
     <MESSAGE value="Updating README.md" />
     <MESSAGE value="Finishing Task 20" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finishing Task 20" />
+    <MESSAGE value="Finishing Task 20, 21" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finishing Task 20, 21" />
   </component>
 </project>

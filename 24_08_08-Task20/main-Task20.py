@@ -22,9 +22,30 @@ print(my_list[-4::2])
 print(my_list[::-2])
 print(my_list[-1::])
 
+print("\n")
+
 print(my_list[0:len(my_list)])
 
 my_list1 = [1, 2, 3, 4, 5, 6]
 print(my_list1)
 del my_list1[4::]
 print(my_list1)
+
+print("\n")
+
+x = [1, 2, 3, 4, 5, 6, 7]
+y = x
+
+print("original x:", x)
+del y[2]
+print("x:", x)
+print("y:", y)
+
+print("\n")
+
+z = [10, 8, 6, 4, 2]
+w = [1, 2, 3, 4, 5]
+print("original z:", z)
+del z[:]
+z.append(w)
+print("z:", z)

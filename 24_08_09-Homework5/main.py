@@ -52,8 +52,8 @@ def print_board(board):
     top_row = [""] + [f" {label} " for label in LABELS] + [""]
     table.add_row(*top_row)
 
-    for i, row in enumerate(reversed(board), 1):
-        row_number = 9 - i
+    for i, row in enumerate(board, 1):
+        row_number = 0 + i
         board_row = [f" {row_number} "] + row + [f" {row_number} "]
         table.add_row(*board_row)
 

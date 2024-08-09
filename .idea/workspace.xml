@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5cae573-740b-48a8-a2dd-fd952890ad02" name="Changes" comment="Fixing README.md">
+    <list default="true" id="b5cae573-740b-48a8-a2dd-fd952890ad02" name="Changes" comment="Fixing Chess Game">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/24_08_09-Homework5/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/24_08_09-Homework5/main.py" afterDir="false" />
     </list>
@@ -100,14 +100,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1721737255783</updated>
-    </task>
-    <task id="LOCAL-00035" summary="Finishing Homework 4">
-      <option name="closed" value="true" />
-      <created>1722357853605</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1722357853605</updated>
     </task>
     <task id="LOCAL-00036" summary="Updating the README.md">
       <option name="closed" value="true" />
@@ -493,7 +485,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723224003139</updated>
     </task>
-    <option name="localTasksCounter" value="84" />
+    <task id="LOCAL-00084" summary="Fixing Chess Game">
+      <option name="closed" value="true" />
+      <created>1723229324160</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1723229324160</updated>
+    </task>
+    <option name="localTasksCounter" value="85" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -509,7 +509,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Finishing Homework 3 - Student Management System Advanced" />
     <MESSAGE value="Doing Task 4 - Arrow Pattern using loops" />
     <MESSAGE value="Finishing Task 4 - Arrow Pattern using loops" />
     <MESSAGE value="Finishing Task 4" />
@@ -534,6 +533,7 @@
     <MESSAGE value="Finishing Chess Game" />
     <MESSAGE value="Adding Homework6 Angry Birds" />
     <MESSAGE value="Fixing README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixing README.md" />
+    <MESSAGE value="Fixing Chess Game" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixing Chess Game" />
   </component>
 </project>

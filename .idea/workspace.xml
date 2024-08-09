@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5cae573-740b-48a8-a2dd-fd952890ad02" name="Changes" comment="Adding Task 22">
-      <change afterPath="$PROJECT_DIR$/24_08_09-Homework6/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/24_08_09-Homework5/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/24_08_09-Homework5/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/24_08_09-Task22/main-Task22.py" beforeDir="false" />
+    <list default="true" id="b5cae573-740b-48a8-a2dd-fd952890ad02" name="Changes" comment="Finishing Chess Game">
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -103,14 +99,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1721737255783</updated>
-    </task>
-    <task id="LOCAL-00032" summary="Updating README.md">
-      <option name="closed" value="true" />
-      <created>1722352106647</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1722352106647</updated>
     </task>
     <task id="LOCAL-00033" summary="Updating README.md">
       <option name="closed" value="true" />
@@ -496,7 +484,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723202889727</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="Finishing Chess Game">
+      <option name="closed" value="true" />
+      <created>1723223702174</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1723223702175</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -512,7 +508,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Adding a README.md" />
     <MESSAGE value="Finishing Homework 4 - Student Management System Advanced" />
     <MESSAGE value="Finishing Homework 3 - Student Management System Advanced" />
     <MESSAGE value="Doing Task 4 - Arrow Pattern using loops" />
@@ -537,6 +532,7 @@
     <MESSAGE value="Finishing Task 20" />
     <MESSAGE value="Finishing Task 20, 21" />
     <MESSAGE value="Adding Task 22" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding Task 22" />
+    <MESSAGE value="Finishing Chess Game" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finishing Chess Game" />
   </component>
 </project>

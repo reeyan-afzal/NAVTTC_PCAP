@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5cae573-740b-48a8-a2dd-fd952890ad02" name="Changes" comment="Finishing Task 20, 21">
-      <change afterPath="$PROJECT_DIR$/24_08_09-Task22/main-Task22.py" afterDir="false" />
+    <list default="true" id="b5cae573-740b-48a8-a2dd-fd952890ad02" name="Changes" comment="Adding Task 22">
+      <change afterPath="$PROJECT_DIR$/24_08_09-Homework6/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/24_08_09-Homework5/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/24_08_09-Homework5/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/24_08_09-Task22/main-Task22.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,36 +52,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Python.img.executor": "Run",
-    "Python.main-12.executor": "Run",
-    "Python.main-13.executor": "Run",
-    "Python.main-14.executor": "Run",
-    "Python.main-15.executor": "Run",
-    "Python.main-16.executor": "Run",
-    "Python.main-Task10.executor": "Run",
-    "Python.main-Task17.executor": "Run",
-    "Python.main-Task18.executor": "Run",
-    "Python.main-Task19.executor": "Run",
-    "Python.main-Task20.executor": "Run",
-    "Python.main-Task21.executor": "Run",
-    "Python.main-Task22.executor": "Run",
-    "Python.main-Task8.executor": "Run",
-    "Python.main-Task9.executor": "Run",
-    "Python.main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/reeyanafzal/Desktop/NAVTTC_PCAP/24_07_25-Homework2",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Python.img.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main-12.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main-13.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main-14.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main-15.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main-16.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main-Task10.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main-Task17.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main-Task18.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main-Task19.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main-Task20.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main-Task21.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main-Task22.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main-Task8.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main-Task9.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/reeyanafzal/Desktop/NAVTTC_PCAP/24_07_25-Homework2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/24_07_25-Homework2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/24_08_09-Homework5" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/Task1-23_07_24" />
       <recent name="$PROJECT_DIR$/Task1-23_07_24/main.py" />
@@ -101,14 +103,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1721737255783</updated>
-    </task>
-    <task id="LOCAL-00031" summary="Finishing Task 4">
-      <option name="closed" value="true" />
-      <created>1722351508384</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1722351508384</updated>
     </task>
     <task id="LOCAL-00032" summary="Updating README.md">
       <option name="closed" value="true" />
@@ -494,7 +488,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723121195731</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="Adding Task 22">
+      <option name="closed" value="true" />
+      <created>1723202889726</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1723202889727</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -510,7 +512,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Homework 2 - Removing Redundancy" />
     <MESSAGE value="Adding a README.md" />
     <MESSAGE value="Finishing Homework 4 - Student Management System Advanced" />
     <MESSAGE value="Finishing Homework 3 - Student Management System Advanced" />
@@ -535,6 +536,7 @@
     <MESSAGE value="Updating README.md" />
     <MESSAGE value="Finishing Task 20" />
     <MESSAGE value="Finishing Task 20, 21" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finishing Task 20, 21" />
+    <MESSAGE value="Adding Task 22" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding Task 22" />
   </component>
 </project>

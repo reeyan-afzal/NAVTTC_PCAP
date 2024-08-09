@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5cae573-740b-48a8-a2dd-fd952890ad02" name="Changes" comment="Adding Homework6 Angry Birds">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="b5cae573-740b-48a8-a2dd-fd952890ad02" name="Changes" comment="Fixing README.md">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/24_08_09-Homework5/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/24_08_09-Homework5/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,14 +100,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1721737255783</updated>
-    </task>
-    <task id="LOCAL-00034" summary="Updating README.md">
-      <option name="closed" value="true" />
-      <created>1722352370012</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1722352370012</updated>
     </task>
     <task id="LOCAL-00035" summary="Finishing Homework 4">
       <option name="closed" value="true" />
@@ -492,7 +485,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723223808327</updated>
     </task>
-    <option name="localTasksCounter" value="83" />
+    <task id="LOCAL-00083" summary="Fixing README.md">
+      <option name="closed" value="true" />
+      <created>1723224003139</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1723224003139</updated>
+    </task>
+    <option name="localTasksCounter" value="84" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -524,7 +525,6 @@
     <MESSAGE value="Adding Task-10 to 24/08/02" />
     <MESSAGE value="Fixing Task 10" />
     <MESSAGE value="Finishing Task 11, 12, 13, 14, 15, 16" />
-    <MESSAGE value="Fixing README.md" />
     <MESSAGE value="Finishing Task 17, 18, 19" />
     <MESSAGE value="updating README.md" />
     <MESSAGE value="Updating README.md" />
@@ -533,6 +533,7 @@
     <MESSAGE value="Adding Task 22" />
     <MESSAGE value="Finishing Chess Game" />
     <MESSAGE value="Adding Homework6 Angry Birds" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding Homework6 Angry Birds" />
+    <MESSAGE value="Fixing README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixing README.md" />
   </component>
 </project>

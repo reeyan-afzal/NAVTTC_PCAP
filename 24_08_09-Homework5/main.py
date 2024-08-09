@@ -99,15 +99,17 @@ def player_move(board, chess_board):
     piece_type = piece_map.get(piece_name, None)
 
     if piece_type is None:
-        print(f"\nInvalid piece name: {piece_name}")
-        return
+        print(f"\nInvalid piece name: {piece_name}\n")
+        return False
 
     if is_valid_move(board, from_square, to_square, chess_board, piece_type):
         move_piece(board, from_square, to_square)
         chess_board.push(chess.Move.from_uci(from_square.lower() + to_square.lower()))
-        print("\nYour move has been made.")
+        print("\nYour move has been made.\n")
+        return True
     else:
-        print("\nInvalid move. Please try again.")
+        print("\nInvalid move. Please try again.\n")
+        return False
 
 
 def bot_move(board, chess_board, engine):
@@ -131,7 +133,10 @@ def main():
     bot_move(board, chess_board, engine)
 
     while not chess_board.is_game_over():
-        player_move(board, chess_board)
+        move_made = False
+        while not move_made:
+            move_made = player_move(board, chess_board)
+
         if chess_board.is_checkmate():
             print_board(board)
             console.print("Checkmate! You win!")

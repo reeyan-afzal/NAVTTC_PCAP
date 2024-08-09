@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5cae573-740b-48a8-a2dd-fd952890ad02" name="Changes" comment="Finishing Chess Game">
+    <list default="true" id="b5cae573-740b-48a8-a2dd-fd952890ad02" name="Changes" comment="Adding Homework6 Angry Birds">
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -99,14 +99,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1721737255783</updated>
-    </task>
-    <task id="LOCAL-00033" summary="Updating README.md">
-      <option name="closed" value="true" />
-      <created>1722352299532</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1722352299532</updated>
     </task>
     <task id="LOCAL-00034" summary="Updating README.md">
       <option name="closed" value="true" />
@@ -492,7 +484,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723223702175</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="Adding Homework6 Angry Birds">
+      <option name="closed" value="true" />
+      <created>1723223808327</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1723223808327</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -508,7 +508,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Finishing Homework 4 - Student Management System Advanced" />
     <MESSAGE value="Finishing Homework 3 - Student Management System Advanced" />
     <MESSAGE value="Doing Task 4 - Arrow Pattern using loops" />
     <MESSAGE value="Finishing Task 4 - Arrow Pattern using loops" />
@@ -533,6 +532,7 @@
     <MESSAGE value="Finishing Task 20, 21" />
     <MESSAGE value="Adding Task 22" />
     <MESSAGE value="Finishing Chess Game" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finishing Chess Game" />
+    <MESSAGE value="Adding Homework6 Angry Birds" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding Homework6 Angry Birds" />
   </component>
 </project>

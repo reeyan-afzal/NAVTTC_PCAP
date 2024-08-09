@@ -11,6 +11,7 @@
 | 24/07/25 | [Homework 02 - Telenor-Management-System](https://github.com/reeyan-afzal/NAVTTC_PCAP/blob/main/24_07_25-Homework2/main.py)          |
 | 24/07/26 | [Homework 03 - Student-Management-System-Advanced](https://github.com/reeyan-afzal/NAVTTC_PCAP/blob/main/24_07_26-Homework3/main.py) |
 | 24/07/30 | [Homework 04 - Vehicle-License-Plate-Detector](https://github.com/reeyan-afzal/NAVTTC_PCAP/blob/main/24_07_30-Homework4/main.py)     |
+| 24/08/09 | [Homework 05 - PyGame-Angry-Birds-Clone](https://github.com/reeyan-afzal/NAVTTC_PCAP/blob/main/24_08_09-Homework5/main.py)           |
 
 ### Tasks:
 |   Date   | Lab-Tasks                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |

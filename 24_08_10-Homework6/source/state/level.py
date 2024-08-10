@@ -6,6 +6,8 @@ from .. import tool
 
 from .. import constants as c
 
+from ..component import bird
+
 bold_font = pg.font.SysFont("arial", 30, bold=True)
 
 
@@ -44,6 +46,7 @@ class Level(tool.State):
         self.load_map()
         self.setup_background()
         self.setup_sling()
+        self.setup_bird()
         self.over_timer = 0
 
     def load_map(self):
@@ -100,6 +103,27 @@ class Level(tool.State):
         self.mouse_distance = 0
         self.sling_angle = 0
 
+    def setup_bird(self):
+        self.birds = []
+        y = c.GROUND_HEIGHT
+
+        for i, data in enumerate(self.map_data[c.BIRDS]):
+            x = 120 - (i)
+            tmp = bird.create_bird(data[c.TYPE], x, y)
+            if tmp:
+                self.birds.append(tmp)
+
+            self.bird_new_path = []
+            self.bird_old_path = []
+
+            self.active_bird = None
+            self.select_bird()
+
+    def select_bird(self):
+        if len(self.birds) > 0:
+            self.active_bird = self.birds[0]
+            self.active_bird.update_position(130, 426)
+
     def update(self, surface, current_time, mouse_pos, mouse_pressed):
         self.game_info[c.CURRENT_TIME] = self.current_time = current_time
         self.handle_states(mouse_pos, mouse_pressed)
@@ -136,29 +160,48 @@ class Level(tool.State):
 
             mouse_distance = tool.distance(sling_x, sling_y, mouse_x, mouse_y)
 
+            pu = (uv_x * bigger_rope + sling_x, uv_y * bigger_rope + sling_y)
+
             if mouse_distance > rope_length:
                 mouse_distance = rope_length
+
+                pux, puy = pu
+                pux = -20
+                puy = -20
+
+                pu1 = pux, puy
 
                 pu2 = (uv_x * bigger_rope + sling_x, uv_y * bigger_rope + sling_y)
 
                 pg.draw.line(surface, (0, 0, 0), (sling2_x, sling2_y), pu2, 5)
-                pg.draw.line(surface, (0, 0, 0), (sling_x, sling_y), pu2, 5)
 
+                self.active_bird.update_position(pux, puy)
+                self.active_bird.draw(surface)
+
+                pg.draw.line(surface, (0, 0, 0), (sling_x, sling_y), pu2, 5)
 
             else:
                 mouse_distance += 10
                 pu3 = (uv_x * mouse_distance + sling_x, uv_y * mouse_distance + sling_y)
                 pg.draw.line(surface, (0, 0, 0), (sling2_x, sling2_y), pu3, 5)
+
+                self.active_bird.update_position(mouse_x - 20, mouse_y - 20)
+                self.active_bird.draw(surface)
+
                 pg.draw.line(surface, (0, 0, 0), (sling_x, sling_y), pu3, 5)
 
-
         else:
-            pg.draw.line(surface, (0, 0, 0), (sling_x, sling_y), (sling2_x, sling2_y), 5)
+            pg.draw.line(
+                surface, (0, 0, 0), (sling_x, sling_y), (sling2_x, sling2_y), 5
+            )
 
     def draw(self, surface):
         surface.fill(c.GRASS_GREEN)
         surface.blit(self.background, self.bg_rect)
 
         self.draw_sling_and_active_bird(surface)
+
+        for bird in self.birds:
+            bird.draw(surface)
 
         surface.blit(self.sling_image, self.sling_rect)

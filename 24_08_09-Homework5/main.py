@@ -1,5 +1,6 @@
 from rich.console import Console
 from rich.table import Table
+from rich.text import Text
 import chess
 import chess.engine
 
@@ -41,7 +42,7 @@ def setup_pieces(board):
     return board
 
 
-def print_board(board):
+def print_board(board, message=None, color=None):
     table = Table(show_header=False, show_edge=False, show_lines=True)
 
     table.add_column("", width=4, justify="center")
@@ -62,6 +63,12 @@ def print_board(board):
 
     console.clear()
     console.print(table)
+
+    if message:
+        if color:
+            console.print(Text(message, style=color))
+        else:
+            console.print(message)
 
 
 def reverse_row(row):
@@ -89,7 +96,6 @@ def move_piece(board, from_square, to_square, is_black):
 
 
 def is_valid_move(board, from_square, to_square, chess_board, piece_type, is_black):
-    # Reverse the coordinates for black pieces (player)
     if is_black:
         from_square = reverse_coordinate(from_square)
         to_square = reverse_coordinate(to_square)
@@ -124,7 +130,6 @@ def player_move(board, chess_board):
 
     if is_valid_move(board, from_square, to_square, chess_board, piece_type, is_black=True):
         move_piece(board, from_square, to_square, is_black=True)
-        # Reverse only the row numbers for UCI format
         from_square_uci = from_square[0].lower() + reverse_row(from_square[1])
         to_square_uci = to_square[0].lower() + reverse_row(to_square[1])
         chess_board.push(chess.Move.from_uci(from_square_uci + to_square_uci))
@@ -161,30 +166,24 @@ def main():
             move_made = player_move(board, chess_board)
 
         if chess_board.is_checkmate():
-            print_board(board)
-            console.print("Checkmate! You win!")
+            print_board(board, "Checkmate! You win!", color="red")
             break
         elif chess_board.is_stalemate():
-            print_board(board)
-            console.print("Stalemate! It's a draw!")
+            print_board(board, "Stalemate! It's a draw!", color="yellow")
             break
         elif chess_board.is_insufficient_material():
-            print_board(board)
-            console.print("Draw due to insufficient material!")
+            print_board(board, "Draw due to insufficient material!", color="yellow")
             break
 
         bot_move(board, chess_board, engine)
         if chess_board.is_checkmate():
-            print_board(board)
-            console.print("Checkmate! The bot wins!")
+            print_board(board, "Checkmate! The bot wins!", color="red")
             break
         elif chess_board.is_stalemate():
-            print_board(board)
-            console.print("Stalemate! It's a draw!")
+            print_board(board, "Stalemate! It's a draw!", color="yellow")
             break
         elif chess_board.is_insufficient_material():
-            print_board(board)
-            console.print("Draw due to insufficient material!")
+            print_board(board, "Draw due to insufficient material!", color="yellow")
             break
 
     print_board(board)

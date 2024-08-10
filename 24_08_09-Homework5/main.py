@@ -49,12 +49,13 @@ def print_board(board):
         table.add_column("", width=4, justify="center")
     table.add_column("", width=4, justify="center")
 
-    top_row = [""] + [f" {label} " for label in LABELS] + [""]
+    top_row = [""] + [f" {label} " for label in reversed(LABELS)] + [""]
     table.add_row(*top_row)
 
-    for i, row in enumerate(board, 1):
-        row_number = 0 + i
-        board_row = [f" {row_number} "] + row + [f" {row_number} "]
+    for i, row in enumerate(board):
+        left_number = 8 - i
+        right_number = i + 1
+        board_row = [f" {left_number} "] + row + [f" {right_number} "]
         table.add_row(*board_row)
 
     table.add_row("", *[f" {label} " for label in LABELS] + [""])
@@ -63,7 +64,21 @@ def print_board(board):
     console.print(table)
 
 
-def move_piece(board, from_square, to_square):
+def reverse_row(row):
+    return str(9 - int(row))
+
+
+def reverse_coordinate(coord):
+    col = coord[0].upper()
+    row = reverse_row(coord[1])
+    return col + row
+
+
+def move_piece(board, from_square, to_square, is_black):
+    if is_black:
+        from_square = reverse_coordinate(from_square)
+        to_square = reverse_coordinate(to_square)
+
     from_col = LABELS.index(from_square[0].upper())
     from_row = int(from_square[1]) - 1
     to_col = LABELS.index(to_square[0].upper())
@@ -73,7 +88,12 @@ def move_piece(board, from_square, to_square):
     board[from_row][from_col] = EMPTY
 
 
-def is_valid_move(board, from_square, to_square, chess_board, piece_type):
+def is_valid_move(board, from_square, to_square, chess_board, piece_type, is_black):
+    # Reverse the coordinates for black pieces (player)
+    if is_black:
+        from_square = reverse_coordinate(from_square)
+        to_square = reverse_coordinate(to_square)
+
     from_square_uci = from_square.lower()
     to_square_uci = to_square.lower()
     move = chess.Move.from_uci(from_square_uci + to_square_uci)
@@ -91,20 +111,23 @@ def is_valid_move(board, from_square, to_square, chess_board, piece_type):
 
 def player_move(board, chess_board):
     print_board(board)
-    piece_name = input("\nEnter the piece to move: ").strip().upper()
+    piece_name = input("\nEnter the piece to move: ").strip().lower()
     from_square = input("Enter the square to move from: ").upper()
     to_square = input("Enter the square to move to: ").upper()
 
-    piece_map = {"PAWN": "♟", "KNIGHT": "♞", "BISHOP": "♝", "ROOK": "♜", "QUEEN": "♛", "KING": "♚"}
+    piece_map = {"pawn": "♟", "knight": "♞", "bishop": "♝", "rook": "♜", "queen": "♛", "king": "♚"}
     piece_type = piece_map.get(piece_name, None)
 
     if piece_type is None:
         print(f"\nInvalid piece name: {piece_name}\n")
         return False
 
-    if is_valid_move(board, from_square, to_square, chess_board, piece_type):
-        move_piece(board, from_square, to_square)
-        chess_board.push(chess.Move.from_uci(from_square.lower() + to_square.lower()))
+    if is_valid_move(board, from_square, to_square, chess_board, piece_type, is_black=True):
+        move_piece(board, from_square, to_square, is_black=True)
+        # Reverse only the row numbers for UCI format
+        from_square_uci = from_square[0].lower() + reverse_row(from_square[1])
+        to_square_uci = to_square[0].lower() + reverse_row(to_square[1])
+        chess_board.push(chess.Move.from_uci(from_square_uci + to_square_uci))
         print("\nYour move has been made.\n")
         return True
     else:
@@ -119,7 +142,7 @@ def bot_move(board, chess_board, engine):
     from_square = chess.square_name(result.move.from_square).upper()
     to_square = chess.square_name(result.move.to_square).upper()
 
-    move_piece(board, from_square, to_square)
+    move_piece(board, from_square, to_square, is_black=False)
     print(f"Bot moved from {from_square} to {to_square}.\n")
 
 

@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b5cae573-740b-48a8-a2dd-fd952890ad02" name="Changes" comment="Fixing Chess Game">
-      <change afterPath="$PROJECT_DIR$/24_08_10-Homework6/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/24_08_10-Homework6/resources/graphics/sling.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/24_08_10-Homework6/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/24_08_10-Homework6/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/24_08_10-Homework6/source/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/24_08_10-Homework6/source/constants.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/24_08_10-Homework6/source/state/level.py" beforeDir="false" afterPath="$PROJECT_DIR$/24_08_10-Homework6/source/state/level.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -1,0 +1,20 @@
+{
+    "birds":[
+        {"type":"red_bird"},
+        {"type":"red_bird"},
+        {"type":"red_bird"},
+        {"type":"red_bird"}
+    ],
+    "pigs":[
+        {"type":"normal_pig", "x":970, "y":550},
+        {"type":"normal_pig", "x":970, "y":450}
+    ],
+    "blocks":[
+        {"x": 950, "y":550, "material":"wood",  "shape":"beam", "type":2, "direction":1},
+        {"x":1010, "y":550, "material":"wood",  "shape":"beam", "type":2, "direction":1},
+        {"x": 950, "y":470, "material":"wood",  "shape":"beam", "type":2, "direction":0},
+        {"x": 950, "y":452, "material":"wood",  "shape":"beam", "type":2, "direction":1},
+        {"x":1010, "y":452, "material":"wood",  "shape":"beam", "type":2, "direction":1},
+        {"x": 950, "y":372, "material":"wood",  "shape":"beam", "type":2, "direction":0}
+    ]
+}

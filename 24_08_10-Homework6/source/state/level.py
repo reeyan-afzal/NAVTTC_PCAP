@@ -16,7 +16,7 @@ def vector(p0, p1):
     return (a, b)
 
 
-def unit_vecor(v):
+def unit_vector(v):
     """magnitude"""
     h = ((v[0] ** 2) + (v[1] ** 2)) ** 0.5
 
@@ -122,24 +122,38 @@ class Level(tool.State):
                     self.sling_click = True
 
     def draw_sling_and_active_bird(self, surface):
-        sling1_x, sling1_y = 135, 435
-        sling2_x, sling2_y = 165, 435
+        sling_x, sling_y = 135, 440
+        sling2_x, sling2_y = 160, 440
 
         rope_length = 90
-        bigger_rope = 110
+        bigger_rope = 102
 
         if self.sling_click:
             mouse_x, mouse_y = pg.mouse.get_pos()
-            v = vector((sling1_x, sling1_y), (mouse_x, mouse_y))
+            v = vector((sling_x, sling_y), (mouse_x, mouse_y))
 
-            uv_x, uv_y = unit_vecor(v)
+            uv_x, uv_y = unit_vector(v)
 
-            mouse_distance = tool.distance(sling1_x, sling1_y, mouse_x, mouse_y)
+            mouse_distance = tool.distance(sling_x, sling_y, mouse_x, mouse_y)
 
-            pu = (uv_x * rope_length + sling1_x, uv_y * rope_length + sling1_y)
+            if mouse_distance > rope_length:
+                mouse_distance = rope_length
 
-            pg.draw.line(surface, (c.DARK_BROWN), (sling2_x, sling2_y), pu, 5)
-            pg.draw.line(surface, (c.DARK_BROWN), (sling1_x, sling1_y), pu, 5)
+                pu2 = (uv_x * bigger_rope + sling_x, uv_y * bigger_rope + sling_y)
+
+                pg.draw.line(surface, (0, 0, 0), (sling2_x, sling2_y), pu2, 5)
+                pg.draw.line(surface, (0, 0, 0), (sling_x, sling_y), pu2, 5)
+
+
+            else:
+                mouse_distance += 10
+                pu3 = (uv_x * mouse_distance + sling_x, uv_y * mouse_distance + sling_y)
+                pg.draw.line(surface, (0, 0, 0), (sling2_x, sling2_y), pu3, 5)
+                pg.draw.line(surface, (0, 0, 0), (sling_x, sling_y), pu3, 5)
+
+
+        else:
+            pg.draw.line(surface, (0, 0, 0), (sling_x, sling_y), (sling2_x, sling2_y), 5)
 
     def draw(self, surface):
         surface.fill(c.GRASS_GREEN)

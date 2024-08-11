@@ -37,4 +37,4 @@ I am also following **[UDEMY-PYTHON-DEEP-DIVE](https://github.com/reeyan-afzal/U
 ### Some Output Snippets
 
 ##### Homework 5 - Chess Console Game
-![24_08_09-Homework5-2.gif](snippits%2F24_08_09-Homework5-1.gif)
+![24_08_09-Homework5-1.gif](snippits%2F24_08_09-Homework5-1.gif)

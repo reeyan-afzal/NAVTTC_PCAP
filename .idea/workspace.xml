@@ -109,14 +109,6 @@
       <option name="presentableId" value="Default" />
       <updated>1721737255783</updated>
     </task>
-    <task id="LOCAL-00047" summary="Finishing Task 7 - Tax Calculator">
-      <option name="closed" value="true" />
-      <created>1722592475394</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1722592475394</updated>
-    </task>
     <task id="LOCAL-00048" summary="Finishing Task 8 - Leap Year Calculator">
       <option name="closed" value="true" />
       <created>1722593633614</created>
@@ -501,7 +493,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723382262074</updated>
     </task>
-    <option name="localTasksCounter" value="96" />
+    <task id="LOCAL-00096" summary="Updating README.md">
+      <option name="closed" value="true" />
+      <created>1723382427045</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1723382427045</updated>
+    </task>
+    <option name="localTasksCounter" value="97" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

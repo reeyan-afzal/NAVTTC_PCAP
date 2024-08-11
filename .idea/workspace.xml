@@ -4,16 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5cae573-740b-48a8-a2dd-fd952890ad02" name="Changes" comment="Making the Angry Bird Clone">
-      <change afterPath="$PROJECT_DIR$/24_08_10-Homework6/resources/graphics/selected-buttons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/24_08_10-Homework6/source/component/block.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/24_08_10-Homework6/source/component/button.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/24_08_10-Homework6/source/component/pig.py" afterDir="false" />
+    <list default="true" id="b5cae573-740b-48a8-a2dd-fd952890ad02" name="Changes" comment="Finishing Angry Birds Clone">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/24_08_10-Homework6/source/component/bird.py" beforeDir="false" afterPath="$PROJECT_DIR$/24_08_10-Homework6/source/component/bird.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/24_08_10-Homework6/source/component/physics.py" beforeDir="false" afterPath="$PROJECT_DIR$/24_08_10-Homework6/source/component/physics.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/24_08_10-Homework6/source/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/24_08_10-Homework6/source/constants.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/24_08_10-Homework6/source/state/level.py" beforeDir="false" afterPath="$PROJECT_DIR$/24_08_10-Homework6/source/state/level.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,14 +107,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1721737255783</updated>
-    </task>
-    <task id="LOCAL-00043" summary="Finishing Task 5 - Event End Time Calculator">
-      <option name="closed" value="true" />
-      <created>1722504894737</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1722504894737</updated>
     </task>
     <task id="LOCAL-00044" summary="Finishing Task 6 - Simple Bulb States Check">
       <option name="closed" value="true" />
@@ -507,7 +492,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723367659054</updated>
     </task>
-    <option name="localTasksCounter" value="92" />
+    <task id="LOCAL-00092" summary="Finishing Angry Birds Clone">
+      <option name="closed" value="true" />
+      <created>1723378795199</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1723378795199</updated>
+    </task>
+    <option name="localTasksCounter" value="93" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -523,7 +516,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Finishing Task 4 - Arrow Pattern using loops" />
     <MESSAGE value="Finishing Task 4" />
     <MESSAGE value="Finishing Homework 4" />
     <MESSAGE value="Updating the README.md" />
@@ -548,6 +540,7 @@
     <MESSAGE value="Fixing README.md" />
     <MESSAGE value="Fixing Chess Game" />
     <MESSAGE value="Making the Angry Bird Clone" />
-    <option name="LAST_COMMIT_MESSAGE" value="Making the Angry Bird Clone" />
+    <MESSAGE value="Finishing Angry Birds Clone" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finishing Angry Birds Clone" />
   </component>
 </project>

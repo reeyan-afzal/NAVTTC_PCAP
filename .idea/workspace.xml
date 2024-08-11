@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5cae573-740b-48a8-a2dd-fd952890ad02" name="Changes" comment="Updating README.md">
-      <change afterPath="$PROJECT_DIR$/24_08_12-Task22/main-Task22.py" afterDir="false" />
+    <list default="true" id="b5cae573-740b-48a8-a2dd-fd952890ad02" name="Changes" comment="Adding Task 22">
+      <change afterPath="$PROJECT_DIR$/snippits/24_08_09-Homework5-1.gif" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -108,14 +108,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1721737255783</updated>
-    </task>
-    <task id="LOCAL-00045" summary="Finishing Task 6 - Simple Bulb Status Check">
-      <option name="closed" value="true" />
-      <created>1722507674096</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1722507674096</updated>
     </task>
     <task id="LOCAL-00046" summary="Finishing Task 7 - Tax Calculator">
       <option name="closed" value="true" />
@@ -501,7 +493,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723378889660</updated>
     </task>
-    <option name="localTasksCounter" value="94" />
+    <task id="LOCAL-00094" summary="Adding Task 22">
+      <option name="closed" value="true" />
+      <created>1723379039095</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1723379039095</updated>
+    </task>
+    <option name="localTasksCounter" value="95" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -534,7 +534,6 @@
     <MESSAGE value="updating README.md" />
     <MESSAGE value="Finishing Task 20" />
     <MESSAGE value="Finishing Task 20, 21" />
-    <MESSAGE value="Adding Task 22" />
     <MESSAGE value="Finishing Chess Game" />
     <MESSAGE value="Adding Homework6 Angry Birds" />
     <MESSAGE value="Fixing README.md" />
@@ -542,6 +541,7 @@
     <MESSAGE value="Making the Angry Bird Clone" />
     <MESSAGE value="Finishing Angry Birds Clone" />
     <MESSAGE value="Updating README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updating README.md" />
+    <MESSAGE value="Adding Task 22" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding Task 22" />
   </component>
 </project>

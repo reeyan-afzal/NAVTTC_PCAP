@@ -9,6 +9,16 @@ def create_bird(type, x, y):
     if type == c.RED_BIRD:
         bird = RedBird(x, y)
 
+    elif type == c.YELLOW_BIRD:
+        bird = YellowBird(x, y)
+
+    elif type == c.BLUE_BIRD:
+        bird = BlueBird(x, y)
+
+
+    elif type == c.BIG_RED_BIRD:
+        bird = BigRedBird(x, y)
+
     return bird
 
 
@@ -54,10 +64,60 @@ class Bird():
         elif self.state == c.ATTACK:
             self.attacking(level, mouse_pressed)
 
+            self.check_attack_finish()
+        elif self.state == c.INIT_EXPLODE:
+            self.init_explode()
+        elif self.state == c.EXPLODE:
+            self.exploding(level)
+
     def attacking(self, level, mouse_pressed):
         pass
 
+    def init_explode(self):
+        pass
+
+    def exploding(self, level):
+        pass
+
+        # next bird one after another
+
+    def check_attack_finish(self):
+        if self.pos_timer == 0:
+            self.pos_timer = self.current_time
+            self.old_pos = (self.rect.x, self.rect.y)
+        elif (self.current_time - self.pos_timer) > 500:
+            distance = tool.distance(self.old_pos[0], self.old_pos[1], self.rect.x, self.rect.y)
+            if distance < 10:
+                if self.name == c.BLACK_BIRD:
+                    self.state = c.INIT_EXPLODE
+                else:
+                    self.state = c.DEAD
+            self.pos_timer = self.current_time
+            self.old_pos = (self.rect.x, self.rect.y)
+
     def animation(self):
+
+        if self.state == c.INIT_EXPLODE:
+            interval = 400
+        elif self.state == c.EXPLODE:
+            interval = 100
+        elif self.frame_index == 0:
+            interval = 2000 + random.randint(0, 2000)
+        else:
+            interval = self.animate_interval
+
+        if (self.current_time - self.animate_timer) > interval:
+            self.frame_index += 1
+            if self.frame_index >= self.frame_num:
+                if self.state == c.INIT_EXPLODE:
+                    self.state = c.EXPLODE
+                    self.frame_index = self.frame_num - 1
+                elif self.state == c.EXPLODE:
+                    self.state = c.DEAD
+                    self.frame_index = self.frame_num - 1
+                else:
+                    self.frame_index = 0
+            self.animate_timer = self.current_time
 
         image = self.frames[self.frame_index]
         self.image = pg.transform.rotate(image, self.angle_degree)
@@ -77,6 +137,9 @@ class Bird():
 
     def set_collide(self):
         self.collide = True
+
+    def set_explode(self):
+        self.state = c.EXPLODE
 
     def set_dead(self):
         self.state = c.DEAD
@@ -101,4 +164,72 @@ class RedBird(Bird):
         sheet = tool.GFX[c.BIRD_SHEET]
         frame_rect_list = [(184, 32, 66, 66), (258, 32, 66, 66), (332, 32, 66, 66),
                            (404, 32, 66, 66), (472, 32, 66, 66)]
+        self.frames = self.load_frames(sheet, frame_rect_list, c.BIRD_MULTIPLIER)
+
+
+class YellowBird(Bird):
+    def __init__(self, x, y):
+        Bird.__init__(self, x, y, c.YELLOW_BIRD)
+        self.clicked = False
+
+    def load_images(self):
+        sheet = tool.GFX[c.BIRD_SHEET]
+        frame_rect_list = [(190, 208, 74, 74), (266, 208, 74, 74), (341, 208, 74, 74),
+                           (419, 208, 74, 74), (495, 208, 74, 74)]
+
+        self.frames = self.load_frames(sheet, frame_rect_list, c.BIRD_MULTIPLIER)
+
+    def attacking(self, level, mouse_pressed):
+        if not self.clicked and mouse_pressed and not self.collide:
+            self.clicked = True
+
+            # speed velocity of bird should increase
+            self.phy.body.velocity = self.phy.body.velocity * 3
+            print("yellow bird ", self.phy.body.velocity)
+
+
+class BlueBird(Bird):
+    def __init__(self, x, y):
+        Bird.__init__(self, x, y, c.BLUE_BIRD)
+        self.clicked = False
+
+    def load_images(self):
+        sheet = tool.GFX[c.BIRD_SHEET]
+        frame_rect_list = [(218, 138, 42, 42), (277, 138, 42, 42), (340, 138, 42, 42),
+                           (404, 138, 42, 42), (462, 138, 42, 42)]
+
+        self.frames = self.load_frames(sheet, frame_rect_list, 0.7)
+
+    def attacking(self, level, mouse_pressed):
+        if not self.clicked and mouse_pressed and not self.collide:
+            self.clicked = True
+
+            # create two more blue bird when first time mouse is clicked
+            bird_list = [1, -1]
+            for sign in bird_list:
+                x, y = self.phy.get_pygame_pos()
+                bird = BlueBird(x, y)
+
+                bird.clicked = True
+                bird.state = c.ATTACK
+
+                level.physics.add_bird_by_copy(bird, self.phy.body.copy())
+
+                old = self.phy.body.velocity
+                vec_y = old[1] * 0.5 * sign
+
+                bird.phy.body.velocity = (old[0], vec_y)
+
+
+class BigRedBird(Bird):
+    def __init__(self, x, y):
+        Bird.__init__(self, x, y, c.BIG_RED_BIRD)
+        self.mass = 8
+        self.jump = True
+
+    def load_images(self):
+        sheet = tool.GFX[c.BIRD_SHEET]
+        frame_rect_list = [(120, 638, 120, 120), (247, 638, 120, 120), (376, 639, 120, 120),
+                           (501, 638, 120, 120)]
+
         self.frames = self.load_frames(sheet, frame_rect_list, c.BIRD_MULTIPLIER)

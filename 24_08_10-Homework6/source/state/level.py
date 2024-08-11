@@ -6,7 +6,13 @@ from .. import tool
 from .. import constants as c
 from ..component import bird
 
+from ..component import button
+
 from ..component import physics
+
+from ..component import block
+
+from ..component import pig
 
 bold_font = pg.font.SysFont("arial", 30, bold=True)
 
@@ -51,9 +57,16 @@ class Level(tool.State):
 
         self.load_map()
         self.setup_background()
+
+        self.setup_buttons()
+
         self.setup_sling()
 
         self.setup_birds()
+
+        self.setup_pigs()
+
+        self.setup_blocks()
 
         self.over_timer = 0
 
@@ -72,6 +85,11 @@ class Level(tool.State):
                                               int(self.bg_rect.height * c.BACKGROUND_MULTIPLER)))
         self.bg_rect = self.background.get_rect()
         self.bg_rect.y = -40
+
+    def setup_buttons(self):
+        self.buttons = []
+        self.buttons.append(button.Button(5, c.BUTTON_HEIGHT, c.NEXT_BUTTON))
+        self.buttons.append(button.Button(70, c.BUTTON_HEIGHT, c.REPLAY_BUTTON))
 
     def feather_edges(self, image, feather_width=5):
         width, height = image.get_size()
@@ -120,9 +138,29 @@ class Level(tool.State):
         self.active_bird = None
         self.select_bird()
 
+    def setup_pigs(self):
+        for data in self.map_data[c.PIGS]:
+            tmp = pig.create_pig(data[c.TYPE], data['x'], data['y'])
+            if tmp:
+                self.physics.add_pig(tmp)
+
+    def setup_blocks(self):
+        for data in self.map_data[c.BLOCKS]:
+            if c.DIRECTION in data:
+                direction = data[c.DIRECTION]
+            else:
+                direction = 0
+            tmp = block.create_block(data['x'], data['y'], data[c.MATERIAL],
+                                     data[c.SHAPE], data[c.TYPE], direction)
+            if tmp:
+                self.physics.add_block(tmp)
+
     def update(self, surface, current_time, mouse_pos, mouse_pressed):
         self.game_info[c.CURRENT_TIME] = self.current_time = current_time
         self.handle_states(mouse_pos, mouse_pressed)
+
+        self.check_game_state()
+
         self.draw(surface)
 
     def handle_states(self, mouse_pos, mouse_pressed):
@@ -130,7 +168,8 @@ class Level(tool.State):
             self.handle_sling(mouse_pos, mouse_pressed)
 
 
-        # ------------------------- bird path
+        # -------------------------------bird path
+
         elif self.state == c.ATTACK:
             if self.active_bird.state == c.DEAD:
                 self.active_bird = None
@@ -138,9 +177,15 @@ class Level(tool.State):
                 self.swith_bird_path()
                 self.state = c.IDLE
 
+        elif self.state == c.OVER:
+            if self.over_timer == 0:
+                self.over_timer = self.current_time
+
         for bird in self.birds:
             bird.update(self.game_info, self, mouse_pressed)
         self.physics.update(self.game_info, self, mouse_pressed)
+
+        self.check_button_click(mouse_pos, mouse_pressed)
 
     def select_bird(self):
         if len(self.birds) > 0:
@@ -162,16 +207,19 @@ class Level(tool.State):
 
                 self.physics.enable_check_collide()
                 self.state = c.ATTACK
+
+
+
         elif not self.sling_click:
             if mouse_pos:
                 mouse_x, mouse_y = mouse_pos
-                if (100 < mouse_x < 250 and
-                        370 < mouse_y < 550):
+                if (mouse_x > 100 and mouse_x < 250 and
+                        mouse_y > 370 and mouse_y < 550):
                     self.sling_click = True
 
     def draw_sling_and_active_bird(self, surface):
-        sling_x, sling_y = 135, 455
-        sling2_x, sling2_y = 160, 455
+        sling_x, sling_y = 135, 440
+        sling2_x, sling2_y = 160, 440
         rope_length = 90
         bigger_rope = 102
 
@@ -190,41 +238,70 @@ class Level(tool.State):
                 pul = pux, puy
                 pu2 = (uv_x * bigger_rope + sling_x, uv_y * bigger_rope + sling_y)
                 pg.draw.line(surface, (0, 0, 0), (sling2_x, sling2_y), pu2, 5)
-
                 self.active_bird.update_position(pux, puy)
                 self.active_bird.draw(surface)
-
                 pg.draw.line(surface, (0, 0, 0), (sling_x, sling_y), pu2, 5)
 
             else:
                 mouse_distance += 10
                 pu3 = (uv_x * mouse_distance + sling_x, uv_y * mouse_distance + sling_y)
                 pg.draw.line(surface, (0, 0, 0), (sling2_x, sling2_y), pu3, 5)
-
                 self.active_bird.update_position(mouse_x - 20, mouse_y - 20)
                 self.active_bird.draw(surface)
-
                 pg.draw.line(surface, (0, 0, 0), (sling_x, sling_y), pu3, 5)
 
-            # angle of impulse
+            # Angle of impulse
             dy = mouse_y - sling_y
             dx = mouse_x - sling_x
-
             if dx == 0:
-                dx = 0.000000000000001
+                dx = 0.00000000000001
             self.sling_angle = math.atan((float(dy)) / dx)
+
             if mouse_x < sling_x + 5:
                 self.mouse_distance = mouse_distance
-
             else:
                 self.mouse_distance = -mouse_distance
-
-
         else:
-            pg.draw.line(surface, (0, 0, 0), (sling_x, sling_y - 8), (sling2_x, sling2_y - 7), 5)
-
+            pg.draw.line(surface, (0, 0, 0), (sling_x, sling_y), (sling2_x, sling2_y), 5)
             if self.active_bird.state == c.IDLE:
                 self.active_bird.draw(surface)
+
+    def check_button_click(self, mouse_pos, mouse_pressed):
+        if mouse_pressed and mouse_pos:
+            for button in self.buttons:
+                if button.check_mouse_click(mouse_pos):
+                    if button.name == c.NEXT_BUTTON:
+                        self.game_info[c.LEVEL_NUM] += 1
+                        self.reset()
+                    elif button.name == c.REPLAY_BUTTON:
+                        self.reset()
+
+    def update_score(self, score):
+        self.score += score
+
+    def check_victory(self):
+        if len(self.physics.pigs) > 0:
+            return False
+        return True
+
+    def check_lose(self):
+        if len(self.birds) == 0 and len(self.physics.birds) == 0:
+            return True
+        return False
+
+    def check_game_state(self):
+        if self.state == c.OVER:
+            if (self.current_time - self.over_timer) > 2000:
+                self.done = True
+        elif self.check_victory():
+            self.game_info[c.LEVEL_NUM] += 1
+            self.update_score(len(self.birds) * 10000)
+            self.game_info[c.SCORE] = self.score
+            self.next = c.LEVEL
+            self.state = c.OVER
+        elif self.check_lose():
+            self.next = c.LEVEL
+            self.state = c.OVER
 
     def swith_bird_path(self):
         self.bird_old_path = self.bird_path.copy()
@@ -234,9 +311,21 @@ class Level(tool.State):
         surface.fill(c.GRASS_GREEN)
         surface.blit(self.background, self.bg_rect)
 
+        for button in self.buttons:
+            button.draw(surface)
+
+        score_font = bold_font.render("SCORE:", 1, c.WHITE)
+        number_font = bold_font.render(str(self.score), 1, c.WHITE)
+        surface.blit(score_font, (1020, c.BUTTON_HEIGHT))
+        surface.blit(number_font, (1120, c.BUTTON_HEIGHT))
+
         self.draw_sling_and_active_bird(surface)
+
         for bird in self.birds:
             bird.draw(surface)
 
         surface.blit(self.sling_image, self.sling_rect)
+
         self.physics.draw(surface)
+
+

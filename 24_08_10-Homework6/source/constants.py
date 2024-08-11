@@ -78,12 +78,12 @@ EGG = 'egg'
 BIG_RED_BIRD = 'big_red_bird'
 
 #PIG
-PIG_SHEET = 'full-sprite'
+PIG_SHEET = 'full_sprite'
 NORMAL_PIG = 'normal_pig'
 BIG_PIG = 'big_pig'
 
 ''' BLOCK INFO '''
-BLOCK_SHEET = 'block'
+BLOCK_SHEET = 'all_block'
 #BLOCK MATERIAL
 GLASS = 'glass'
 WOOD = 'wood'

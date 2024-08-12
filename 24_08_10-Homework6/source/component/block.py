@@ -1,7 +1,7 @@
-
 import pygame as pg
 from .. import tool
 from .. import constants as c
+
 
 def create_block(x, y, material, shape, type, direction=0):
     block = None
@@ -20,6 +20,7 @@ def create_block(x, y, material, shape, type, direction=0):
 
     return block
 
+
 def get_block_mass(name, type):
     mass = base = 1.0
     if name == c.BEAM:
@@ -29,19 +30,20 @@ def get_block_mass(name, type):
             mass = base * 2
         elif type == c.BEAM_TYPE_3:
             mass = base * 4
-        elif type == c.BEAM_TYPE_4: # the longest length
+        elif type == c.BEAM_TYPE_4:  # the longest length
             mass = base * 5
-        elif type == c.BEAM_TYPE_5: # the thick one
+        elif type == c.BEAM_TYPE_5:  # the thick one
             mass = base * 4
-        elif type == c.BEAM_TYPE_6: # the square
+        elif type == c.BEAM_TYPE_6:  # the square
             mass = base * 2
     elif name == c.CIRCLE:
-        if type == c.CIRCLE_TYPE_1: # the small circle
+        if type == c.CIRCLE_TYPE_1:  # the small circle
             mass = base * 1.6
-        elif type == c.BEAM_TYPE_2: # the big circle
+        elif type == c.BEAM_TYPE_2:  # the big circle
             mass = base * 6.4
 
     return mass
+
 
 class Block():
     def __init__(self, x, y, name, life):
@@ -78,7 +80,7 @@ class Block():
 
     def update_position(self, x, y, image):
         self.rect.x = x
-        self.rect.y = y
+        self.rect.y = y - 20
         self.image = image
 
     def set_damage(self, damage):
@@ -94,9 +96,10 @@ class Block():
     def draw(self, surface):
         surface.blit(self.image, self.rect)
 
+
 class Beam(Block):
     def __init__(self, x, y, life, direction):
-        self.direction =  direction
+        self.direction = direction
         Block.__init__(self, x, y, c.BEAM, life)
 
     def load_images(self):
@@ -108,6 +111,7 @@ class Beam(Block):
                 image = pg.transform.rotate(image, 90)
             self.images.append(image)
 
+
 class BeamGlass(Beam):
     def __init__(self, x, y, type, direction):
         self.type = type
@@ -115,8 +119,8 @@ class BeamGlass(Beam):
         self.mass = get_block_mass(self.name, self.type) * c.GLASS_MASS_TIMES
 
     def get_rect_list(self):
-        if self.type == c.BEAM_TYPE_1: # the shortest length
-            rect_list = [(  2, 718, 38, 18), ( 86, 718, 38, 18),
+        if self.type == c.BEAM_TYPE_1:  # the shortest length
+            rect_list = [(2, 718, 38, 18), (86, 718, 38, 18),
                          (622, 661, 38, 18), (622, 638, 38, 18)]
         elif self.type == c.BEAM_TYPE_2:
             rect_list = [(708, 332, 80, 18), (415, 705, 80, 18),
@@ -124,16 +128,17 @@ class BeamGlass(Beam):
         elif self.type == c.BEAM_TYPE_3:
             rect_list = [(622, 375, 160, 18), (622, 397, 160, 18),
                          (622, 419, 160, 18), (622, 441, 160, 18)]
-        elif self.type == c.BEAM_TYPE_4: # the longest length
+        elif self.type == c.BEAM_TYPE_4:  # the longest length
             rect_list = [(501, 332, 200, 18), (415, 375, 200, 18),
-                         (415, 397, 200, 18), (415, 419, 200, 18) ,]
-        elif self.type == c.BEAM_TYPE_5: # the thick one
+                         (415, 397, 200, 18), (415, 419, 200, 18), ]
+        elif self.type == c.BEAM_TYPE_5:  # the thick one
             rect_list = [(330, 246, 80, 39), (415, 246, 80, 39),
                          (500, 246, 80, 39), (585, 246, 80, 39)]
-        elif self.type == c.BEAM_TYPE_6: # the square
+        elif self.type == c.BEAM_TYPE_6:  # the square
             rect_list = [(252, 591, 39, 39), (252, 634, 39, 39),
                          (252, 677, 39, 39), (330, 418, 39, 39)]
         return rect_list
+
 
 class BeamWood(Beam):
     def __init__(self, x, y, type, direction):
@@ -142,7 +147,7 @@ class BeamWood(Beam):
         self.mass = get_block_mass(self.name, self.type) * c.WOOD_MASS_TIMES
 
     def get_rect_list(self):
-        if self.type == c.BEAM_TYPE_1: # the shortest length
+        if self.type == c.BEAM_TYPE_1:  # the shortest length
             rect_list = [(622, 706, 38, 18), (707, 640, 38, 18),
                          (750, 640, 38, 18), (707, 662, 38, 18)]
         elif self.type == c.BEAM_TYPE_2:
@@ -151,13 +156,13 @@ class BeamWood(Beam):
         elif self.type == c.BEAM_TYPE_3:
             rect_list = [(622, 464, 160, 18), (622, 486, 160, 18),
                          (622, 508, 160, 18), (622, 530, 160, 18)]
-        elif self.type == c.BEAM_TYPE_4: # the longest length
+        elif self.type == c.BEAM_TYPE_4:  # the longest length
             rect_list = [(415, 464, 200, 18), (415, 464, 200, 18),
                          (415, 486, 200, 18), (415, 508, 200, 18)]
-        elif self.type == c.BEAM_TYPE_5: # the thick one
+        elif self.type == c.BEAM_TYPE_5:  # the thick one
             rect_list = [(670, 247, 80, 38), (330, 290, 80, 38),
                          (415, 290, 80, 38), (500, 290, 80, 38)]
-        elif self.type == c.BEAM_TYPE_6: # the square
+        elif self.type == c.BEAM_TYPE_6:  # the square
             rect_list = [(330, 462, 38, 38), (330, 505, 38, 38),
                          (330, 548, 38, 38), (330, 591, 38, 38)]
         return rect_list
@@ -170,7 +175,7 @@ class BeamStone(Beam):
         self.mass = get_block_mass(self.name, self.type) * c.STONE_MASS_TIMES
 
     def get_rect_list(self):
-        if self.type == c.BEAM_TYPE_1: # the shortest length
+        if self.type == c.BEAM_TYPE_1:  # the shortest length
             rect_list = [(750, 662, 38, 18), (707, 684, 38, 18),
                          (750, 684, 38, 18), (707, 706, 38, 18)]
 
@@ -182,15 +187,15 @@ class BeamStone(Beam):
             rect_list = [(415, 618, 160, 18), (415, 640, 160, 18),
                          (415, 662, 160, 18), (415, 684, 160, 18)]
 
-        elif self.type == c.BEAM_TYPE_4: # the longest length
+        elif self.type == c.BEAM_TYPE_4:  # the longest length
             rect_list = [(415, 530, 200, 18), (415, 553, 200, 18),
                          (415, 574, 200, 18), (415, 596, 200, 18)]
 
-        elif self.type == c.BEAM_TYPE_5: # the thick one
+        elif self.type == c.BEAM_TYPE_5:  # the thick one
             rect_list = [(585, 290, 80, 38), (670, 290, 80, 38),
                          (330, 333, 80, 38), (330, 376, 80, 38)]
 
-        elif self.type == c.BEAM_TYPE_6: # the square
+        elif self.type == c.BEAM_TYPE_6:  # the square
             rect_list = [(330, 634, 38, 38), (330, 677, 38, 38),
                          (415, 333, 38, 38), (458, 333, 38, 38)]
 

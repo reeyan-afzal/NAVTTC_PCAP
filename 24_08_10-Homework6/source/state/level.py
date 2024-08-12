@@ -129,7 +129,7 @@ class Level(tool.State):
         y = c.GROUND_HEIGHT
 
         for i, data in enumerate(self.map_data[c.BIRDS]):
-            x = 120 - (i * 35)
+            x = 120 - (i * 40)
             tmp = bird.create_bird(data[c.TYPE], x, y)
             if tmp:
                 self.birds.append(tmp)

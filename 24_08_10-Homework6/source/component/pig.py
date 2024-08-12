@@ -82,7 +82,7 @@ class Pig():
 
     def update_position(self, x, y, angle_degree):
         self.rect.x = x
-        self.rect.y = y
+        self.rect.y = y - 10
         self.angle_degree = angle_degree
 
     def set_damage(self, damage):

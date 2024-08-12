@@ -3,12 +3,12 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
+# Scatter Plot
+"""
 x_data = np.random.random(1000) * 100
 y_data = np.random.random(1000) * 100
-
-# Scatter Plot
-# plt.scatter(x_data, y_data, c="#00f", s=150, marker="*", alpha=0.5)
-
+plt.scatter(x_data, y_data, c="#00f", s=150, marker="*", alpha=0.5)
+"""
 
 # Line Plot
 """
@@ -48,7 +48,6 @@ plt.pie(
 
 # Box Plots
 heights = np.random.normal(172, 8, 300)
-
 plt.boxplot(heights)
 
 plt.show()

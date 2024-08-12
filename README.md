@@ -38,3 +38,6 @@ I am also following **[UDEMY-PYTHON-DEEP-DIVE](https://github.com/reeyan-afzal/U
 
 ##### Homework 5 - Chess Console Game
 ![24_08_09-Homework5-1.gif](snippits%2F24_08_09-Homework5-1.gif)
+
+##### Homework 6 - Angry Birds Clone
+![24_08_10-Homework6-1.gif](snippits%2F24_08_10-Homework6-1.gif)

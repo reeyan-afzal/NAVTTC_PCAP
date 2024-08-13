@@ -118,6 +118,11 @@ class UIFORM(object):
     def create_label(self, text):
         label = QtWidgets.QLabel()
         label.setText(text)
+        label.setTextFormat(Qt.TextFormat.RichText)
+        font = QFont()
+        font.setPointSize(16)
+        label.setFont(font)
+
         return label
 
     def generate_tic_tac_toe_buttons(self):
@@ -192,27 +197,27 @@ class UIFORM(object):
 
     def check_winner(self, return_winner=False):
         for r in range(3):
-            if (self.buttons[r][0].icon().cacheKey() == self.buttons[r][1].icon().cacheKey() == self.buttons[r][
-                2].icon().cacheKey()) and not self.buttons[r][0].isEnabled():
+            if (self.buttons[r][0].icon().cacheKey() == self.buttons[r][1].icon().cacheKey() ==
+                self.buttons[r][2].icon().cacheKey()) and not self.buttons[r][0].isEnabled():
                 if return_winner:
                     return self.get_winner(self.buttons[r][0].icon())
                 self.end_game(self.buttons[r][0].icon())
                 return True
         for c in range(3):
-            if (self.buttons[0][c].icon().cacheKey() == self.buttons[1][c].icon().cacheKey() == self.buttons[2][
-                c].icon().cacheKey()) and not self.buttons[0][c].isEnabled():
+            if (self.buttons[0][c].icon().cacheKey() == self.buttons[1][c].icon().cacheKey() ==
+                self.buttons[2][c].icon().cacheKey()) and not self.buttons[0][c].isEnabled():
                 if return_winner:
                     return self.get_winner(self.buttons[0][c].icon())
                 self.end_game(self.buttons[0][c].icon())
                 return True
-        if (self.buttons[0][0].icon().cacheKey() == self.buttons[1][1].icon().cacheKey() == self.buttons[2][
-            2].icon().cacheKey()) and not self.buttons[0][0].isEnabled():
+        if (self.buttons[0][0].icon().cacheKey() == self.buttons[1][1].icon().cacheKey() ==
+            self.buttons[2][2].icon().cacheKey()) and not self.buttons[0][0].isEnabled():
             if return_winner:
                 return self.get_winner(self.buttons[0][0].icon())
             self.end_game(self.buttons[0][0].icon())
             return True
-        if (self.buttons[0][2].icon().cacheKey() == self.buttons[1][1].icon().cacheKey() == self.buttons[2][
-            0].icon().cacheKey()) and not self.buttons[0][2].isEnabled():
+        if (self.buttons[0][2].icon().cacheKey() == self.buttons[1][1].icon().cacheKey() ==
+            self.buttons[2][0].icon().cacheKey()) and not self.buttons[0][2].isEnabled():
             if return_winner:
                 return self.get_winner(self.buttons[0][2].icon())
             self.end_game(self.buttons[0][2].icon())

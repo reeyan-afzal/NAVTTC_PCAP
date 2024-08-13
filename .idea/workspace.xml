@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5cae573-740b-48a8-a2dd-fd952890ad02" name="Changes" comment="Fixing Angry Birds Clone">
-      <change afterPath="$PROJECT_DIR$/24_08_13-Homework7/TicTacUI.ui" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/24_08_13-Homework7/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/24_08_13-Homework7/resources/circle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/24_08_13-Homework7/resources/cross.png" afterDir="false" />
+    <list default="true" id="b5cae573-740b-48a8-a2dd-fd952890ad02" name="Changes" comment="Homework 7 - Tic Tac Toe">
+      <change afterPath="$PROJECT_DIR$/24_08_13-Homework7/resources/draw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/24_08_13-Homework7/resources/trophy.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/24_08_13-Homework7/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/24_08_13-Homework7/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,14 +109,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1721737255783</updated>
-    </task>
-    <task id="LOCAL-00054" summary="Adding Task-10 to 24/08/02">
-      <option name="closed" value="true" />
-      <created>1722600339202</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1722600339202</updated>
     </task>
     <task id="LOCAL-00055" summary="Updating README.md">
       <option name="closed" value="true" />
@@ -504,7 +494,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723462318442</updated>
     </task>
-    <option name="localTasksCounter" value="103" />
+    <task id="LOCAL-00103" summary="Homework 7 - Tic Tac Toe">
+      <option name="closed" value="true" />
+      <created>1723531479528</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1723531479529</updated>
+    </task>
+    <option name="localTasksCounter" value="104" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -520,7 +518,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Updating the README.md" />
     <MESSAGE value="Fixing Homework 4" />
     <MESSAGE value="Finishing Task 5 - Event End Time Calculator" />
     <MESSAGE value="Finishing Task 6 - Simple Bulb States Check" />
@@ -545,6 +542,7 @@
     <MESSAGE value="Updating README.md" />
     <MESSAGE value="Finishing Task 22" />
     <MESSAGE value="Fixing Angry Birds Clone" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixing Angry Birds Clone" />
+    <MESSAGE value="Homework 7 - Tic Tac Toe" />
+    <option name="LAST_COMMIT_MESSAGE" value="Homework 7 - Tic Tac Toe" />
   </component>
 </project>

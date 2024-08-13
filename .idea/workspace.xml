@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b5cae573-740b-48a8-a2dd-fd952890ad02" name="Changes" comment="Fixing Angry Birds Clone">
-      <change afterPath="$PROJECT_DIR$/snippits/24_08_10-Homework6-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/24_08_13-Homework7/TicTacUI.ui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/24_08_13-Homework7/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/24_08_13-Homework7/resources/circle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/24_08_13-Homework7/resources/cross.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -86,11 +89,11 @@
       <recent name="$PROJECT_DIR$/24_07_25-Homework2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/24_08_13-Homework7/resources/t" />
       <recent name="$PROJECT_DIR$/24_08_10-Homework6/resources/graphics" />
       <recent name="$PROJECT_DIR$/24_08_10-Homework6" />
       <recent name="$PROJECT_DIR$/24_08_09-Homework5" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/Task1-23_07_24" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -108,14 +111,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1721737255783</updated>
-    </task>
-    <task id="LOCAL-00053" summary="Adding Task-10 to 24/08/02">
-      <option name="closed" value="true" />
-      <created>1722600280626</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1722600280626</updated>
     </task>
     <task id="LOCAL-00054" summary="Adding Task-10 to 24/08/02">
       <option name="closed" value="true" />
@@ -501,7 +496,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723461535042</updated>
     </task>
-    <option name="localTasksCounter" value="102" />
+    <task id="LOCAL-00102" summary="Fixing Angry Birds Clone">
+      <option name="closed" value="true" />
+      <created>1723462318442</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1723462318442</updated>
+    </task>
+    <option name="localTasksCounter" value="103" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

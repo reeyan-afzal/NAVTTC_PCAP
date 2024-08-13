@@ -42,3 +42,6 @@ I am also following **[UDEMY-PYTHON-DEEP-DIVE](https://github.com/reeyan-afzal/U
 
 ##### Homework 6 - Angry Birds Clone
 ![24_08_10-Homework6-1.gif](snippits%2F24_08_10-Homework6-1.gif)
+
+##### Homework 7 - Tic Tac Toe
+![24_08_13-Homework7-1.gif](snippits%2F24_08_13-Homework7-1.gif)

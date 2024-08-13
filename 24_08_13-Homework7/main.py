@@ -1,9 +1,11 @@
+import sys
+import os
+import random
+
 from PyQt6 import QtCore, QtWidgets, QtGui
 from PyQt6.QtWidgets import QDialog, QLabel, QVBoxLayout, QHBoxLayout, QPushButton
 from PyQt6.QtCore import QByteArray, QBuffer, QIODevice, Qt
 from PyQt6.QtGui import QFont
-import os
-import random
 
 
 class CustomMessageBox(QDialog):
@@ -208,8 +210,6 @@ class UIFORM(object):
 
 
 if __name__ == "__main__":
-    import sys
-
     app = QtWidgets.QApplication(sys.argv)
     WidgetForm = QtWidgets.QWidget()
     ui = UIFORM()

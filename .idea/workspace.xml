@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b5cae573-740b-48a8-a2dd-fd952890ad02" name="Changes" comment="Homework 7 - Tic Tac Toe">
-      <change afterPath="$PROJECT_DIR$/24_08_13-Homework7/resources/draw.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/24_08_13-Homework7/resources/trophy.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/24_08_13-Homework7/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/24_08_13-Homework7/main.py" afterDir="false" />
     </list>
@@ -109,22 +107,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1721737255783</updated>
-    </task>
-    <task id="LOCAL-00055" summary="Updating README.md">
-      <option name="closed" value="true" />
-      <created>1722600416034</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1722600416034</updated>
-    </task>
-    <task id="LOCAL-00056" summary="Updating README.md">
-      <option name="closed" value="true" />
-      <created>1722600454992</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1722600454992</updated>
     </task>
     <task id="LOCAL-00057" summary="Fixing Task 10">
       <option name="closed" value="true" />
@@ -502,7 +484,23 @@
       <option name="project" value="LOCAL" />
       <updated>1723531479529</updated>
     </task>
-    <option name="localTasksCounter" value="104" />
+    <task id="LOCAL-00104" summary="Homework 7 - Tic Tac Toe">
+      <option name="closed" value="true" />
+      <created>1723535937144</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1723535937144</updated>
+    </task>
+    <task id="LOCAL-00105" summary="Homework 7 - Tic Tac Toe">
+      <option name="closed" value="true" />
+      <created>1723535965217</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1723535965217</updated>
+    </task>
+    <option name="localTasksCounter" value="106" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

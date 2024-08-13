@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5cae573-740b-48a8-a2dd-fd952890ad02" name="Changes" comment="Homework 7 - Tic Tac Toe">
-      <change afterPath="$PROJECT_DIR$/snippits/24_08_13-Homework7-1.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="b5cae573-740b-48a8-a2dd-fd952890ad02" name="Changes" comment="Updating README.md">
+      <change beforePath="$PROJECT_DIR$/snippits/24_08_13-Homework7-1.gif" beforeDir="false" afterPath="$PROJECT_DIR$/snippits/24_08_13-Homework7-1.gif" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,14 +106,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1721737255783</updated>
-    </task>
-    <task id="LOCAL-00060" summary="Fixing README.md">
-      <option name="closed" value="true" />
-      <created>1722862810234</created>
-      <option name="number" value="00060" />
-      <option name="presentableId" value="LOCAL-00060" />
-      <option name="project" value="LOCAL" />
-      <updated>1722862810234</updated>
     </task>
     <task id="LOCAL-00061" summary="Fixing README.md">
       <option name="closed" value="true" />
@@ -501,7 +491,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723541916561</updated>
     </task>
-    <option name="localTasksCounter" value="109" />
+    <task id="LOCAL-00109" summary="Updating README.md">
+      <option name="closed" value="true" />
+      <created>1723542438700</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1723542438700</updated>
+    </task>
+    <option name="localTasksCounter" value="110" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -538,10 +536,10 @@
     <MESSAGE value="Making the Angry Bird Clone" />
     <MESSAGE value="Finishing Angry Birds Clone" />
     <MESSAGE value="Adding Task 22" />
-    <MESSAGE value="Updating README.md" />
     <MESSAGE value="Finishing Task 22" />
     <MESSAGE value="Fixing Angry Birds Clone" />
     <MESSAGE value="Homework 7 - Tic Tac Toe" />
-    <option name="LAST_COMMIT_MESSAGE" value="Homework 7 - Tic Tac Toe" />
+    <MESSAGE value="Updating README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updating README.md" />
   </component>
 </project>

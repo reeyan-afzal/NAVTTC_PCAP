@@ -1,5 +1,6 @@
 import sys
 import os
+import random
 
 from PyQt6 import QtCore, QtWidgets, QtGui
 from PyQt6.QtWidgets import QDialog, QLabel, QVBoxLayout, QHBoxLayout, QPushButton
@@ -154,7 +155,7 @@ class UIFORM(object):
             self.check_winner()
 
     def minimax(self, is_maximizing):
-        best_move = None
+        best_moves = []
         best_score = -float('inf') if is_maximizing else float('inf')
 
         for r in range(3):
@@ -163,15 +164,23 @@ class UIFORM(object):
                     self.buttons[r][c].setIcon(self.icons["O"] if is_maximizing else self.icons["X"])
                     score = self.evaluate()
                     self.buttons[r][c].setIcon(QtGui.QIcon())
+
                     if is_maximizing:
                         if score > best_score:
                             best_score = score
-                            best_move = (r, c)
+                            best_moves = [(r, c)]
+                        elif score == best_score:
+                            best_moves.append((r, c))
                     else:
                         if score < best_score:
                             best_score = score
-                            best_move = (r, c)
-        return best_move
+                            best_moves = [(r, c)]
+                        elif score == best_score:
+                            best_moves.append((r, c))
+
+        if best_moves:
+            return random.choice(best_moves)
+        return None
 
     def evaluate(self):
         winner = self.check_winner(True)

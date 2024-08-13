@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5cae573-740b-48a8-a2dd-fd952890ad02" name="Changes" comment="Updating README.md">
-      <change afterPath="$PROJECT_DIR$/24_08_13-Task23/main.py" afterDir="false" />
+    <list default="true" id="b5cae573-740b-48a8-a2dd-fd952890ad02" name="Changes" comment="Finishing Task 23">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/24_08_13-Task23/main-Task23.py" beforeDir="false" afterPath="$PROJECT_DIR$/24_08_13-Task23/main-Task23.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,35 +49,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Python.img.executor&quot;: &quot;Run&quot;,
-    &quot;Python.level.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main-12.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main-13.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main-14.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main-15.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main-16.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main-Task10.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main-Task17.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main-Task18.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main-Task19.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main-Task20.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main-Task21.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main-Task22.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main-Task8.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main-Task9.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.physics.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test.executor&quot;: &quot;Run&quot;,
-    &quot;Python.tool.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/reeyanafzal/Desktop/NAVTTC_PCAP/24_08_10-Homework6/resources/graphics&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Python.img.executor": "Run",
+    "Python.level.executor": "Run",
+    "Python.main-12.executor": "Run",
+    "Python.main-13.executor": "Run",
+    "Python.main-14.executor": "Run",
+    "Python.main-15.executor": "Run",
+    "Python.main-16.executor": "Run",
+    "Python.main-Task10.executor": "Run",
+    "Python.main-Task17.executor": "Run",
+    "Python.main-Task18.executor": "Run",
+    "Python.main-Task19.executor": "Run",
+    "Python.main-Task20.executor": "Run",
+    "Python.main-Task21.executor": "Run",
+    "Python.main-Task22.executor": "Run",
+    "Python.main-Task23.executor": "Run",
+    "Python.main-Task8.executor": "Run",
+    "Python.main-Task9.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.physics.executor": "Run",
+    "Python.test.executor": "Run",
+    "Python.tool.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/reeyanafzal/Desktop/NAVTTC_PCAP/24_08_10-Homework6/resources/graphics",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/24_08_10-Homework6/resources/graphics" />
@@ -108,22 +108,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1721737255783</updated>
-    </task>
-    <task id="LOCAL-00063" summary="Fixing README.md">
-      <option name="closed" value="true" />
-      <created>1722863514711</created>
-      <option name="number" value="00063" />
-      <option name="presentableId" value="LOCAL-00063" />
-      <option name="project" value="LOCAL" />
-      <updated>1722863514711</updated>
-    </task>
-    <task id="LOCAL-00064" summary="Fixing README.md">
-      <option name="closed" value="true" />
-      <created>1722867661722</created>
-      <option name="number" value="00064" />
-      <option name="presentableId" value="LOCAL-00064" />
-      <option name="project" value="LOCAL" />
-      <updated>1722867661722</updated>
     </task>
     <task id="LOCAL-00065" summary="Fixing README.md">
       <option name="closed" value="true" />
@@ -501,7 +485,23 @@
       <option name="project" value="LOCAL" />
       <updated>1723542760625</updated>
     </task>
-    <option name="localTasksCounter" value="112" />
+    <task id="LOCAL-00112" summary="Finishing Task 23">
+      <option name="closed" value="true" />
+      <created>1723549814999</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1723549814999</updated>
+    </task>
+    <task id="LOCAL-00113" summary="Finishing Task 23">
+      <option name="closed" value="true" />
+      <created>1723549848038</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1723549848038</updated>
+    </task>
+    <option name="localTasksCounter" value="114" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -517,7 +517,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Fixing Homework 4" />
     <MESSAGE value="Finishing Task 5 - Event End Time Calculator" />
     <MESSAGE value="Finishing Task 6 - Simple Bulb States Check" />
     <MESSAGE value="Finishing Task 6 - Simple Bulb Status Check" />
@@ -542,6 +541,7 @@
     <MESSAGE value="Fixing Angry Birds Clone" />
     <MESSAGE value="Homework 7 - Tic Tac Toe" />
     <MESSAGE value="Updating README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updating README.md" />
+    <MESSAGE value="Finishing Task 23" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finishing Task 23" />
   </component>
 </project>

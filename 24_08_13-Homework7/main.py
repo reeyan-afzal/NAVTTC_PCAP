@@ -1,20 +1,25 @@
 import sys
 import os
-import random
 
 from PyQt6 import QtCore, QtWidgets, QtGui
 from PyQt6.QtWidgets import QDialog, QLabel, QVBoxLayout, QHBoxLayout, QPushButton
-from PyQt6.QtCore import QByteArray, QBuffer, QIODevice, Qt
+from PyQt6.QtCore import Qt
 from PyQt6.QtGui import QFont
 
 
 class CustomMessageBox(QDialog):
-    def __init__(self, title, message, retry_callback, parent=None):
+    def __init__(self, title, message, retry_callback, icon=None, parent=None):
         super().__init__(parent)
         self.retry_callback = retry_callback
         self.setWindowTitle(title)
 
         layout = QVBoxLayout(self)
+
+        if icon:
+            icon_label = QLabel(self)
+            icon_label.setPixmap(icon.pixmap(64, 64))  # Adjust size as needed
+            icon_label.setAlignment(Qt.AlignmentFlag.AlignCenter)
+            layout.addWidget(icon_label)
 
         message_label = QLabel(message, self)
         message_label.setAlignment(Qt.AlignmentFlag.AlignCenter)
@@ -31,7 +36,7 @@ class CustomMessageBox(QDialog):
         retry_button.setDefault(True)
 
         close_button = QPushButton("Close", self)
-        close_button.clicked.connect(lambda: exit())
+        close_button.clicked.connect(self.close)
         close_button.setDefault(False)
 
         button_layout.addWidget(close_button)
@@ -48,6 +53,13 @@ class CustomMessageBox(QDialog):
 
 class UIFORM(object):
     def __init__(self):
+        self._bot_score_label = None
+        self.times_bot_won_label = None
+        self._user_score_label = None
+        self.times_user_won_label = None
+        self.stats_layout = None
+        self.tic_tac_buttons_layout = None
+        self.verticalLayout = None
         self.buttons = []
         self._bot_score = 0
         self._user_score = 0
@@ -132,38 +144,83 @@ class UIFORM(object):
                 self.bot_move()
 
     def bot_move(self):
-        available_buttons = [(r, c) for r in range(3) for c in range(3) if self.buttons[r][c].isEnabled()]
-        if available_buttons:
-            row, col = random.choice(available_buttons)
+        best_move = self.minimax(True)
+        if best_move:
+            row, col = best_move
             button = self.buttons[row][col]
             button.setIcon(self.icons["O"])
             self.current_player = "X"
             button.setEnabled(False)
             self.check_winner()
 
-    def check_winner(self):
+    def minimax(self, is_maximizing):
+        best_move = None
+        best_score = -float('inf') if is_maximizing else float('inf')
+
+        for r in range(3):
+            for c in range(3):
+                if self.buttons[r][c].isEnabled():
+                    self.buttons[r][c].setIcon(self.icons["O"] if is_maximizing else self.icons["X"])
+                    score = self.evaluate()
+                    self.buttons[r][c].setIcon(QtGui.QIcon())
+                    if is_maximizing:
+                        if score > best_score:
+                            best_score = score
+                            best_move = (r, c)
+                    else:
+                        if score < best_score:
+                            best_score = score
+                            best_move = (r, c)
+        return best_move
+
+    def evaluate(self):
+        winner = self.check_winner(True)
+        if winner == "O":
+            return 10
+        elif winner == "X":
+            return -10
+        return 0
+
+    def check_winner(self, return_winner=False):
         for r in range(3):
             if (self.buttons[r][0].icon().cacheKey() == self.buttons[r][1].icon().cacheKey() == self.buttons[r][
                 2].icon().cacheKey()) and not self.buttons[r][0].isEnabled():
+                if return_winner:
+                    return self.get_winner(self.buttons[r][0].icon())
                 self.end_game(self.buttons[r][0].icon())
                 return True
         for c in range(3):
             if (self.buttons[0][c].icon().cacheKey() == self.buttons[1][c].icon().cacheKey() == self.buttons[2][
                 c].icon().cacheKey()) and not self.buttons[0][c].isEnabled():
+                if return_winner:
+                    return self.get_winner(self.buttons[0][c].icon())
                 self.end_game(self.buttons[0][c].icon())
                 return True
         if (self.buttons[0][0].icon().cacheKey() == self.buttons[1][1].icon().cacheKey() == self.buttons[2][
             2].icon().cacheKey()) and not self.buttons[0][0].isEnabled():
+            if return_winner:
+                return self.get_winner(self.buttons[0][0].icon())
             self.end_game(self.buttons[0][0].icon())
             return True
         if (self.buttons[0][2].icon().cacheKey() == self.buttons[1][1].icon().cacheKey() == self.buttons[2][
             0].icon().cacheKey()) and not self.buttons[0][2].isEnabled():
+            if return_winner:
+                return self.get_winner(self.buttons[0][2].icon())
             self.end_game(self.buttons[0][2].icon())
             return True
         if all(not button.isEnabled() for row in self.buttons for button in row):
+            if return_winner:
+                return None
             self.end_game(None)
             return True
         return False
+
+    def get_winner(self, icon):
+        if icon.cacheKey() == self.icons["O"].cacheKey():
+            return "O"
+        if icon.cacheKey() == self.icons["X"].cacheKey():
+            return "X"
+        return None
 
     def end_game(self, winner_icon):
         if winner_icon is None:
@@ -177,30 +234,20 @@ class UIFORM(object):
             message = "Bot won!"
             icon = self.icons["lose"]
             self._bot_score += 1
+        self.update_scores()
+        msg_box = CustomMessageBox("Game Over", message, self.restart_game, icon=icon)
+        msg_box.exec()
 
-        detailed_message = self.create_detailed_message(icon, message)
-
+    def update_scores(self):
         self._user_score_label.setText(str(self._user_score))
         self._bot_score_label.setText(str(self._bot_score))
 
-        msg_box = CustomMessageBox("Game Result", detailed_message, self.reset_game)
-        msg_box.exec()
-
-    def create_detailed_message(self, icon, message):
-        pixmap = icon.pixmap(64, 64)
-        image = pixmap.toImage()
-        buffer = QBuffer()
-        buffer.open(QIODevice.OpenModeFlag.ReadWrite)
-        image.save(buffer, "PNG")
-        img_data = QByteArray(buffer.data()).toBase64().data().decode()
-        return f"<img src='data:image/png;base64,{img_data}' width='64' height='64'><br>{message}"
-
-    def reset_game(self):
+    def restart_game(self):
+        self.current_player = "X"
         for row in self.buttons:
             for button in row:
-                button.setEnabled(True)
                 button.setIcon(QtGui.QIcon())
-        self.current_player = "X"
+                button.setEnabled(True)
 
     def retranslate_ui(self, Form):
         _translate = QtCore.QCoreApplication.translate

@@ -2,6 +2,8 @@
 
 #### Author - Reeyan Afzal
 
+I was also following **[UDEMY-PYTHON-DEEP-DIVE](https://github.com/reeyan-afzal/UDEMY_PYTHON_DEEP_DIVE)** course alongside this training program. You may check my Python notes if you're interested in learning Python.
+
 ---
 
 ### Homework:
@@ -13,7 +15,7 @@
 | 24/07/30 | [Homework 04 - Vehicle-License-Plate-Detector](https://github.com/reeyan-afzal/NAVTTC_PCAP/blob/main/24_07_30-Homework4/main.py)     |
 | 24/08/09 | [Homework 05 - Chess-Console-Game](https://github.com/reeyan-afzal/NAVTTC_PCAP/blob/main/24_08_09-Homework5/main.py)                 |
 | 24/08/10 | [Homework 06 - PyGame-Angry-Birds-Clone](https://github.com/reeyan-afzal/NAVTTC_PCAP/blob/main/24_08_10-Homework6/)                  |
-| 24/08/13 | [Homework 07 - PyQT-Tic-Tac-Toe](https://github.com/reeyan-afzal/NAVTTC_PCAP/blob/main/24_08_13-Homework7/main.py)                   |
+| 24/08/13 | [Homework 07 - PyQT6-Tic-Tac-Toe](https://github.com/reeyan-afzal/NAVTTC_PCAP/blob/main/24_08_13-Homework7/main.py)                  |
 
 ### Tasks:
 |   Date   | Lab-Tasks                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
@@ -30,10 +32,7 @@
 | 24/08/08 | [Task 20 - Power-Slicing-List](https://github.com/reeyan-afzal/NAVTTC_PCAP/blob/main/24_08_08-Task20,21/main-Task20.py)<br/> [Task 21 - Removing-Duplicate-From-List](https://github.com/reeyan-afzal/NAVTTC_PCAP/blob/main/24_08_08-Task20,21/main-Task21.py)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 | 24/08/12 | [Task 22 - Exploring-Matplotlib](https://github.com/reeyan-afzal/NAVTTC_PCAP/blob/main/24_08_12-Task22/main-Task22.py)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 | 24/08/13 | [Task 23 - Leap-Year-Calculator-Function](https://github.com/reeyan-afzal/NAVTTC_PCAP/blob/main/24_08_13-Task23,24,25/main-Task23.py)<br/> [Task 24 - Prime-Number-Checker](https://github.com/reeyan-afzal/NAVTTC_PCAP/blob/main/24_08_13-Task23,24,25/main-Task24.py)<br/> [Task 25 - Converting-Fuel-Consumption](https://github.com/reeyan-afzal/NAVTTC_PCAP/blob/main/24_08_13-Task23,24,25/main-Task25.py)                                                                                                                                                                                                                                                                                                                                                                                                                                      |
----
-
-I am also following **[UDEMY-PYTHON-DEEP-DIVE](https://github.com/reeyan-afzal/UDEMY_PYTHON_DEEP_DIVE)** course alongside this training program. You may check my Python notes if you're interested in learning Python.
-
+| 24/08/16 | [Task 26 - Exploring-Tuples-Dictionaries](https://github.com/reeyan-afzal/NAVTTC_PCAP/blob/main/24_08_16-Task26,27/main-Task26.py)<br/>     [Task 27 - Exception-Handling](https://github.com/reeyan-afzal/NAVTTC_PCAP/blob/main/24_08_16-Task26,27/main-Task27.py)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 ---
 
 ### Some Output Snippets

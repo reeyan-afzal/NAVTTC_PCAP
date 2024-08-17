@@ -5,33 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b5cae573-740b-48a8-a2dd-fd952890ad02" name="Changes" comment="Adding Task 26 and 27">
-      <change afterPath="$PROJECT_DIR$/24_08_17-Homework8,9/django_advanced/db.sqlite3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/24_08_17-Homework8,9/django_advanced/django_advanced/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/24_08_17-Homework8,9/django_advanced/django_advanced/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/24_08_17-Homework8,9/django_advanced/django_advanced/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/24_08_17-Homework8,9/django_advanced/django_advanced/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/24_08_17-Homework8,9/django_advanced/django_advanced/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/24_08_17-Homework8,9/django_advanced/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/24_08_17-Homework8,9/django_fundamentals/db.sqlite3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/24_08_17-Homework8,9/django_fundamentals/django_fundamentals/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/24_08_17-Homework8,9/django_fundamentals/django_fundamentals/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/24_08_17-Homework8,9/django_fundamentals/django_fundamentals/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/24_08_17-Homework8,9/django_fundamentals/django_fundamentals/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/24_08_17-Homework8,9/django_fundamentals/django_fundamentals/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/24_08_17-Homework8,9/django_fundamentals/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/24_08_17-Homework8,9/django_fundamentals/meetings/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/24_08_17-Homework8,9/django_fundamentals/meetings/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/24_08_17-Homework8,9/django_fundamentals/meetings/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/24_08_17-Homework8,9/django_fundamentals/meetings/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/24_08_17-Homework8,9/django_fundamentals/meetings/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/24_08_17-Homework8,9/django_fundamentals/meetings/templates/meetings/detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/24_08_17-Homework8,9/django_fundamentals/meetings/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/24_08_17-Homework8,9/django_fundamentals/website/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/24_08_17-Homework8,9/django_fundamentals/website/templates/website/welcome.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/24_08_17-Homework8,9/django_fundamentals/website/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/NAVTTC_PCAP.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/NAVTTC_PCAP.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

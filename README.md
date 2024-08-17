@@ -7,17 +7,16 @@ I was also following **[UDEMY-PYTHON-DEEP-DIVE](https://github.com/reeyan-afzal/
 ---
 
 ### Homework:
-|   Date   | Homework                                                                                                                             |
-|:--------:|:-------------------------------------------------------------------------------------------------------------------------------------|
-| 24/07/23 | [Homework 01 - OpenCV-Project](https://github.com/reeyan-afzal/NAVTTC_PCAP/blob/main/24_07_23-Homework1/main.py)                     |
-| 24/07/25 | [Homework 02 - Telenor-Management-System](https://github.com/reeyan-afzal/NAVTTC_PCAP/blob/main/24_07_25-Homework2/main.py)          |
-| 24/07/26 | [Homework 03 - Student-Management-System-Advanced](https://github.com/reeyan-afzal/NAVTTC_PCAP/blob/main/24_07_26-Homework3/main.py) |
-| 24/07/30 | [Homework 04 - Vehicle-License-Plate-Detector](https://github.com/reeyan-afzal/NAVTTC_PCAP/blob/main/24_07_30-Homework4/main.py)     |
-| 24/08/09 | [Homework 05 - Chess-Console-Game](https://github.com/reeyan-afzal/NAVTTC_PCAP/blob/main/24_08_09-Homework5/main.py)                 |
-| 24/08/10 | [Homework 06 - PyGame-Angry-Birds-Clone](https://github.com/reeyan-afzal/NAVTTC_PCAP/blob/main/24_08_10-Homework6/)                  |
-| 24/08/13 | [Homework 07 - PyQT6-Tic-Tac-Toe](https://github.com/reeyan-afzal/NAVTTC_PCAP/blob/main/24_08_13-Homework7/main.py)                  |
-| 24/08/17 | [Homework 08 - Django-Fundamentals](https://github.com/reeyan-afzal/NAVTTC_PCAP/blob/main/24_08_17-Homework8,9/django_fundamentals/) |
-| 24/08/18 | [Homework 09 - Django-Advanced](https://github.com/reeyan-afzal/NAVTTC_PCAP/blob/main/24_08_17-Homework8,9/django_advanced/)         |
+|   Date   | Homework                                                                                                                                                                                                                                                               |
+|:--------:|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 24/07/23 | [Homework 01 - OpenCV-Project](https://github.com/reeyan-afzal/NAVTTC_PCAP/blob/main/24_07_23-Homework1/main.py)                                                                                                                                                       |
+| 24/07/25 | [Homework 02 - Telenor-Management-System](https://github.com/reeyan-afzal/NAVTTC_PCAP/blob/main/24_07_25-Homework2/main.py)                                                                                                                                            |
+| 24/07/26 | [Homework 03 - Student-Management-System-Advanced](https://github.com/reeyan-afzal/NAVTTC_PCAP/blob/main/24_07_26-Homework3/main.py)                                                                                                                                   |
+| 24/07/30 | [Homework 04 - Vehicle-License-Plate-Detector](https://github.com/reeyan-afzal/NAVTTC_PCAP/blob/main/24_07_30-Homework4/main.py)                                                                                                                                       |
+| 24/08/09 | [Homework 05 - Chess-Console-Game](https://github.com/reeyan-afzal/NAVTTC_PCAP/blob/main/24_08_09-Homework5/main.py)                                                                                                                                                   |
+| 24/08/10 | [Homework 06 - PyGame-Angry-Birds-Clone](https://github.com/reeyan-afzal/NAVTTC_PCAP/blob/main/24_08_10-Homework6/)                                                                                                                                                    |
+| 24/08/13 | [Homework 07 - PyQT6-Tic-Tac-Toe](https://github.com/reeyan-afzal/NAVTTC_PCAP/blob/main/24_08_13-Homework7/main.py)                                                                                                                                                    |
+| 24/08/17 | [Homework 08 - Django-Fundamentals](https://github.com/reeyan-afzal/NAVTTC_PCAP/blob/main/24_08_17-Homework8,9/django_fundamentals/)<br/> [Homework 09 - Django-Advanced](https://github.com/reeyan-afzal/NAVTTC_PCAP/blob/main/24_08_17-Homework8,9/django_advanced/) |
 
 ### Tasks:
 |   Date   | Lab-Tasks                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |

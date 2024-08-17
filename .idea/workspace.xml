@@ -4,9 +4,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5cae573-740b-48a8-a2dd-fd952890ad02" name="Changes" comment="Fixing README.md">
-      <change afterPath="$PROJECT_DIR$/24_08_16-Task26,27/main-Task26.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/24_08_16-Task26,27/main-Task27.py" afterDir="false" />
+    <list default="true" id="b5cae573-740b-48a8-a2dd-fd952890ad02" name="Changes" comment="Adding Task 26 and 27">
+      <change afterPath="$PROJECT_DIR$/24_08_17-Homework8,9/django_advanced/db.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/24_08_17-Homework8,9/django_advanced/django_advanced/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/24_08_17-Homework8,9/django_advanced/django_advanced/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/24_08_17-Homework8,9/django_advanced/django_advanced/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/24_08_17-Homework8,9/django_advanced/django_advanced/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/24_08_17-Homework8,9/django_advanced/django_advanced/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/24_08_17-Homework8,9/django_advanced/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/24_08_17-Homework8,9/django_fundamentals/db.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/24_08_17-Homework8,9/django_fundamentals/django_fundamentals/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/24_08_17-Homework8,9/django_fundamentals/django_fundamentals/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/24_08_17-Homework8,9/django_fundamentals/django_fundamentals/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/24_08_17-Homework8,9/django_fundamentals/django_fundamentals/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/24_08_17-Homework8,9/django_fundamentals/django_fundamentals/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/24_08_17-Homework8,9/django_fundamentals/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/24_08_17-Homework8,9/django_fundamentals/meetings/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/24_08_17-Homework8,9/django_fundamentals/meetings/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/24_08_17-Homework8,9/django_fundamentals/meetings/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/24_08_17-Homework8,9/django_fundamentals/meetings/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/24_08_17-Homework8,9/django_fundamentals/meetings/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/24_08_17-Homework8,9/django_fundamentals/meetings/templates/meetings/detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/24_08_17-Homework8,9/django_fundamentals/meetings/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/24_08_17-Homework8,9/django_fundamentals/website/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/24_08_17-Homework8,9/django_fundamentals/website/templates/website/welcome.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/24_08_17-Homework8,9/django_fundamentals/website/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/NAVTTC_PCAP.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/NAVTTC_PCAP.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -74,9 +98,11 @@
     &quot;Python.main-Task8.executor&quot;: &quot;Run&quot;,
     &quot;Python.main-Task9.executor&quot;: &quot;Run&quot;,
     &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.manage.executor&quot;: &quot;Run&quot;,
     &quot;Python.physics.executor&quot;: &quot;Run&quot;,
     &quot;Python.test.executor&quot;: &quot;Run&quot;,
     &quot;Python.tool.executor&quot;: &quot;Run&quot;,
+    &quot;Python.urls.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;last_opened_file_path&quot;: &quot;/Users/reeyanafzal/Desktop/NAVTTC_PCAP/24_08_10-Homework6/resources/graphics&quot;,
@@ -90,11 +116,11 @@
       <recent name="$PROJECT_DIR$/24_07_25-Homework2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/24_08_17-Homework8,9/django_fundamentals/meetings/templates/meetings" />
       <recent name="$PROJECT_DIR$/24_08_13-Homework7/resources/t" />
       <recent name="$PROJECT_DIR$/24_08_10-Homework6/resources/graphics" />
       <recent name="$PROJECT_DIR$/24_08_10-Homework6" />
       <recent name="$PROJECT_DIR$/24_08_09-Homework5" />
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -112,14 +138,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1721737255783</updated>
-    </task>
-    <task id="LOCAL-00069" summary="Finishing Task 17, 18, 19">
-      <option name="closed" value="true" />
-      <created>1723038573309</created>
-      <option name="number" value="00069" />
-      <option name="presentableId" value="LOCAL-00069" />
-      <option name="project" value="LOCAL" />
-      <updated>1723038573310</updated>
     </task>
     <task id="LOCAL-00070" summary="updating README.md">
       <option name="closed" value="true" />
@@ -505,7 +523,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723560289060</updated>
     </task>
-    <option name="localTasksCounter" value="118" />
+    <task id="LOCAL-00118" summary="Adding Task 26 and 27">
+      <option name="closed" value="true" />
+      <created>1723820990357</created>
+      <option name="number" value="00118" />
+      <option name="presentableId" value="LOCAL-00118" />
+      <option name="project" value="LOCAL" />
+      <updated>1723820990358</updated>
+    </task>
+    <option name="localTasksCounter" value="119" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -521,7 +547,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Finishing Task 6 - Simple Bulb Status Check" />
     <MESSAGE value="Finishing Task 7 - Tax Calculator" />
     <MESSAGE value="Finishing Task 8 - Leap Year Calculator" />
     <MESSAGE value="Finishing Task7,8,9" />
@@ -546,6 +571,7 @@
     <MESSAGE value="Tic Tac Toe - Improving" />
     <MESSAGE value="Finishing Task 23,24,25" />
     <MESSAGE value="Fixing README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixing README.md" />
+    <MESSAGE value="Adding Task 26 and 27" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding Task 26 and 27" />
   </component>
 </project>

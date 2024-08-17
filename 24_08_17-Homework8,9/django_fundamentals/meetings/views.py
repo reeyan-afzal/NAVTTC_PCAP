@@ -1,0 +1,8 @@
+from django.shortcuts import render, get_list_or_404
+
+from meetings.models import Meeting
+
+
+def detail(request, id):
+    meeting = get_list_or_404(Meeting, pk=id)
+    return render(request, "meetings/detail.html", {"meeting": meeting})

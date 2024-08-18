@@ -4,6 +4,8 @@ from meetings.models import Meeting
 
 
 def welcome(request):
-    return render(
-        request, "website/welcome.html", {"meetings": Meeting.objects.all()}
-    )
+    if request.user.is_authenticated:
+        context = {"meetings": Meeting.objects.all()}
+    else:
+        context = {}
+    return render(request, "website/welcome.html", context)

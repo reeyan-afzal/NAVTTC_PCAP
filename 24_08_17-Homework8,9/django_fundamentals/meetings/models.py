@@ -1,5 +1,6 @@
 from datetime import time
 
+from django.contrib.auth import get_user_model
 from django.db import models
 
 
@@ -18,6 +19,7 @@ class Meeting(models.Model):
     start_time = models.TimeField(default=time(9))
     duration = models.IntegerField(default=1)
     room = models.ForeignKey(Room, on_delete=models.CASCADE)
+    participants = models.ManyToManyField(get_user_model())
 
     def __str__(self):
         return f"{self.title} at {self.start_time} on {self.date}"

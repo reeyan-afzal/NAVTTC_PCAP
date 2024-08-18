@@ -1,0 +1,38 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}{% endblock %}</title>
+    <link rel="stylesheet" href="{% static 'website/style.css' %}">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container header-content">
+            <a class="nav-button" href="{% url 'welcome' %}">Home</a>
+            {% if user.is_authenticated %}
+                <div class="user-info">
+                    Logged in as: <strong>{{ user.get_username }}</strong>
+                    <form method="post" action="{% url 'logout' %}" style="display:inline;">
+                        {% csrf_token %}
+                        <button class="nav-button" type="submit">Logout</button>
+                    </form>
+                </div>
+            {% else %}
+                <a class="nav-button" href="{% url 'login' %}">Login</a>
+            {% endif %}
+        </div>
+    </header>
+
+    <div class="container main-content">
+        {% block content %}{% endblock %}
+    </div>
+
+    <footer>
+        <div class="status-bar">
+            &copy; 2024 Meeting Planner
+        </div>
+    </footer>
+</body>
+</html>

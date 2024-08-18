@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% load static %}
+
+{% block title %}Welcome{% endblock %}
+
+{% block content %}
+    <h1>Welcome to the Meeting Planner!</h1>
+    <img src="{% static 'website/calendar.png' %}" width="100px" style="display: block; margin: 20px auto;">
+
+    {% if user.is_authenticated %}
+        <h2>Meetings</h2>
+        <ul>
+            {% for meeting in meetings %}
+            <li>
+                <a class="button" href="{% url 'detail' meeting.id %}">{{ meeting.title }}</a>
+            </li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <p>Please <a class="button" href="{% url 'login' %}">Log in</a> to view your meetings.</p>
+    {% endif %}
+{% endblock %}

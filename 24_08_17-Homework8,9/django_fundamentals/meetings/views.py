@@ -7,6 +7,7 @@ from django.contrib.auth.forms import UserCreationForm
 
 from meetings.models import Meeting, Room
 
+
 def register(request):
     if request.method == 'POST':
         form = UserCreationForm(request.POST)

@@ -4,12 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5cae573-740b-48a8-a2dd-fd952890ad02" name="Changes" comment="Finishing Django Fundamentals">
+    <list default="true" id="b5cae573-740b-48a8-a2dd-fd952890ad02" name="Changes" comment="Finishing Task 26 and 27">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/24_08_16-Task26,27/main-Task26.py" beforeDir="false" afterPath="$PROJECT_DIR$/24_08_16-Task26,27/main-Task26.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/24_08_16-Task26,27/main-Task27.py" beforeDir="false" afterPath="$PROJECT_DIR$/24_08_16-Task26,27/main-Task27.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/24_08_17-Homework8,9/django_fundamentals/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/24_08_17-Homework8,9/django_fundamentals/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/24_08_17-Homework8,9/django_fundamentals/meetings/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/24_08_17-Homework8,9/django_fundamentals/meetings/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/24_08_17-Homework8,9/django_advanced/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/24_08_17-Homework8,9/django_advanced/django_advanced/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/24_08_17-Homework8,9/django_advanced/django_advanced/asgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/24_08_17-Homework8,9/django_advanced/django_advanced/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/24_08_17-Homework8,9/django_advanced/django_advanced/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/24_08_17-Homework8,9/django_advanced/django_advanced/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/24_08_17-Homework8,9/django_advanced/manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,42 +56,42 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Python.img.executor": "Run",
-    "Python.level.executor": "Run",
-    "Python.main-12.executor": "Run",
-    "Python.main-13.executor": "Run",
-    "Python.main-14.executor": "Run",
-    "Python.main-15.executor": "Run",
-    "Python.main-16.executor": "Run",
-    "Python.main-Task10.executor": "Run",
-    "Python.main-Task17.executor": "Run",
-    "Python.main-Task18.executor": "Run",
-    "Python.main-Task19.executor": "Run",
-    "Python.main-Task20.executor": "Run",
-    "Python.main-Task21.executor": "Run",
-    "Python.main-Task22.executor": "Run",
-    "Python.main-Task23.executor": "Run",
-    "Python.main-Task24.executor": "Run",
-    "Python.main-Task25.executor": "Run",
-    "Python.main-Task26.executor": "Run",
-    "Python.main-Task27.executor": "Run",
-    "Python.main-Task8.executor": "Run",
-    "Python.main-Task9.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.manage.executor": "Run",
-    "Python.physics.executor": "Run",
-    "Python.test.executor": "Run",
-    "Python.tool.executor": "Run",
-    "Python.urls.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/reeyanafzal/Desktop/NAVTTC_PCAP/24_08_17-Homework8,9/django_fundamentals/website/static/website",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Python.img.executor&quot;: &quot;Run&quot;,
+    &quot;Python.level.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main-12.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main-13.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main-14.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main-15.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main-16.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main-Task10.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main-Task17.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main-Task18.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main-Task19.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main-Task20.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main-Task21.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main-Task22.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main-Task23.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main-Task24.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main-Task25.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main-Task26.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main-Task27.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main-Task8.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main-Task9.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.manage.executor&quot;: &quot;Run&quot;,
+    &quot;Python.physics.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tool.executor&quot;: &quot;Run&quot;,
+    &quot;Python.urls.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/reeyanafzal/Desktop/NAVTTC_PCAP/24_08_17-Homework8,9/django_fundamentals/website/static/website&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/24_08_17-Homework8,9/django_fundamentals/website/static/website" />
@@ -118,22 +122,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1721737255783</updated>
-    </task>
-    <task id="LOCAL-00072" summary="updating README.md">
-      <option name="closed" value="true" />
-      <created>1723038737170</created>
-      <option name="number" value="00072" />
-      <option name="presentableId" value="LOCAL-00072" />
-      <option name="project" value="LOCAL" />
-      <updated>1723038737170</updated>
-    </task>
-    <task id="LOCAL-00073" summary="Finishing Task 20">
-      <option name="closed" value="true" />
-      <created>1723114560598</created>
-      <option name="number" value="00073" />
-      <option name="presentableId" value="LOCAL-00073" />
-      <option name="project" value="LOCAL" />
-      <updated>1723114560599</updated>
     </task>
     <task id="LOCAL-00074" summary="Updating README.md">
       <option name="closed" value="true" />
@@ -511,7 +499,23 @@
       <option name="project" value="LOCAL" />
       <updated>1723964141040</updated>
     </task>
-    <option name="localTasksCounter" value="121" />
+    <task id="LOCAL-00121" summary="Finishing Task 26 and 27">
+      <option name="closed" value="true" />
+      <created>1723988907039</created>
+      <option name="number" value="00121" />
+      <option name="presentableId" value="LOCAL-00121" />
+      <option name="project" value="LOCAL" />
+      <updated>1723988907040</updated>
+    </task>
+    <task id="LOCAL-00122" summary="Finishing Task 26 and 27">
+      <option name="closed" value="true" />
+      <created>1723988919754</created>
+      <option name="number" value="00122" />
+      <option name="presentableId" value="LOCAL-00122" />
+      <option name="project" value="LOCAL" />
+      <updated>1723988919754</updated>
+    </task>
+    <option name="localTasksCounter" value="123" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -527,7 +531,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Finishing Task 8 - Leap Year Calculator" />
     <MESSAGE value="Finishing Task7,8,9" />
     <MESSAGE value="Adding Task-10 to 24/08/02" />
     <MESSAGE value="Fixing Task 10" />
@@ -552,6 +555,7 @@
     <MESSAGE value="Adding Task 26 and 27" />
     <MESSAGE value="Updating README.md" />
     <MESSAGE value="Finishing Django Fundamentals" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finishing Django Fundamentals" />
+    <MESSAGE value="Finishing Task 26 and 27" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finishing Task 26 and 27" />
   </component>
 </project>

@@ -12,3 +12,4 @@ if __name__ == "__main__":
     print()
     admin_data.package()
     student_data.package()
+    print("The counter from module.py is:", module.counter)

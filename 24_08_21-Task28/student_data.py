@@ -1,4 +1,14 @@
+def data():
+    print("This is calling the data function from std_data.py")
+
+
+def package():
+    print("This is calling the package function from std_data.py")
+
+
 if __name__ == "__main__":
-    print("I am student_data.py")
+    data()
+    package()
 else:
-    print("shadow of student_data.py")
+    print("student_data.py imported in main!")
+

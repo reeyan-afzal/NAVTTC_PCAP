@@ -1,4 +1,13 @@
+def data():
+    print("This is calling the data function from admin_data.py")
+
+
+def package():
+    print("This is calling the package function from admin_data.py")
+
+
 if __name__ == "__main__":
-    print("I am admin_data.py")
+    data()
+    package()
 else:
-    print("shadow of admin_data.py")
+    print("admin_data.py imported in main!")

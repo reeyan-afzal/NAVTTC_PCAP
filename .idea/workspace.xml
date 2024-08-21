@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5cae573-740b-48a8-a2dd-fd952890ad02" name="Changes" comment="Updating Stuff">
-      <change afterPath="$PROJECT_DIR$/24_08_21-Task28/admin_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/24_08_21-Task28/main-Task28.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/24_08_21-Task28/module.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/24_08_21-Task28/student_data.py" afterDir="false" />
+    <list default="true" id="b5cae573-740b-48a8-a2dd-fd952890ad02" name="Changes" comment="Task 28">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/24_08_17-Homework8/django_fundamentals/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/24_08_17-Homework8/django_fundamentals/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/24_08_21-Task28/admin_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/24_08_21-Task28/admin_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/24_08_21-Task28/main-Task28.py" beforeDir="false" afterPath="$PROJECT_DIR$/24_08_21-Task28/main-Task28.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/24_08_21-Task28/module.py" beforeDir="false" afterPath="$PROJECT_DIR$/24_08_21-Task28/module.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/24_08_21-Task28/student_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/24_08_21-Task28/student_data.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,6 +82,7 @@
     "Python.manage.executor": "Run",
     "Python.module.executor": "Run",
     "Python.physics.executor": "Run",
+    "Python.student_data.executor": "Run",
     "Python.test.executor": "Run",
     "Python.tool.executor": "Run",
     "Python.urls.executor": "Run",
@@ -175,10 +174,33 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="student_data" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="NAVTTC_PCAP" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/24_08_21-Task28" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/24_08_21-Task28/student_data.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.main-Task28" />
         <item itemvalue="Python.admin_data" />
+        <item itemvalue="Python.student_data" />
         <item itemvalue="Python.module" />
       </list>
     </recent_temporary>
@@ -198,14 +220,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1721737255783</updated>
-    </task>
-    <task id="LOCAL-00076" summary="Updating README.md">
-      <option name="closed" value="true" />
-      <created>1723117052813</created>
-      <option name="number" value="00076" />
-      <option name="presentableId" value="LOCAL-00076" />
-      <option name="project" value="LOCAL" />
-      <updated>1723117052813</updated>
     </task>
     <task id="LOCAL-00077" summary="Finishing Task 20">
       <option name="closed" value="true" />
@@ -591,7 +605,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723993976210</updated>
     </task>
-    <option name="localTasksCounter" value="125" />
+    <task id="LOCAL-00125" summary="Task 28">
+      <option name="closed" value="true" />
+      <created>1724242945251</created>
+      <option name="number" value="00125" />
+      <option name="presentableId" value="LOCAL-00125" />
+      <option name="project" value="LOCAL" />
+      <updated>1724242945252</updated>
+    </task>
+    <option name="localTasksCounter" value="126" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -607,7 +629,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Adding Task-10 to 24/08/02" />
     <MESSAGE value="Fixing Task 10" />
     <MESSAGE value="Finishing Task 11, 12, 13, 14, 15, 16" />
     <MESSAGE value="Finishing Task 17, 18, 19" />
@@ -632,6 +653,7 @@
     <MESSAGE value="Finishing Django Fundamentals" />
     <MESSAGE value="Finishing Task 26 and 27" />
     <MESSAGE value="Updating Stuff" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updating Stuff" />
+    <MESSAGE value="Task 28" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task 28" />
   </component>
 </project>

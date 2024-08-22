@@ -3,6 +3,8 @@
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/24_08_17-Homework8/django_fundamentals" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/24_08_22-Task29/data" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/24_08_22-Task29/modules" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

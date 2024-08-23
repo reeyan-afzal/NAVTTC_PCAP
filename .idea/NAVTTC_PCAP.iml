@@ -5,6 +5,9 @@
       <sourceFolder url="file://$MODULE_DIR$/24_08_17-Homework8/django_fundamentals" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/24_08_22-Task29/data" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/24_08_22-Task29/modules" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/24_08_23-Homework9/Base_Directory/borrow_operations" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/24_08_23-Homework9/Base_Directory/inventory_options" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/24_08_23-Homework9/Base_Directory/return_operations" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

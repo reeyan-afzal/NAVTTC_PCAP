@@ -1,10 +1,10 @@
-###  NAVTTC-PCAP Course All Task and Homework is uploaded here on this repository
+###  NAVTTC-PCAP Course All Task and Homework GitHub Repository
 
 #### Author - Reeyan Afzal
 
 I was also following **[UDEMY-PYTHON-DEEP-DIVE](https://github.com/reeyan-afzal/UDEMY_PYTHON_DEEP_DIVE)** course alongside this training program. You may check my Python notes if you're interested in learning Python.
 
----
+___
 
 ### Homework:
 |   Date   | Homework                                                                                                                                   |
@@ -37,7 +37,9 @@ I was also following **[UDEMY-PYTHON-DEEP-DIVE](https://github.com/reeyan-afzal/
 | 24/08/16 | [Task 26 - Exploring-Tuples-Dictionaries](https://github.com/reeyan-afzal/NAVTTC_PCAP/blob/main/24_08_16-Task26,27/main-Task26.py)<br/>     [Task 27 - Exception-Handling](https://github.com/reeyan-afzal/NAVTTC_PCAP/blob/main/24_08_16-Task26,27/main-Task27.py)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 | 24/08/21 | [Task 28 - Exploring-Python-Module-Creation](https://github.com/reeyan-afzal/NAVTTC_PCAP/blob/main/24_08_21-Task28/main-Task28.py)<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 | 24/08/22 | [Task 29 - Exploring-More-Python-Modules-Creation](https://github.com/reeyan-afzal/NAVTTC_PCAP/blob/main/24_08_22-Task29/main-Task29.py)<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
----
+| 24/08/26 | [Task 30 - String-Manipulation](https://github.com/reeyan-afzal/NAVTTC_PCAP/blob/main/24_08_26-Task30/main-Task30.py)<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+
+___
 
 ### Some Output Snippets
 

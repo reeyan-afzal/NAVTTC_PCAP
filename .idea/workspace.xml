@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5cae573-740b-48a8-a2dd-fd952890ad02" name="Changes" comment="Finishing Task 32 - String Manipulation-3">
-      <change afterPath="$PROJECT_DIR$/24_08_28-Task32,33/main-Task33.py" afterDir="false" />
+    <list default="true" id="b5cae573-740b-48a8-a2dd-fd952890ad02" name="Changes" comment="Finishing Task 33 - String Manipulation-3b">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/24_08_28-Task32/main-Task32.py" beforeDir="false" afterPath="$PROJECT_DIR$/24_08_28-Task32,33/main-Task32.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -156,14 +154,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1721737255783</updated>
-    </task>
-    <task id="LOCAL-00085" summary="Fixing Chess Game">
-      <option name="closed" value="true" />
-      <created>1723230103609</created>
-      <option name="number" value="00085" />
-      <option name="presentableId" value="LOCAL-00085" />
-      <option name="project" value="LOCAL" />
-      <updated>1723230103609</updated>
     </task>
     <task id="LOCAL-00086" summary="Fixing Chess Game">
       <option name="closed" value="true" />
@@ -549,7 +539,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724844370065</updated>
     </task>
-    <option name="localTasksCounter" value="134" />
+    <task id="LOCAL-00134" summary="Finishing Task 33 - String Manipulation-3b">
+      <option name="closed" value="true" />
+      <created>1724856184209</created>
+      <option name="number" value="00134" />
+      <option name="presentableId" value="LOCAL-00134" />
+      <option name="project" value="LOCAL" />
+      <updated>1724856184209</updated>
+    </task>
+    <option name="localTasksCounter" value="135" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -565,7 +563,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Finishing Chess Game" />
     <MESSAGE value="Adding Homework6 Angry Birds" />
     <MESSAGE value="Fixing Chess Game" />
     <MESSAGE value="Making the Angry Bird Clone" />
@@ -590,6 +587,7 @@
     <MESSAGE value="Finishing Task 30 - String Manipulation" />
     <MESSAGE value="Finishing Task 31 - Password Checker" />
     <MESSAGE value="Finishing Task 32 - String Manipulation-3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finishing Task 32 - String Manipulation-3" />
+    <MESSAGE value="Finishing Task 33 - String Manipulation-3b" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finishing Task 33 - String Manipulation-3b" />
   </component>
 </project>

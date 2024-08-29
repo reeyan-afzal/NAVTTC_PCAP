@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5cae573-740b-48a8-a2dd-fd952890ad02" name="Changes" comment="Finishing Task 33 - String Manipulation-3b">
+    <list default="true" id="b5cae573-740b-48a8-a2dd-fd952890ad02" name="Changes" comment="Updating README.md">
+      <change afterPath="$PROJECT_DIR$/24_08_29-Task34/main-Task34.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -78,6 +79,7 @@
     "Python.main-Task31.executor": "Run",
     "Python.main-Task32.executor": "Run",
     "Python.main-Task33.executor": "Run",
+    "Python.main-Task34.executor": "Run",
     "Python.main-Task8.executor": "Run",
     "Python.main-Task9.executor": "Run",
     "Python.main.executor": "Run",
@@ -111,7 +113,7 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="main-Task33" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="main-Task34" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="NAVTTC_PCAP" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -124,7 +126,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/24_08_28-Task32,33/main-Task33.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/24_08_29-Task34/main-Task34.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -135,7 +137,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.main-Task33" />
+        <item itemvalue="Python.main-Task34" />
       </list>
     </recent_temporary>
   </component>
@@ -154,14 +156,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1721737255783</updated>
-    </task>
-    <task id="LOCAL-00086" summary="Fixing Chess Game">
-      <option name="closed" value="true" />
-      <created>1723252880097</created>
-      <option name="number" value="00086" />
-      <option name="presentableId" value="LOCAL-00086" />
-      <option name="project" value="LOCAL" />
-      <updated>1723252880098</updated>
     </task>
     <task id="LOCAL-00087" summary="Fixing Chess Game">
       <option name="closed" value="true" />
@@ -547,7 +541,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724856184209</updated>
     </task>
-    <option name="localTasksCounter" value="135" />
+    <task id="LOCAL-00135" summary="Updating README.md">
+      <option name="closed" value="true" />
+      <created>1724856232156</created>
+      <option name="number" value="00135" />
+      <option name="presentableId" value="LOCAL-00135" />
+      <option name="project" value="LOCAL" />
+      <updated>1724856232156</updated>
+    </task>
+    <option name="localTasksCounter" value="136" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -576,7 +578,6 @@
     <MESSAGE value="Finishing Task 23,24,25" />
     <MESSAGE value="Fixing README.md" />
     <MESSAGE value="Adding Task 26 and 27" />
-    <MESSAGE value="Updating README.md" />
     <MESSAGE value="Finishing Django Fundamentals" />
     <MESSAGE value="Finishing Task 26 and 27" />
     <MESSAGE value="Updating Stuff" />
@@ -588,6 +589,7 @@
     <MESSAGE value="Finishing Task 31 - Password Checker" />
     <MESSAGE value="Finishing Task 32 - String Manipulation-3" />
     <MESSAGE value="Finishing Task 33 - String Manipulation-3b" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finishing Task 33 - String Manipulation-3b" />
+    <MESSAGE value="Updating README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updating README.md" />
   </component>
 </project>

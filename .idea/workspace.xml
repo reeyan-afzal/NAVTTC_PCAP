@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5cae573-740b-48a8-a2dd-fd952890ad02" name="Changes" comment="Updating README.md">
-      <change afterPath="$PROJECT_DIR$/24_08_29-Task34/main-Task34.py" afterDir="false" />
+    <list default="true" id="b5cae573-740b-48a8-a2dd-fd952890ad02" name="Changes" comment="Finishing Task-34 - LED-Display">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -156,14 +155,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1721737255783</updated>
-    </task>
-    <task id="LOCAL-00087" summary="Fixing Chess Game">
-      <option name="closed" value="true" />
-      <created>1723253578638</created>
-      <option name="number" value="00087" />
-      <option name="presentableId" value="LOCAL-00087" />
-      <option name="project" value="LOCAL" />
-      <updated>1723253578638</updated>
     </task>
     <task id="LOCAL-00088" summary="Making the Angry Bird Clone">
       <option name="closed" value="true" />
@@ -549,7 +540,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724856232156</updated>
     </task>
-    <option name="localTasksCounter" value="136" />
+    <task id="LOCAL-00136" summary="Finishing Task-34 - LED-Display">
+      <option name="closed" value="true" />
+      <created>1724921553891</created>
+      <option name="number" value="00136" />
+      <option name="presentableId" value="LOCAL-00136" />
+      <option name="project" value="LOCAL" />
+      <updated>1724921553892</updated>
+    </task>
+    <option name="localTasksCounter" value="137" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -565,7 +564,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Adding Homework6 Angry Birds" />
     <MESSAGE value="Fixing Chess Game" />
     <MESSAGE value="Making the Angry Bird Clone" />
     <MESSAGE value="Finishing Angry Birds Clone" />
@@ -590,6 +588,7 @@
     <MESSAGE value="Finishing Task 32 - String Manipulation-3" />
     <MESSAGE value="Finishing Task 33 - String Manipulation-3b" />
     <MESSAGE value="Updating README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updating README.md" />
+    <MESSAGE value="Finishing Task-34 - LED-Display" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finishing Task-34 - LED-Display" />
   </component>
 </project>

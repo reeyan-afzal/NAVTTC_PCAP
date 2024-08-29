@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b5cae573-740b-48a8-a2dd-fd952890ad02" name="Changes" comment="Updating README.md">
-      <change afterPath="$PROJECT_DIR$/24_08_29-Task34,35,36,37/main-Task35.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/24_08_29-Task34,35,36,37/main-Task36.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/24_08_29-Task34,35,36,37/main-Task37.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/24_08_29-Task34/main-Task34.py" beforeDir="false" afterPath="$PROJECT_DIR$/24_08_29-Task34,35,36,37/main-Task34.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/24_08_29-Task34,35,36,37/main-Task37.py" beforeDir="false" afterPath="$PROJECT_DIR$/24_08_29-Task34,35,36,37/main-Task37.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,14 +157,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1721737255783</updated>
-    </task>
-    <task id="LOCAL-00089" summary="Making the Angry Bird Clone">
-      <option name="closed" value="true" />
-      <created>1723305318350</created>
-      <option name="number" value="00089" />
-      <option name="presentableId" value="LOCAL-00089" />
-      <option name="project" value="LOCAL" />
-      <updated>1723305318350</updated>
     </task>
     <task id="LOCAL-00090" summary="Making the Angry Bird Clone">
       <option name="closed" value="true" />
@@ -554,7 +542,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724921593313</updated>
     </task>
-    <option name="localTasksCounter" value="138" />
+    <task id="LOCAL-00138" summary="Updating README.md">
+      <option name="closed" value="true" />
+      <created>1724932118090</created>
+      <option name="number" value="00138" />
+      <option name="presentableId" value="LOCAL-00138" />
+      <option name="project" value="LOCAL" />
+      <updated>1724932118091</updated>
+    </task>
+    <option name="localTasksCounter" value="139" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

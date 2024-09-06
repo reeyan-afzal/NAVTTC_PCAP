@@ -60,3 +60,6 @@ ___
 
 ##### Homework 11 - Data Entry App - GUI+API
 ![24_08_13-Homework11-1.gif](snippits%2F24_08_13-Homework11-1.gif)
+
+##### Homework 12 - Data Entry App - GUI+GoogleSheet
+![24_08_13-Homework12-1.gif](snippits%2F24_08_13-Homework12-1.gif)

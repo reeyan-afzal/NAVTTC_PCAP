@@ -1,18 +1,16 @@
 import sys
 import os
 import re
+
+from PyQt6.QtGui import QPixmap
 from PyQt6.QtWidgets import (QApplication, QWidget, QFormLayout, QLineEdit, QSpinBox,
                              QPushButton, QFileDialog, QMessageBox, QLabel, QCheckBox, QCalendarWidget, QComboBox)
-from PyQt6.QtCore import QDate
+from PyQt6.QtCore import QDate, Qt
 from googleapiclient.discovery import build
 from googleapiclient.http import MediaFileUpload
 from google.oauth2 import service_account
 import gspread
 from oauth2client.service_account import ServiceAccountCredentials
-
-
-def validate_email(email):
-    return re.match(r"[^@]+@[^@]+\.[^@]+", email) is not None
 
 
 def upload_to_drive(file_path):
@@ -43,6 +41,10 @@ def upload_to_drive(file_path):
     return f'https://drive.google.com/uc?id={file_id}'
 
 
+def validate_email(email):
+    return re.match(r"[^@]+@[^@]+\.[^@]+", email) is not None
+
+
 def validate_phone(phone):
     return len(re.sub(r'\D', '', phone)) == 11
 
@@ -60,6 +62,7 @@ class DataEntryApp(QWidget):
         self.calendar = None
         self.course_selected_entry = None
         self.photo_path = None
+        self.photo_preview_label = None
         self.accept_var = None
         self.date_of_joining = None
         self.existing_cnic_cache = set()
@@ -103,6 +106,14 @@ class DataEntryApp(QWidget):
 
         layout = QFormLayout()
 
+        # Photo preview QLabel
+        self.photo_preview_label = QLabel("Upload Photo")
+        self.photo_preview_label.setStyleSheet("border: 1px solid #f0ad4e;")
+        self.photo_preview_label.setFixedSize(150, 150)
+        self.photo_preview_label.setAlignment(Qt.AlignmentFlag.AlignCenter)
+        layout.addRow(QLabel('Photo Preview:'), self.photo_preview_label)
+
+        # Photo
         self.photo_path = QLineEdit()
         self.photo_path.setPlaceholderText('Select a photo file')
         self.browse_button = QPushButton('Browse for Image')
@@ -111,21 +122,37 @@ class DataEntryApp(QWidget):
         layout.addRow(QLabel('Photo:'), self.photo_path)
         layout.addRow(self.browse_button)
 
+
+        # First Name
         self.first_name_entry = QLineEdit()
+        self.first_name_entry.setMinimumWidth(300)
+
+        # Last Name
         self.last_name_entry = QLineEdit()
+        self.last_name_entry.setMinimumWidth(300)
+
+        # CNIC
         self.cnic_entry = QLineEdit()
-        self.cnic_entry.setPlaceholderText('Enter CNIC in format 14301-2181062-9')
+        self.cnic_entry.setPlaceholderText('Enter your cnic')
         self.cnic_entry.textChanged.connect(self.format_cnic)
+
+        # Age
         self.age_spinbox = QSpinBox()
         self.age_spinbox.setMinimum(18)
         self.age_spinbox.setMaximum(40)
+
+        # Email Address
         self.email_entry = QLineEdit()
         self.email_entry.setPlaceholderText('Enter your email')
+        self.email_entry.setMinimumWidth(300)
+        self.email_entry.textChanged.connect(self.format_email)
 
         # Phone Number
         self.phone_entry = QLineEdit()
         self.phone_entry.setPlaceholderText('Enter 11-digit phone number')
-        self.phone_entry.setMaxLength(11)  # Length for 11 digits
+        self.phone_entry.setMaxLength(11)
+        self.phone_entry.setMinimumWidth(250)
+        self.phone_entry.setText('03')
         self.phone_entry.textChanged.connect(self.format_phone)
 
         # Course Selection ComboBox
@@ -140,8 +167,8 @@ class DataEntryApp(QWidget):
         self.calendar = QCalendarWidget()
         self.calendar.setGridVisible(True)
         self.calendar.setSelectedDate(QDate.currentDate())
-        self.update_date()  # Update the date initially
-        self.calendar.setFixedSize(250, 200)  # Set fixed size for the calendar
+        self.update_date()
+        self.calendar.setFixedSize(250, 200)
         self.calendar.clicked.connect(self.update_date)
 
         layout.addRow(QLabel('First Name:'), self.first_name_entry)
@@ -174,6 +201,16 @@ class DataEntryApp(QWidget):
             file_paths = file_dialog.selectedFiles()
             if file_paths:
                 self.photo_path.setText(file_paths[0])
+                self.display_photo(file_paths[0])
+
+    def display_photo(self, file_path):
+        pixmap = QPixmap(file_path)
+        if not pixmap.isNull():
+            scaled_pixmap = pixmap.scaled(self.photo_preview_label.size(),
+                                          aspectRatioMode=Qt.AspectRatioMode.KeepAspectRatio)
+            self.photo_preview_label.setPixmap(scaled_pixmap)
+        else:
+            self.photo_preview_label.setText("Invalid Image")
 
     def update_date(self):
         self.date_of_joining = self.calendar.selectedDate().toString("yyyy-MM-dd")
@@ -193,12 +230,23 @@ class DataEntryApp(QWidget):
         self.cnic_entry.setText(cnic)
         self.cnic_entry.setCursorPosition(len(cnic))
 
+    def format_email(self):
+        email = self.email_entry.text()
+        if '@' not in email:
+            self.email_entry.setStyleSheet('color: red;')
+        else:
+            self.email_entry.setStyleSheet('color: green;')
+
     def format_phone(self):
-        phone = re.sub(r'\D', '', self.phone_entry.text())
-        if len(phone) > 11:
-            phone = phone[:11]
-        self.phone_entry.setText(phone)
-        self.phone_entry.setCursorPosition(len(phone))
+        current_text = self.phone_entry.text()
+
+        user_input = re.sub(r'\D', '', current_text[2:])  # Skip '03' and remove non-digits
+
+        if len(user_input) > 9:
+            user_input = user_input[:9]
+
+        self.phone_entry.setText(f'03{user_input}')
+        self.phone_entry.setCursorPosition(len(self.phone_entry.text()))
 
     def load_existing_cnic(self):
         try:
@@ -218,8 +266,8 @@ class DataEntryApp(QWidget):
 
     def enter_data(self):
         if self.accept_var.isChecked():
-            firstname = self.first_name_entry.text()
-            lastname = self.last_name_entry.text()
+            firstname = self.first_name_entry.text().capitalize()
+            lastname = self.last_name_entry.text().capitalize()
             cnic = self.cnic_entry.text().replace('-', '')
             age = self.age_spinbox.value()
             email = self.email_entry.text()

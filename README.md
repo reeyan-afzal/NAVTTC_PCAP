@@ -19,7 +19,7 @@ ___
 | 24/08/17 | [Homework 08 - Django-Fundamentals](https://github.com/reeyan-afzal/NAVTTC_PCAP/blob/main/24_08_17-Homework8/django_fundamentals/)         |
 | 24/08/23 | [Homework 09 - Library-Management-System](https://github.com/reeyan-afzal/NAVTTC_PCAP/blob/main/24_08_23-Homework9/Main_Directory/main.py) |
 | 24/09/05 | [Homework 10 - Hotel-Management-System-OOP](https://github.com/reeyan-afzal/NAVTTC_PCAP/blob/main/24_09_05-Homework10/main.py)             |
-| 24/09/05 | [Homework 11 - Data-Entry-App-GUI+API](https://github.com/reeyan-afzal/NAVTTC_PCAP/blob/main/24_09_06-Homework11/main.py)                  |
+| 24/09/06 | [Homework 11 - Data-Entry-App-GUI+API](https://github.com/reeyan-afzal/NAVTTC_PCAP/blob/main/24_09_06-Homework11/main.py)                  |
 
 ### Tasks:
 |   Date   | Lab-Tasks                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
@@ -56,3 +56,6 @@ ___
 
 ##### Homework 7 - Tic Tac Toe
 ![24_08_13-Homework7-1.gif](snippits%2F24_08_13-Homework7-1.gif)
+
+##### Homework 11 - Data Entry App - GUI+API
+![24_08_13-Homework11-1.gif](snippits%2F24_08_13-Homework11-1.gif)

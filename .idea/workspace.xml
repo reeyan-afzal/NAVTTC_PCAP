@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5cae573-740b-48a8-a2dd-fd952890ad02" name="Changes" comment="Adding Homework 10 - Hotel Management System">
-      <change afterPath="$PROJECT_DIR$/24_09_06-Homework11/data.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/24_09_06-Homework11/main.py" afterDir="false" />
+    <list default="true" id="b5cae573-740b-48a8-a2dd-fd952890ad02" name="Changes" comment="Adding Homework 11 - Data Entry App - API+GUI">
+      <change afterPath="$PROJECT_DIR$/snippits/24_08_13-Homework11-1.gif" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -112,11 +111,11 @@
       <recent name="$PROJECT_DIR$/24_07_25-Homework2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/snippits" />
       <recent name="$PROJECT_DIR$/24_09_06-Task42" />
       <recent name="$PROJECT_DIR$/24_08_23-Homework9/Main_Directory" />
       <recent name="$PROJECT_DIR$/24_08_23-Homework9/Base_Directory" />
       <recent name="$PROJECT_DIR$/24_08_22-Task29/data" />
-      <recent name="$PROJECT_DIR$/24_08_22-Task29/modules" />
     </key>
   </component>
   <component name="RunManager">
@@ -163,14 +162,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1721737255783</updated>
-    </task>
-    <task id="LOCAL-00096" summary="Updating README.md">
-      <option name="closed" value="true" />
-      <created>1723382427045</created>
-      <option name="number" value="00096" />
-      <option name="presentableId" value="LOCAL-00096" />
-      <option name="project" value="LOCAL" />
-      <updated>1723382427045</updated>
     </task>
     <task id="LOCAL-00097" summary="Updating README.md">
       <option name="closed" value="true" />
@@ -556,7 +547,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725531699632</updated>
     </task>
-    <option name="localTasksCounter" value="145" />
+    <task id="LOCAL-00145" summary="Adding Homework 11 - Data Entry App - API+GUI">
+      <option name="closed" value="true" />
+      <created>1725625716406</created>
+      <option name="number" value="00145" />
+      <option name="presentableId" value="LOCAL-00145" />
+      <option name="project" value="LOCAL" />
+      <updated>1725625716406</updated>
+    </task>
+    <option name="localTasksCounter" value="146" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -572,7 +571,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Adding Task 22" />
     <MESSAGE value="Finishing Task 22" />
     <MESSAGE value="Fixing Angry Birds Clone" />
     <MESSAGE value="Homework 7 - Tic Tac Toe" />
@@ -597,6 +595,7 @@
     <MESSAGE value="Exploring OOP - Task 41" />
     <MESSAGE value="Updating README.md" />
     <MESSAGE value="Adding Homework 10 - Hotel Management System" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding Homework 10 - Hotel Management System" />
+    <MESSAGE value="Adding Homework 11 - Data Entry App - API+GUI" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding Homework 11 - Data Entry App - API+GUI" />
   </component>
 </project>

@@ -20,6 +20,7 @@ ___
 | 24/08/23 | [Homework 09 - Library-Management-System](https://github.com/reeyan-afzal/NAVTTC_PCAP/blob/main/24_08_23-Homework9/Main_Directory/main.py) |
 | 24/09/05 | [Homework 10 - Hotel-Management-System-OOP](https://github.com/reeyan-afzal/NAVTTC_PCAP/blob/main/24_09_05-Homework10/main.py)             |
 | 24/09/06 | [Homework 11 - Data-Entry-App-GUI+API](https://github.com/reeyan-afzal/NAVTTC_PCAP/blob/main/24_09_06-Homework11/main.py)                  |
+| 24/09/06 | [Homework 12 - Data-Entry-App-Google+Sheets](https://github.com/reeyan-afzal/NAVTTC_PCAP/blob/main/24_09_06-Homework12/main.py)            |
 
 ### Tasks:
 |   Date   | Lab-Tasks                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
@@ -48,13 +49,13 @@ ___
 
 ### Some Output Snippets
 
-##### Homework 5 - Chess Console Game
+##### Homework 05 - Chess Console Game
 ![24_08_09-Homework5-1.gif](snippits%2F24_08_09-Homework5-1.gif)
 
-##### Homework 6 - Angry Birds Clone
+##### Homework 06 - Angry Birds Clone
 ![24_08_10-Homework6-1.gif](snippits%2F24_08_10-Homework6-1.gif)
 
-##### Homework 7 - Tic Tac Toe
+##### Homework 07 - Tic Tac Toe
 ![24_08_13-Homework7-1.gif](snippits%2F24_08_13-Homework7-1.gif)
 
 ##### Homework 11 - Data Entry App - GUI+API

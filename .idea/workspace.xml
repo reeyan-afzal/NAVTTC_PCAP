@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b5cae573-740b-48a8-a2dd-fd952890ad02" name="Changes" comment="Adding Homework 11 - Data Entry App - API+GUI">
-      <change afterPath="$PROJECT_DIR$/snippits/24_08_13-Homework11-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/24_09_06-Homework12/credentials.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/24_09_06-Homework12/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -92,6 +93,7 @@
     "Python.manage.executor": "Run",
     "Python.module.executor": "Run",
     "Python.physics.executor": "Run",
+    "Python.script.executor": "Run",
     "Python.student_data.executor": "Run",
     "Python.test.executor": "Run",
     "Python.tool.executor": "Run",
@@ -111,11 +113,11 @@
       <recent name="$PROJECT_DIR$/24_07_25-Homework2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/24_09_06-Homework12" />
       <recent name="$PROJECT_DIR$/snippits" />
       <recent name="$PROJECT_DIR$/24_09_06-Task42" />
       <recent name="$PROJECT_DIR$/24_08_23-Homework9/Main_Directory" />
       <recent name="$PROJECT_DIR$/24_08_23-Homework9/Base_Directory" />
-      <recent name="$PROJECT_DIR$/24_08_22-Task29/data" />
     </key>
   </component>
   <component name="RunManager">
@@ -162,14 +164,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1721737255783</updated>
-    </task>
-    <task id="LOCAL-00097" summary="Updating README.md">
-      <option name="closed" value="true" />
-      <created>1723382953037</created>
-      <option name="number" value="00097" />
-      <option name="presentableId" value="LOCAL-00097" />
-      <option name="project" value="LOCAL" />
-      <updated>1723382953037</updated>
     </task>
     <task id="LOCAL-00098" summary="Updating README.md">
       <option name="closed" value="true" />
@@ -555,7 +549,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725625716406</updated>
     </task>
-    <option name="localTasksCounter" value="146" />
+    <task id="LOCAL-00146" summary="Adding Homework 11 - Data Entry App - API+GUI">
+      <option name="closed" value="true" />
+      <created>1725626316441</created>
+      <option name="number" value="00146" />
+      <option name="presentableId" value="LOCAL-00146" />
+      <option name="project" value="LOCAL" />
+      <updated>1725626316441</updated>
+    </task>
+    <option name="localTasksCounter" value="147" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

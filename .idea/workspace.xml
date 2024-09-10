@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5cae573-740b-48a8-a2dd-fd952890ad02" name="Changes" comment="Adding Homework 12 - Data Entry App - Google Sheets">
+    <list default="true" id="b5cae573-740b-48a8-a2dd-fd952890ad02" name="Changes" comment="Finishing Task 42 - Stack">
       <change afterPath="$PROJECT_DIR$/24_09_06-Homework12/credentials.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/24_09_10-Task42/main-Task42.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/24_09_10-Task42/main-Task42.py" beforeDir="false" afterPath="$PROJECT_DIR$/24_09_10-Task42/main-Task42.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,14 +163,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1721737255783</updated>
-    </task>
-    <task id="LOCAL-00101" summary="Fixing Angry Birds Clone">
-      <option name="closed" value="true" />
-      <created>1723461535041</created>
-      <option name="number" value="00101" />
-      <option name="presentableId" value="LOCAL-00101" />
-      <option name="project" value="LOCAL" />
-      <updated>1723461535042</updated>
     </task>
     <task id="LOCAL-00102" summary="Fixing Angry Birds Clone">
       <option name="closed" value="true" />
@@ -557,7 +548,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725649959001</updated>
     </task>
-    <option name="localTasksCounter" value="150" />
+    <task id="LOCAL-00150" summary="Finishing Task 42 - Stack">
+      <option name="closed" value="true" />
+      <created>1725966876683</created>
+      <option name="number" value="00150" />
+      <option name="presentableId" value="LOCAL-00150" />
+      <option name="project" value="LOCAL" />
+      <updated>1725966876684</updated>
+    </task>
+    <option name="localTasksCounter" value="151" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -573,7 +572,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Fixing Angry Birds Clone" />
     <MESSAGE value="Homework 7 - Tic Tac Toe" />
     <MESSAGE value="Finishing Task 23" />
     <MESSAGE value="Tic Tac Toe - Improving" />
@@ -598,6 +596,7 @@
     <MESSAGE value="Adding Homework 10 - Hotel Management System" />
     <MESSAGE value="Adding Homework 11 - Data Entry App - API+GUI" />
     <MESSAGE value="Adding Homework 12 - Data Entry App - Google Sheets" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding Homework 12 - Data Entry App - Google Sheets" />
+    <MESSAGE value="Finishing Task 42 - Stack" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finishing Task 42 - Stack" />
   </component>
 </project>

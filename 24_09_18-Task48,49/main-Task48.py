@@ -1,4 +1,4 @@
-# Task 42 - Count Stack
+# Task 48 - Count Stack
 
 
 class Stack:

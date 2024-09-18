@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5cae573-740b-48a8-a2dd-fd952890ad02" name="Changes" comment="Finishing Task 43,44,45,46 - Homework">
+    <list default="true" id="b5cae573-740b-48a8-a2dd-fd952890ad02" name="Changes" comment="Finishing Task 47">
       <change afterPath="$PROJECT_DIR$/24_09_06-Homework12/credentials.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/24_09_16-Task47/main-Task47.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/24_09_18-Task48/main-Task48.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/24_09_06-Homework12/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/24_09_06-Homework12/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,63 +52,64 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Python.admin_data.executor&quot;: &quot;Run&quot;,
-    &quot;Python.img.executor&quot;: &quot;Run&quot;,
-    &quot;Python.level.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main-12.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main-13.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main-14.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main-15.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main-16.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main-Task10.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main-Task17.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main-Task18.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main-Task19.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main-Task20.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main-Task21.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main-Task22.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main-Task23.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main-Task24.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main-Task25.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main-Task26.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main-Task27.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main-Task28.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main-Task29.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main-Task30.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main-Task31.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main-Task32.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main-Task33.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main-Task34.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main-Task35.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main-Task37.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main-Task38.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main-Task40.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main-Task41.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main-Task42.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main-Task43.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main-Task44.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main-Task45.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main-Task46.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main-Task8.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main-Task9.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.manage.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module.executor&quot;: &quot;Run&quot;,
-    &quot;Python.physics.executor&quot;: &quot;Run&quot;,
-    &quot;Python.script.executor&quot;: &quot;Run&quot;,
-    &quot;Python.student_data.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test.executor&quot;: &quot;Run&quot;,
-    &quot;Python.tool.executor&quot;: &quot;Run&quot;,
-    &quot;Python.urls.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/reeyanafzal/Desktop/NAVTTC_PCAP&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Python.admin_data.executor": "Run",
+    "Python.img.executor": "Run",
+    "Python.level.executor": "Run",
+    "Python.main-12.executor": "Run",
+    "Python.main-13.executor": "Run",
+    "Python.main-14.executor": "Run",
+    "Python.main-15.executor": "Run",
+    "Python.main-16.executor": "Run",
+    "Python.main-Task10.executor": "Run",
+    "Python.main-Task17.executor": "Run",
+    "Python.main-Task18.executor": "Run",
+    "Python.main-Task19.executor": "Run",
+    "Python.main-Task20.executor": "Run",
+    "Python.main-Task21.executor": "Run",
+    "Python.main-Task22.executor": "Run",
+    "Python.main-Task23.executor": "Run",
+    "Python.main-Task24.executor": "Run",
+    "Python.main-Task25.executor": "Run",
+    "Python.main-Task26.executor": "Run",
+    "Python.main-Task27.executor": "Run",
+    "Python.main-Task28.executor": "Run",
+    "Python.main-Task29.executor": "Run",
+    "Python.main-Task30.executor": "Run",
+    "Python.main-Task31.executor": "Run",
+    "Python.main-Task32.executor": "Run",
+    "Python.main-Task33.executor": "Run",
+    "Python.main-Task34.executor": "Run",
+    "Python.main-Task35.executor": "Run",
+    "Python.main-Task37.executor": "Run",
+    "Python.main-Task38.executor": "Run",
+    "Python.main-Task40.executor": "Run",
+    "Python.main-Task41.executor": "Run",
+    "Python.main-Task42.executor": "Run",
+    "Python.main-Task43.executor": "Run",
+    "Python.main-Task44.executor": "Run",
+    "Python.main-Task45.executor": "Run",
+    "Python.main-Task46.executor": "Run",
+    "Python.main-Task48.executor": "Run",
+    "Python.main-Task8.executor": "Run",
+    "Python.main-Task9.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.manage.executor": "Run",
+    "Python.module.executor": "Run",
+    "Python.physics.executor": "Run",
+    "Python.script.executor": "Run",
+    "Python.student_data.executor": "Run",
+    "Python.test.executor": "Run",
+    "Python.tool.executor": "Run",
+    "Python.urls.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/reeyanafzal/Desktop/NAVTTC_PCAP",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -168,14 +170,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1721737255783</updated>
-    </task>
-    <task id="LOCAL-00105" summary="Homework 7 - Tic Tac Toe">
-      <option name="closed" value="true" />
-      <created>1723535965217</created>
-      <option name="number" value="00105" />
-      <option name="presentableId" value="LOCAL-00105" />
-      <option name="project" value="LOCAL" />
-      <updated>1723535965217</updated>
     </task>
     <task id="LOCAL-00106" summary="Homework 7 - Tic Tac Toe">
       <option name="closed" value="true" />
@@ -561,7 +555,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726133756708</updated>
     </task>
-    <option name="localTasksCounter" value="154" />
+    <task id="LOCAL-00154" summary="Finishing Task 47">
+      <option name="closed" value="true" />
+      <created>1726488924461</created>
+      <option name="number" value="00154" />
+      <option name="presentableId" value="LOCAL-00154" />
+      <option name="project" value="LOCAL" />
+      <updated>1726488924462</updated>
+    </task>
+    <option name="localTasksCounter" value="155" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -577,7 +579,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Finishing Task 23" />
     <MESSAGE value="Tic Tac Toe - Improving" />
     <MESSAGE value="Finishing Task 23,24,25" />
     <MESSAGE value="Fixing README.md" />
@@ -602,6 +603,7 @@
     <MESSAGE value="Adding Homework 12 - Data Entry App - Google Sheets" />
     <MESSAGE value="Finishing Task 42 - Stack" />
     <MESSAGE value="Finishing Task 43,44,45,46 - Homework" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finishing Task 43,44,45,46 - Homework" />
+    <MESSAGE value="Finishing Task 47" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finishing Task 47" />
   </component>
 </project>

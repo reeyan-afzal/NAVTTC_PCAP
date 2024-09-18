@@ -122,7 +122,6 @@ class DataEntryApp(QWidget):
         layout.addRow(QLabel('Photo:'), self.photo_path)
         layout.addRow(self.browse_button)
 
-
         # First Name
         self.first_name_entry = QLineEdit()
         self.first_name_entry.setMinimumWidth(300)

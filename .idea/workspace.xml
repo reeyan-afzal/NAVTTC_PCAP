@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5cae573-740b-48a8-a2dd-fd952890ad02" name="Changes" comment="Finishing Task 48 - Counting Stack">
+    <list default="true" id="b5cae573-740b-48a8-a2dd-fd952890ad02" name="Changes" comment="Finishing Task 48,49">
       <change afterPath="$PROJECT_DIR$/24_09_06-Homework12/credentials.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/24_09_18-Task48,49/main-Task49.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/24_09_19-Task50,51/main-Task50.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/24_09_19-Task50,51/main-Task51.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/24_09_18-Task48/main-Task48.py" beforeDir="false" afterPath="$PROJECT_DIR$/24_09_18-Task48,49/main-Task48.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -96,6 +96,8 @@
     "Python.main-Task46.executor": "Run",
     "Python.main-Task48.executor": "Run",
     "Python.main-Task49.executor": "Run",
+    "Python.main-Task50.executor": "Run",
+    "Python.main-Task51.executor": "Run",
     "Python.main-Task8.executor": "Run",
     "Python.main-Task9.executor": "Run",
     "Python.main.executor": "Run",
@@ -173,14 +175,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1721737255783</updated>
-    </task>
-    <task id="LOCAL-00107" summary="Homework 7 - Tic Tac Toe">
-      <option name="closed" value="true" />
-      <created>1723540155484</created>
-      <option name="number" value="00107" />
-      <option name="presentableId" value="LOCAL-00107" />
-      <option name="project" value="LOCAL" />
-      <updated>1723540155484</updated>
     </task>
     <task id="LOCAL-00108" summary="Homework 7 - Tic Tac Toe">
       <option name="closed" value="true" />
@@ -566,7 +560,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726652098775</updated>
     </task>
-    <option name="localTasksCounter" value="156" />
+    <task id="LOCAL-00156" summary="Finishing Task 48,49">
+      <option name="closed" value="true" />
+      <created>1726656193463</created>
+      <option name="number" value="00156" />
+      <option name="presentableId" value="LOCAL-00156" />
+      <option name="project" value="LOCAL" />
+      <updated>1726656193463</updated>
+    </task>
+    <option name="localTasksCounter" value="157" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -582,7 +584,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Finishing Task 23,24,25" />
     <MESSAGE value="Fixing README.md" />
     <MESSAGE value="Adding Task 26 and 27" />
     <MESSAGE value="Finishing Django Fundamentals" />
@@ -607,6 +608,7 @@
     <MESSAGE value="Finishing Task 43,44,45,46 - Homework" />
     <MESSAGE value="Finishing Task 47" />
     <MESSAGE value="Finishing Task 48 - Counting Stack" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finishing Task 48 - Counting Stack" />
+    <MESSAGE value="Finishing Task 48,49" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finishing Task 48,49" />
   </component>
 </project>

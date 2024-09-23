@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5cae573-740b-48a8-a2dd-fd952890ad02" name="Changes" comment="Finishing Task 52, 53, 54">
+    <list default="true" id="b5cae573-740b-48a8-a2dd-fd952890ad02" name="Changes" comment="Finishing Task 52, 53, 54, 55">
       <change afterPath="$PROJECT_DIR$/24_09_06-Homework12/credentials.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/24_09_20-Task52,53,54/main-Task55.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/24_09_23-Task56,57,58/main-Task56.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/24_09_23-Task56,57,58/main-Task57.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/24_09_23-Task56,57,58/main-Task58.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -86,7 +88,7 @@
     "Python.main-Task35.executor": "Run",
     "Python.main-Task37.executor": "Run",
     "Python.main-Task38.executor": "Run",
-    "Python.main-Task40.executor": "Run",
+    "Python.main-Task40.executor": "Debug",
     "Python.main-Task41.executor": "Run",
     "Python.main-Task42.executor": "Run",
     "Python.main-Task43.executor": "Run",
@@ -101,6 +103,9 @@
     "Python.main-Task53.executor": "Run",
     "Python.main-Task54.executor": "Run",
     "Python.main-Task55.executor": "Run",
+    "Python.main-Task56.executor": "Run",
+    "Python.main-Task57.executor": "Run",
+    "Python.main-Task58.executor": "Run",
     "Python.main-Task8.executor": "Run",
     "Python.main-Task9.executor": "Run",
     "Python.main.executor": "Run",
@@ -178,22 +183,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1721737255783</updated>
-    </task>
-    <task id="LOCAL-00110" summary="Updating README.md">
-      <option name="closed" value="true" />
-      <created>1723542613366</created>
-      <option name="number" value="00110" />
-      <option name="presentableId" value="LOCAL-00110" />
-      <option name="project" value="LOCAL" />
-      <updated>1723542613366</updated>
-    </task>
-    <task id="LOCAL-00111" summary="Updating README.md">
-      <option name="closed" value="true" />
-      <created>1723542760625</created>
-      <option name="number" value="00111" />
-      <option name="presentableId" value="LOCAL-00111" />
-      <option name="project" value="LOCAL" />
-      <updated>1723542760625</updated>
     </task>
     <task id="LOCAL-00112" summary="Finishing Task 23">
       <option name="closed" value="true" />
@@ -571,7 +560,23 @@
       <option name="project" value="LOCAL" />
       <updated>1726832618306</updated>
     </task>
-    <option name="localTasksCounter" value="159" />
+    <task id="LOCAL-00159" summary="Finishing Task 52, 53, 54, 55">
+      <option name="closed" value="true" />
+      <created>1726835369014</created>
+      <option name="number" value="00159" />
+      <option name="presentableId" value="LOCAL-00159" />
+      <option name="project" value="LOCAL" />
+      <updated>1726835369015</updated>
+    </task>
+    <task id="LOCAL-00160" summary="Finishing Task 52, 53, 54, 55">
+      <option name="closed" value="true" />
+      <created>1726835412182</created>
+      <option name="number" value="00160" />
+      <option name="presentableId" value="LOCAL-00160" />
+      <option name="project" value="LOCAL" />
+      <updated>1726835412182</updated>
+    </task>
+    <option name="localTasksCounter" value="161" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -587,7 +592,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Finishing Django Fundamentals" />
     <MESSAGE value="Finishing Task 26 and 27" />
     <MESSAGE value="Updating Stuff" />
     <MESSAGE value="Task 28" />
@@ -612,6 +616,7 @@
     <MESSAGE value="Finishing Task 48,49" />
     <MESSAGE value="Finishing Task 50, 51" />
     <MESSAGE value="Finishing Task 52, 53, 54" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finishing Task 52, 53, 54" />
+    <MESSAGE value="Finishing Task 52, 53, 54, 55" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finishing Task 52, 53, 54, 55" />
   </component>
 </project>

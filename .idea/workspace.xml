@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5cae573-740b-48a8-a2dd-fd952890ad02" name="Changes" comment="Finishing Task 52, 53, 54, 55">
+    <list default="true" id="b5cae573-740b-48a8-a2dd-fd952890ad02" name="Changes" comment="Finishing Task 56, 57, 58">
       <change afterPath="$PROJECT_DIR$/24_09_06-Homework12/credentials.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/24_09_23-Task56,57,58/main-Task56.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/24_09_23-Task56,57,58/main-Task57.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/24_09_23-Task56,57,58/main-Task58.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/24_09_24-Task59,60,61,62/main-Task59.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/24_09_24-Task59,60,61,62/main-Task60.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/24_09_24-Task59,60,61,62/main-Task61.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/24_09_24-Task59,60,61,62/main-Task62.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -66,6 +67,7 @@
     "Python.main-14.executor": "Run",
     "Python.main-15.executor": "Run",
     "Python.main-16.executor": "Run",
+    "Python.main-61.executor": "Run",
     "Python.main-Task10.executor": "Run",
     "Python.main-Task17.executor": "Run",
     "Python.main-Task18.executor": "Run",
@@ -106,6 +108,9 @@
     "Python.main-Task56.executor": "Run",
     "Python.main-Task57.executor": "Run",
     "Python.main-Task58.executor": "Run",
+    "Python.main-Task59.executor": "Run",
+    "Python.main-Task60.executor": "Run",
+    "Python.main-Task62.executor": "Run",
     "Python.main-Task8.executor": "Run",
     "Python.main-Task9.executor": "Run",
     "Python.main.executor": "Run",
@@ -183,14 +188,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1721737255783</updated>
-    </task>
-    <task id="LOCAL-00112" summary="Finishing Task 23">
-      <option name="closed" value="true" />
-      <created>1723549814999</created>
-      <option name="number" value="00112" />
-      <option name="presentableId" value="LOCAL-00112" />
-      <option name="project" value="LOCAL" />
-      <updated>1723549814999</updated>
     </task>
     <task id="LOCAL-00113" summary="Finishing Task 23">
       <option name="closed" value="true" />
@@ -576,7 +573,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726835412182</updated>
     </task>
-    <option name="localTasksCounter" value="161" />
+    <task id="LOCAL-00161" summary="Finishing Task 56, 57, 58">
+      <option name="closed" value="true" />
+      <created>1727093199207</created>
+      <option name="number" value="00161" />
+      <option name="presentableId" value="LOCAL-00161" />
+      <option name="project" value="LOCAL" />
+      <updated>1727093199208</updated>
+    </task>
+    <option name="localTasksCounter" value="162" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -592,7 +597,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Finishing Task 26 and 27" />
     <MESSAGE value="Updating Stuff" />
     <MESSAGE value="Task 28" />
     <MESSAGE value="Finishing - Task 28" />
@@ -617,6 +621,7 @@
     <MESSAGE value="Finishing Task 50, 51" />
     <MESSAGE value="Finishing Task 52, 53, 54" />
     <MESSAGE value="Finishing Task 52, 53, 54, 55" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finishing Task 52, 53, 54, 55" />
+    <MESSAGE value="Finishing Task 56, 57, 58" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finishing Task 56, 57, 58" />
   </component>
 </project>

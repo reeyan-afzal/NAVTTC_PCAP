@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5cae573-740b-48a8-a2dd-fd952890ad02" name="Changes" comment="Finishing Task 56, 57, 58">
+    <list default="true" id="b5cae573-740b-48a8-a2dd-fd952890ad02" name="Changes" comment="Finishing Task 59, 60, 61, 62">
       <change afterPath="$PROJECT_DIR$/24_09_06-Homework12/credentials.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/24_09_24-Task59,60,61,62/main-Task59.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/24_09_24-Task59,60,61,62/main-Task60.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/24_09_24-Task59,60,61,62/main-Task61.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/24_09_24-Task59,60,61,62/main-Task62.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/24_09_25-Task63/file.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/24_09_25-Task63/main-Task63.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/24_09_25-Task63/main-Task64.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -110,7 +109,11 @@
     "Python.main-Task58.executor": "Run",
     "Python.main-Task59.executor": "Run",
     "Python.main-Task60.executor": "Run",
+    "Python.main-Task61.executor": "Run",
     "Python.main-Task62.executor": "Run",
+    "Python.main-Task63.executor": "Run",
+    "Python.main-Task64.executor": "Run",
+    "Python.main-Task65.executor": "Run",
     "Python.main-Task8.executor": "Run",
     "Python.main-Task9.executor": "Run",
     "Python.main.executor": "Run",
@@ -137,41 +140,12 @@
       <recent name="$PROJECT_DIR$/24_07_25-Homework2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/24_09_25-Task63" />
       <recent name="$PROJECT_DIR$/snippits" />
       <recent name="$PROJECT_DIR$/24_09_06-Homework12" />
       <recent name="$PROJECT_DIR$/24_09_06-Task42" />
       <recent name="$PROJECT_DIR$/24_08_23-Homework9/Main_Directory" />
-      <recent name="$PROJECT_DIR$/24_08_23-Homework9/Base_Directory" />
     </key>
-  </component>
-  <component name="RunManager">
-    <configuration name="main-Task40" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="NAVTTC_PCAP" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/24_08_22-Task29" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/24_08_29-Task34,35,36,37,38,39,40/main-Task40.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Python.main-Task40" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -188,14 +162,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1721737255783</updated>
-    </task>
-    <task id="LOCAL-00113" summary="Finishing Task 23">
-      <option name="closed" value="true" />
-      <created>1723549848038</created>
-      <option name="number" value="00113" />
-      <option name="presentableId" value="LOCAL-00113" />
-      <option name="project" value="LOCAL" />
-      <updated>1723549848038</updated>
     </task>
     <task id="LOCAL-00114" summary="Finishing Task 23">
       <option name="closed" value="true" />
@@ -581,7 +547,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727093199208</updated>
     </task>
-    <option name="localTasksCounter" value="162" />
+    <task id="LOCAL-00162" summary="Finishing Task 59, 60, 61, 62">
+      <option name="closed" value="true" />
+      <created>1727173096817</created>
+      <option name="number" value="00162" />
+      <option name="presentableId" value="LOCAL-00162" />
+      <option name="project" value="LOCAL" />
+      <updated>1727173096818</updated>
+    </task>
+    <option name="localTasksCounter" value="163" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -597,7 +571,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Updating Stuff" />
     <MESSAGE value="Task 28" />
     <MESSAGE value="Finishing - Task 28" />
     <MESSAGE value="Finishing - Task 29" />
@@ -622,6 +595,7 @@
     <MESSAGE value="Finishing Task 52, 53, 54" />
     <MESSAGE value="Finishing Task 52, 53, 54, 55" />
     <MESSAGE value="Finishing Task 56, 57, 58" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finishing Task 56, 57, 58" />
+    <MESSAGE value="Finishing Task 59, 60, 61, 62" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finishing Task 59, 60, 61, 62" />
   </component>
 </project>

@@ -6,7 +6,15 @@
   <component name="ChangeListManager">
     <list default="true" id="b5cae573-740b-48a8-a2dd-fd952890ad02" name="Changes" comment="Finishing Task 63, 64">
       <change afterPath="$PROJECT_DIR$/24_09_06-Homework12/credentials.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/24_09_26-Task65,66,67,68,69/Prof.Jekylls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/24_09_26-Task65,66,67,68,69/main-Task65.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/24_09_26-Task65,66,67,68,69/main-Task66.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/24_09_26-Task65,66,67,68,69/main-Task67.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/24_09_26-Task65,66,67,68,69/main-Task68.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/24_09_26-Task65,66,67,68,69/main-Task69.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/24_09_26-Task65,66,67,68,69/text.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/24_09_25-Task63,64/main-Task64.py" beforeDir="false" afterPath="$PROJECT_DIR$/24_09_25-Task63,64/main-Task64.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -111,6 +119,10 @@
     "Python.main-Task63.executor": "Run",
     "Python.main-Task64.executor": "Run",
     "Python.main-Task65.executor": "Run",
+    "Python.main-Task66.executor": "Run",
+    "Python.main-Task67.executor": "Run",
+    "Python.main-Task68.executor": "Run",
+    "Python.main-Task69.executor": "Run",
     "Python.main-Task8.executor": "Run",
     "Python.main-Task9.executor": "Run",
     "Python.main.executor": "Run",
@@ -124,17 +136,17 @@
     "Python.urls.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/reeyanafzal/Desktop/NAVTTC_PCAP",
+    "last_opened_file_path": "/Users/reeyanafzal/Desktop/NAVTTC_PCAP/24_09_26-Task65",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/24_09_26-Task65" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/24_08_17-Homework8,9/django_fundamentals/website/static/website" />
       <recent name="$PROJECT_DIR$/24_08_10-Homework6/resources/graphics" />
       <recent name="$PROJECT_DIR$/24_08_10-Homework6" />
-      <recent name="$PROJECT_DIR$/24_07_25-Homework2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/24_09_25-Task63" />
@@ -159,14 +171,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1721737255783</updated>
-    </task>
-    <task id="LOCAL-00117" summary="Fixing README.md">
-      <option name="closed" value="true" />
-      <created>1723560289060</created>
-      <option name="number" value="00117" />
-      <option name="presentableId" value="LOCAL-00117" />
-      <option name="project" value="LOCAL" />
-      <updated>1723560289060</updated>
     </task>
     <task id="LOCAL-00118" summary="Adding Task 26 and 27">
       <option name="closed" value="true" />
@@ -552,7 +556,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727266777616</updated>
     </task>
-    <option name="localTasksCounter" value="166" />
+    <task id="LOCAL-00166" summary="Finishing Task 63, 64">
+      <option name="closed" value="true" />
+      <created>1727266819630</created>
+      <option name="number" value="00166" />
+      <option name="presentableId" value="LOCAL-00166" />
+      <option name="project" value="LOCAL" />
+      <updated>1727266819630</updated>
+    </task>
+    <option name="localTasksCounter" value="167" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

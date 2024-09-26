@@ -15,16 +15,15 @@ try:
                 print(ch, end='')
                 ccnt += 1
                 if ch == ' ' or ch == '\n':
-                    if in_word:  # If we were in a word, it's the end of a word
+                    if in_word:
                         wcnt += 1
                         in_word = False
                 else:
-                    in_word = True  # We're inside a word now
+                    in_word = True
 
-            # Handle the case where a word ends at the end of the line
             if in_word:
                 wcnt += 1
-                in_word = False  # Reset the flag after counting the word
+                in_word = False
 
         lines = s.readlines(10)
     s.close()

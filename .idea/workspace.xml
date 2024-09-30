@@ -4,17 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5cae573-740b-48a8-a2dd-fd952890ad02" name="Changes" comment="Finishing Task 63, 64">
+    <list default="true" id="b5cae573-740b-48a8-a2dd-fd952890ad02" name="Changes" comment="Finishing Task 64 to 69">
       <change afterPath="$PROJECT_DIR$/24_09_06-Homework12/credentials.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/24_09_26-Task65,66,67,68,69/Prof.Jekylls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/24_09_26-Task65,66,67,68,69/main-Task65.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/24_09_26-Task65,66,67,68,69/main-Task66.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/24_09_26-Task65,66,67,68,69/main-Task67.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/24_09_26-Task65,66,67,68,69/main-Task68.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/24_09_26-Task65,66,67,68,69/main-Task69.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/24_09_26-Task65,66,67,68,69/text.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/24_09_30-Task70,71,72/main-Task70.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/24_09_30-Task70,71,72/main-Task71.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/24_09_30-Task70,71,72/main-Task72.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/24_09_25-Task63,64/main-Task64.py" beforeDir="false" afterPath="$PROJECT_DIR$/24_09_25-Task63,64/main-Task64.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -123,6 +118,8 @@
     "Python.main-Task67.executor": "Run",
     "Python.main-Task68.executor": "Run",
     "Python.main-Task69.executor": "Run",
+    "Python.main-Task70.executor": "Run",
+    "Python.main-Task71.executor": "Run",
     "Python.main-Task8.executor": "Run",
     "Python.main-Task9.executor": "Run",
     "Python.main.executor": "Run",
@@ -171,14 +168,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1721737255783</updated>
-    </task>
-    <task id="LOCAL-00118" summary="Adding Task 26 and 27">
-      <option name="closed" value="true" />
-      <created>1723820990357</created>
-      <option name="number" value="00118" />
-      <option name="presentableId" value="LOCAL-00118" />
-      <option name="project" value="LOCAL" />
-      <updated>1723820990358</updated>
     </task>
     <task id="LOCAL-00119" summary="Updating README.md">
       <option name="closed" value="true" />
@@ -564,7 +553,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727266819630</updated>
     </task>
-    <option name="localTasksCounter" value="167" />
+    <task id="LOCAL-00167" summary="Finishing Task 64 to 69">
+      <option name="closed" value="true" />
+      <created>1727349618938</created>
+      <option name="number" value="00167" />
+      <option name="presentableId" value="LOCAL-00167" />
+      <option name="project" value="LOCAL" />
+      <updated>1727349618938</updated>
+    </task>
+    <option name="localTasksCounter" value="168" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -580,7 +577,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Finishing - Task 28" />
     <MESSAGE value="Finishing - Task 29" />
     <MESSAGE value="Finishing Homework 9 - Library Management System" />
     <MESSAGE value="Finishing Task 30 - String Manipulation" />
@@ -605,6 +601,7 @@
     <MESSAGE value="Finishing Task 56, 57, 58" />
     <MESSAGE value="Finishing Task 59, 60, 61, 62" />
     <MESSAGE value="Finishing Task 63, 64" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finishing Task 63, 64" />
+    <MESSAGE value="Finishing Task 64 to 69" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finishing Task 64 to 69" />
   </component>
 </project>

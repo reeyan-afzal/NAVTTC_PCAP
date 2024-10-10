@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5cae573-740b-48a8-a2dd-fd952890ad02" name="Changes" comment="Finishing Task 70, 71, 72">
+    <list default="true" id="b5cae573-740b-48a8-a2dd-fd952890ad02" name="Changes" comment="Finishing Task 73, 74, and 75">
       <change afterPath="$PROJECT_DIR$/24_09_06-Homework12/credentials.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/24_10_01-Task73,74,75/main-Task73.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/24_10_01-Task73,74,75/main-Task74.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/24_10_01-Task73,74,75/main-Task75.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/24_10_10-Quiz-Module-2/main-Quiz1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/24_10_10-Quiz-Module-2/main-Quiz2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/24_10_10-Quiz-Module-2/main-Quiz3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/24_10_10-Quiz-Module-2/main-Quiz4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/24_10_10-Quiz-Module-2/main-Quiz5.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -67,6 +69,11 @@
     "Python.main-15.executor": "Run",
     "Python.main-16.executor": "Run",
     "Python.main-61.executor": "Run",
+    "Python.main-Quiz1.executor": "Run",
+    "Python.main-Quiz2.executor": "Run",
+    "Python.main-Quiz3.executor": "Run",
+    "Python.main-Quiz4.executor": "Run",
+    "Python.main-Quiz5.executor": "Run",
     "Python.main-Task10.executor": "Run",
     "Python.main-Task17.executor": "Run",
     "Python.main-Task18.executor": "Run",
@@ -172,14 +179,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1721737255783</updated>
-    </task>
-    <task id="LOCAL-00120" summary="Finishing Django Fundamentals">
-      <option name="closed" value="true" />
-      <created>1723964141040</created>
-      <option name="number" value="00120" />
-      <option name="presentableId" value="LOCAL-00120" />
-      <option name="project" value="LOCAL" />
-      <updated>1723964141040</updated>
     </task>
     <task id="LOCAL-00121" summary="Finishing Task 26 and 27">
       <option name="closed" value="true" />
@@ -565,7 +564,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727698205909</updated>
     </task>
-    <option name="localTasksCounter" value="169" />
+    <task id="LOCAL-00169" summary="Finishing Task 73, 74, and 75">
+      <option name="closed" value="true" />
+      <created>1727781643164</created>
+      <option name="number" value="00169" />
+      <option name="presentableId" value="LOCAL-00169" />
+      <option name="project" value="LOCAL" />
+      <updated>1727781643164</updated>
+    </task>
+    <option name="localTasksCounter" value="170" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -581,7 +588,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Finishing Homework 9 - Library Management System" />
     <MESSAGE value="Finishing Task 30 - String Manipulation" />
     <MESSAGE value="Finishing Task 31 - Password Checker" />
     <MESSAGE value="Finishing Task 32 - String Manipulation-3" />
@@ -606,6 +612,7 @@
     <MESSAGE value="Finishing Task 63, 64" />
     <MESSAGE value="Finishing Task 64 to 69" />
     <MESSAGE value="Finishing Task 70, 71, 72" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finishing Task 70, 71, 72" />
+    <MESSAGE value="Finishing Task 73, 74, and 75" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finishing Task 73, 74, and 75" />
   </component>
 </project>

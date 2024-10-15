@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5cae573-740b-48a8-a2dd-fd952890ad02" name="Changes" comment="Finishing Task 73, 74, and 75">
+    <list default="true" id="b5cae573-740b-48a8-a2dd-fd952890ad02" name="Changes" comment="Finishing Quiz of Module 2">
       <change afterPath="$PROJECT_DIR$/24_09_06-Homework12/credentials.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/24_10_10-Quiz-Module-2/main-Quiz1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/24_10_10-Quiz-Module-2/main-Quiz2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/24_10_10-Quiz-Module-2/main-Quiz3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/24_10_10-Quiz-Module-2/main-Quiz4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/24_10_10-Quiz-Module-2/main-Quiz5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/24_10_11-Quiz-Module-3/main-Quiz1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/24_10_11-Quiz-Module-3/main-Quiz2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/24_10_11-Quiz-Module-3/main-Quiz3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/24_10_11-Quiz-Module-3/main-Quiz4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/24_10_11-Quiz-Module-3/main-Quiz5.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -144,17 +144,17 @@
     "Python.urls.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/reeyanafzal/Desktop/NAVTTC_PCAP/24_09_26-Task65",
+    "last_opened_file_path": "/Users/reeyanafzal/Desktop/NAVTTC_PCAP/24_10_11-Quiz-Module-3",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/24_10_11-Quiz-Module-3" />
       <recent name="$PROJECT_DIR$/24_09_26-Task65" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/24_08_17-Homework8,9/django_fundamentals/website/static/website" />
       <recent name="$PROJECT_DIR$/24_08_10-Homework6/resources/graphics" />
-      <recent name="$PROJECT_DIR$/24_08_10-Homework6" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/24_09_25-Task63" />
@@ -179,14 +179,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1721737255783</updated>
-    </task>
-    <task id="LOCAL-00121" summary="Finishing Task 26 and 27">
-      <option name="closed" value="true" />
-      <created>1723988907039</created>
-      <option name="number" value="00121" />
-      <option name="presentableId" value="LOCAL-00121" />
-      <option name="project" value="LOCAL" />
-      <updated>1723988907040</updated>
     </task>
     <task id="LOCAL-00122" summary="Finishing Task 26 and 27">
       <option name="closed" value="true" />
@@ -572,7 +564,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727781643164</updated>
     </task>
-    <option name="localTasksCounter" value="170" />
+    <task id="LOCAL-00170" summary="Finishing Quiz of Module 2">
+      <option name="closed" value="true" />
+      <created>1728559079166</created>
+      <option name="number" value="00170" />
+      <option name="presentableId" value="LOCAL-00170" />
+      <option name="project" value="LOCAL" />
+      <updated>1728559079167</updated>
+    </task>
+    <option name="localTasksCounter" value="171" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -588,7 +588,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Finishing Task 30 - String Manipulation" />
     <MESSAGE value="Finishing Task 31 - Password Checker" />
     <MESSAGE value="Finishing Task 32 - String Manipulation-3" />
     <MESSAGE value="Finishing Task 33 - String Manipulation-3b" />
@@ -613,6 +612,7 @@
     <MESSAGE value="Finishing Task 64 to 69" />
     <MESSAGE value="Finishing Task 70, 71, 72" />
     <MESSAGE value="Finishing Task 73, 74, and 75" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finishing Task 73, 74, and 75" />
+    <MESSAGE value="Finishing Quiz of Module 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finishing Quiz of Module 2" />
   </component>
 </project>

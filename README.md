@@ -2,7 +2,7 @@
 
 #### Author - Reeyan Afzal
 
-I was also following **[UDEMY-PYTHON-DEEP-DIVE](https://github.com/reeyan-afzal/UDEMY_PYTHON_DEEP_DIVE)** course alongside this training program. You may check my Python notes if you're interested in learning Python.
+I was also following **[UDEMY-PYTHON-DEEP-DIVE](https://github.com/reeyan-afzal/UDEMY_PYTHON_DEEP_DIVE)** course alongside this training program. You may check my Python notes if you're interested in learning Python. Furthermore, for the Data Structures and Algorithms in Python I followed **[UDEMY-PYTHON-DSA](https://github.com/reeyan-afzal/UDEMY_PYTHON_DSA)** course as well.
 
 ___
 

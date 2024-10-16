@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5cae573-740b-48a8-a2dd-fd952890ad02" name="Changes" comment="Finishing Quiz of Module 2">
+    <list default="true" id="b5cae573-740b-48a8-a2dd-fd952890ad02" name="Changes" comment="Updating the README.md">
       <change afterPath="$PROJECT_DIR$/24_09_06-Homework12/credentials.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/24_10_11-Quiz-Module-3/main-Quiz1.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/24_10_11-Quiz-Module-3/main-Quiz2.py" afterDir="false" />
@@ -56,98 +56,98 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "Python.admin_data.executor": "Run",
-    "Python.img.executor": "Run",
-    "Python.level.executor": "Run",
-    "Python.main-12.executor": "Run",
-    "Python.main-13.executor": "Run",
-    "Python.main-14.executor": "Run",
-    "Python.main-15.executor": "Run",
-    "Python.main-16.executor": "Run",
-    "Python.main-61.executor": "Run",
-    "Python.main-Quiz1.executor": "Run",
-    "Python.main-Quiz2.executor": "Run",
-    "Python.main-Quiz3.executor": "Run",
-    "Python.main-Quiz4.executor": "Run",
-    "Python.main-Quiz5.executor": "Run",
-    "Python.main-Task10.executor": "Run",
-    "Python.main-Task17.executor": "Run",
-    "Python.main-Task18.executor": "Run",
-    "Python.main-Task19.executor": "Run",
-    "Python.main-Task20.executor": "Run",
-    "Python.main-Task21.executor": "Run",
-    "Python.main-Task22.executor": "Run",
-    "Python.main-Task23.executor": "Run",
-    "Python.main-Task24.executor": "Run",
-    "Python.main-Task25.executor": "Run",
-    "Python.main-Task26.executor": "Run",
-    "Python.main-Task27.executor": "Run",
-    "Python.main-Task28.executor": "Run",
-    "Python.main-Task29.executor": "Run",
-    "Python.main-Task30.executor": "Run",
-    "Python.main-Task31.executor": "Run",
-    "Python.main-Task32.executor": "Run",
-    "Python.main-Task33.executor": "Run",
-    "Python.main-Task34.executor": "Run",
-    "Python.main-Task35.executor": "Run",
-    "Python.main-Task37.executor": "Run",
-    "Python.main-Task38.executor": "Run",
-    "Python.main-Task40.executor": "Debug",
-    "Python.main-Task41.executor": "Run",
-    "Python.main-Task42.executor": "Run",
-    "Python.main-Task43.executor": "Run",
-    "Python.main-Task44.executor": "Run",
-    "Python.main-Task45.executor": "Run",
-    "Python.main-Task46.executor": "Run",
-    "Python.main-Task48.executor": "Run",
-    "Python.main-Task49.executor": "Run",
-    "Python.main-Task50.executor": "Run",
-    "Python.main-Task51.executor": "Run",
-    "Python.main-Task52.executor": "Run",
-    "Python.main-Task53.executor": "Run",
-    "Python.main-Task54.executor": "Run",
-    "Python.main-Task55.executor": "Run",
-    "Python.main-Task56.executor": "Run",
-    "Python.main-Task57.executor": "Run",
-    "Python.main-Task58.executor": "Run",
-    "Python.main-Task59.executor": "Run",
-    "Python.main-Task60.executor": "Run",
-    "Python.main-Task61.executor": "Run",
-    "Python.main-Task62.executor": "Run",
-    "Python.main-Task63.executor": "Run",
-    "Python.main-Task64.executor": "Run",
-    "Python.main-Task65.executor": "Run",
-    "Python.main-Task66.executor": "Run",
-    "Python.main-Task67.executor": "Run",
-    "Python.main-Task68.executor": "Run",
-    "Python.main-Task69.executor": "Run",
-    "Python.main-Task70.executor": "Run",
-    "Python.main-Task71.executor": "Run",
-    "Python.main-Task72.executor": "Run",
-    "Python.main-Task73.executor": "Run",
-    "Python.main-Task74.executor": "Run",
-    "Python.main-Task75.executor": "Run",
-    "Python.main-Task8.executor": "Run",
-    "Python.main-Task9.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.manage.executor": "Run",
-    "Python.module.executor": "Run",
-    "Python.physics.executor": "Run",
-    "Python.script.executor": "Run",
-    "Python.student_data.executor": "Run",
-    "Python.test.executor": "Run",
-    "Python.tool.executor": "Run",
-    "Python.urls.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/reeyanafzal/Desktop/NAVTTC_PCAP/24_10_11-Quiz-Module-3",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Python.admin_data.executor&quot;: &quot;Run&quot;,
+    &quot;Python.img.executor&quot;: &quot;Run&quot;,
+    &quot;Python.level.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main-12.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main-13.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main-14.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main-15.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main-16.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main-61.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main-Quiz1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main-Quiz2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main-Quiz3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main-Quiz4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main-Quiz5.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main-Task10.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main-Task17.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main-Task18.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main-Task19.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main-Task20.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main-Task21.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main-Task22.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main-Task23.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main-Task24.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main-Task25.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main-Task26.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main-Task27.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main-Task28.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main-Task29.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main-Task30.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main-Task31.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main-Task32.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main-Task33.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main-Task34.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main-Task35.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main-Task37.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main-Task38.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main-Task40.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.main-Task41.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main-Task42.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main-Task43.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main-Task44.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main-Task45.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main-Task46.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main-Task48.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main-Task49.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main-Task50.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main-Task51.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main-Task52.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main-Task53.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main-Task54.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main-Task55.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main-Task56.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main-Task57.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main-Task58.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main-Task59.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main-Task60.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main-Task61.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main-Task62.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main-Task63.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main-Task64.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main-Task65.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main-Task66.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main-Task67.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main-Task68.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main-Task69.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main-Task70.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main-Task71.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main-Task72.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main-Task73.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main-Task74.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main-Task75.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main-Task8.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main-Task9.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.manage.executor&quot;: &quot;Run&quot;,
+    &quot;Python.module.executor&quot;: &quot;Run&quot;,
+    &quot;Python.physics.executor&quot;: &quot;Run&quot;,
+    &quot;Python.script.executor&quot;: &quot;Run&quot;,
+    &quot;Python.student_data.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tool.executor&quot;: &quot;Run&quot;,
+    &quot;Python.urls.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/reeyanafzal/Desktop/NAVTTC_PCAP/24_10_11-Quiz-Module-3&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/24_10_11-Quiz-Module-3" />
@@ -179,14 +179,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1721737255783</updated>
-    </task>
-    <task id="LOCAL-00122" summary="Finishing Task 26 and 27">
-      <option name="closed" value="true" />
-      <created>1723988919754</created>
-      <option name="number" value="00122" />
-      <option name="presentableId" value="LOCAL-00122" />
-      <option name="project" value="LOCAL" />
-      <updated>1723988919754</updated>
     </task>
     <task id="LOCAL-00123" summary="Updating Stuff">
       <option name="closed" value="true" />
@@ -572,7 +564,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728559079167</updated>
     </task>
-    <option name="localTasksCounter" value="171" />
+    <task id="LOCAL-00171" summary="Updating the README.md">
+      <option name="closed" value="true" />
+      <created>1728969683961</created>
+      <option name="number" value="00171" />
+      <option name="presentableId" value="LOCAL-00171" />
+      <option name="project" value="LOCAL" />
+      <updated>1728969683961</updated>
+    </task>
+    <option name="localTasksCounter" value="172" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -588,7 +588,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Finishing Task 31 - Password Checker" />
     <MESSAGE value="Finishing Task 32 - String Manipulation-3" />
     <MESSAGE value="Finishing Task 33 - String Manipulation-3b" />
     <MESSAGE value="Finishing Task-34 - LED-Display" />
@@ -613,6 +612,7 @@
     <MESSAGE value="Finishing Task 70, 71, 72" />
     <MESSAGE value="Finishing Task 73, 74, and 75" />
     <MESSAGE value="Finishing Quiz of Module 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finishing Quiz of Module 2" />
+    <MESSAGE value="Updating the README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updating the README.md" />
   </component>
 </project>

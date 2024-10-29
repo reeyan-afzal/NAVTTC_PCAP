@@ -4,20 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5cae573-740b-48a8-a2dd-fd952890ad02" name="Changes" comment="Updating the README.md">
+    <list default="true" id="b5cae573-740b-48a8-a2dd-fd952890ad02" name="Changes" comment="Removing Quizzes">
       <change afterPath="$PROJECT_DIR$/24_09_06-Homework12/credentials.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/24_10_11-Quiz-Module-3/main-Quiz1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/24_10_11-Quiz-Module-3/main-Quiz2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/24_10_11-Quiz-Module-3/main-Quiz3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/24_10_11-Quiz-Module-3/main-Quiz4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/24_10_11-Quiz-Module-3/main-Quiz5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/24_10_29-Final-Exam/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/24_10_29-Final-Exam/navttc-exam.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/exportToHTML" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -157,11 +156,11 @@
       <recent name="$PROJECT_DIR$/24_08_10-Homework6/resources/graphics" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/24_10_29-Final-Exam" />
       <recent name="$PROJECT_DIR$/24_09_25-Task63" />
       <recent name="$PROJECT_DIR$/snippits" />
       <recent name="$PROJECT_DIR$/24_09_06-Homework12" />
       <recent name="$PROJECT_DIR$/24_09_06-Task42" />
-      <recent name="$PROJECT_DIR$/24_08_23-Homework9/Main_Directory" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -179,14 +178,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1721737255783</updated>
-    </task>
-    <task id="LOCAL-00124" summary="Updating Stuff">
-      <option name="closed" value="true" />
-      <created>1723993976210</created>
-      <option name="number" value="00124" />
-      <option name="presentableId" value="LOCAL-00124" />
-      <option name="project" value="LOCAL" />
-      <updated>1723993976210</updated>
     </task>
     <task id="LOCAL-00125" summary="Task 28">
       <option name="closed" value="true" />
@@ -572,7 +563,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729097464556</updated>
     </task>
-    <option name="localTasksCounter" value="173" />
+    <task id="LOCAL-00173" summary="Removing Quizzes">
+      <option name="closed" value="true" />
+      <created>1729765211294</created>
+      <option name="number" value="00173" />
+      <option name="presentableId" value="LOCAL-00173" />
+      <option name="project" value="LOCAL" />
+      <updated>1729765211295</updated>
+    </task>
+    <option name="localTasksCounter" value="174" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -588,7 +587,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Finishing Task 32 - String Manipulation-3" />
     <MESSAGE value="Finishing Task 33 - String Manipulation-3b" />
     <MESSAGE value="Finishing Task-34 - LED-Display" />
     <MESSAGE value="Finishing Task 40" />
@@ -613,6 +611,7 @@
     <MESSAGE value="Finishing Task 73, 74, and 75" />
     <MESSAGE value="Finishing Quiz of Module 2" />
     <MESSAGE value="Updating the README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updating the README.md" />
+    <MESSAGE value="Removing Quizzes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removing Quizzes" />
   </component>
 </project>

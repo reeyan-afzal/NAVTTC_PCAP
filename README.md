@@ -1,8 +1,6 @@
 ###  NAVTTC-PCAP Course All Task and Homework GitHub Repository
-
 #### Author - Reeyan Afzal
-
-I was also following **[UDEMY-PYTHON-DEEP-DIVE](https://github.com/reeyan-afzal/UDEMY_PYTHON_DEEP_DIVE)** course alongside this training program. You may check my Python notes if you're interested in learning Python. Furthermore, for the Data Structures and Algorithms in Python I followed **[UDEMY-PYTHON-DSA](https://github.com/reeyan-afzal/UDEMY_PYTHON_DSA)** course as well.
+For Data Structures and Algorithms in Python I followed **[UDEMY-PYTHON-DSA](https://github.com/reeyan-afzal/UDEMY_PYTHON_DSA)** course. You may also check it out if you're interested.
 
 ___
 
@@ -57,7 +55,6 @@ ___
 | 24/09/26 | [Task 65 - File-Handling-03](24_09_26-Task65,66,67,68,69/main-Task65.py)<br/>[Task 66 - File-Handling-04](24_09_26-Task65,66,67,68,69/main-Task66.py)<br/>[Task 67 - File-Handling-05](24_09_26-Task65,66,67,68,69/main-Task67.py)<br/>[Task 68 - File-Handling-06](24_09_26-Task65,66,67,68,69/main-Task68.py)<br/>[Task 69 - File-Handling-07](24_09_26-Task65,66,67,68,69/main-Task69.py)                                                                                                                                                                                                       |
 | 24/09/30 | [Task 70 - DateTime-Module](24_09_30-Task70,71,72/main-Task70.py) <br/>[Task 71 - Birth-Year-Calculator](24_09_30-Task70,71,72/main-Task71.py)<br/>[Task 72 - Compare-Two-Dates](24_09_30-Task70,71,72/main-Task72.py)                                                                                                                                                                                                                                                                                                                                                                             |
 | 24/10/01 | [Task 73 - Calender-Module](24_10_01-Task73,74,75/main-Task73.py)<br/>[Task 74 - Custom-MyCalendar-01](24_10_01-Task73,74,75/main-Task74.py)<br/>[Task 75 - Custom-MyCalendar-02](24_10_01-Task73,74,75/main-Task75.py)                                                                                                                                                                                                                                                                                                                                                                            |
-
 ___
 
 ### Some Output Snippets
